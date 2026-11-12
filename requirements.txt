@@ -1,0 +1,9 @@
+ccxt>=4.3.0
+pandas>=2.1.0
+numpy>=1.24.0
+aiohttp>=3.9.0
+dash>=2.18.0
+dash-bootstrap-components>=1.6.0
+plotly>=5.24.0
+fastapi>=0.112.0
+uvicorn>=0.30.0

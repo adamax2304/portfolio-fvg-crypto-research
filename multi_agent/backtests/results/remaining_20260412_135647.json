@@ -1,0 +1,125 @@
+{
+  "fvg_no_regime": {
+    "agent": "fvg",
+    "regime_gated": false,
+    "trades": 4,
+    "wins": 1,
+    "losses": 3,
+    "wr_pct": 25.0,
+    "pnl_pct": -0.7,
+    "pnl_usd": -6.99,
+    "max_dd_pct": 0.7,
+    "profit_factor": 0.56,
+    "avg_win": 7.062,
+    "avg_loss": -4.1915,
+    "final_balance": 993.01,
+    "regime_rejected": 0,
+    "regime_distribution": {
+      "TREND": 104560,
+      "SQUEEZE": 38236,
+      "UNDEFINED": 26104,
+      "RANGE": 9700
+    },
+    "avg_hold_bars": 28.5
+  },
+  "combined_regime": {
+    "mode": "combined_regime",
+    "trades": 109,
+    "wins": 39,
+    "losses": 70,
+    "wr_pct": 35.8,
+    "pnl_pct": -3.33,
+    "pnl_usd": -33.29,
+    "max_dd_pct": 5.91,
+    "profit_factor": 0.92,
+    "final_balance": 966.71,
+    "per_agent": {
+      "fvg": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "wr_pct": 25.0,
+        "pnl_usd": -5.62,
+        "profit_factor": 0.55,
+        "rejected": 25789
+      },
+      "bbs": {
+        "trades": 29,
+        "wins": 8,
+        "losses": 21,
+        "wr_pct": 27.6,
+        "pnl_usd": -21.54,
+        "profit_factor": 0.29,
+        "rejected": 0
+      },
+      "density": {
+        "trades": 66,
+        "wins": 29,
+        "losses": 37,
+        "wr_pct": 43.9,
+        "pnl_usd": 28.8,
+        "profit_factor": 1.32,
+        "rejected": 0
+      },
+      "mr": {
+        "trades": 10,
+        "wins": 1,
+        "losses": 9,
+        "wr_pct": 10.0,
+        "pnl_usd": -12.81,
+        "profit_factor": 0.18,
+        "rejected": 0
+      }
+    }
+  },
+  "combined_no_regime": {
+    "mode": "combined_no_regime",
+    "trades": 1083,
+    "wins": 363,
+    "losses": 720,
+    "wr_pct": 33.5,
+    "pnl_pct": -46.22,
+    "pnl_usd": -462.21,
+    "max_dd_pct": 46.76,
+    "profit_factor": 0.73,
+    "final_balance": 537.79,
+    "per_agent": {
+      "fvg": {
+        "trades": 3,
+        "wins": 0,
+        "losses": 3,
+        "wr_pct": 0.0,
+        "pnl_usd": -9.36,
+        "profit_factor": 0.0,
+        "rejected": 0
+      },
+      "bbs": {
+        "trades": 109,
+        "wins": 53,
+        "losses": 56,
+        "wr_pct": 48.6,
+        "pnl_usd": 12.88,
+        "profit_factor": 1.23,
+        "rejected": 0
+      },
+      "density": {
+        "trades": 886,
+        "wins": 285,
+        "losses": 601,
+        "wr_pct": 32.2,
+        "pnl_usd": -297.57,
+        "profit_factor": 0.72,
+        "rejected": 0
+      },
+      "mr": {
+        "trades": 85,
+        "wins": 25,
+        "losses": 60,
+        "wr_pct": 29.4,
+        "pnl_usd": -25.13,
+        "profit_factor": 0.67,
+        "rejected": 0
+      }
+    }
+  }
+}

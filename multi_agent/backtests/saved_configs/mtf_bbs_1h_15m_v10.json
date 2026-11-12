@@ -1,0 +1,53 @@
+{
+  "strategy": "MTF_BBS_1h->15m",
+  "version": "v10",
+  "date": "2026-04-13",
+  "description": "Multi-TF: BBS signal on 1h, next-bar entry on 15m. Highest trade volume strategy. 365d backtest.",
+  "backtest_result": {
+    "period": "365d",
+    "symbols": 20,
+    "profit_factor": 3.92,
+    "pnl_pct": 592.5,
+    "trades_365d": 288,
+    "win_rate_pct": 59.7,
+    "max_dd_pct": 4.1,
+    "avg_exit_r": 1.351,
+    "avg_mfe": 2.968,
+    "avg_mae": 0.793,
+    "walk_forward": {
+      "train_pf": 4.12,
+      "train_pnl_pct": 205.4,
+      "train_trades": 163,
+      "test_pf": 3.83,
+      "test_pnl_pct": 126.8,
+      "test_trades": 125,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "signal_timeframe": "1h",
+    "entry_timeframe": "15m",
+    "min_squeeze_bars": 4,
+    "adx_threshold": 15.0,
+    "vol_mult": 1.0,
+    "htf_filter": false,
+    "headfake_filter": true,
+    "entry_mode": "next_bar"
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 1.5,
+    "tp_mode": "fixed_r",
+    "tp_r": 2.5
+  },
+  "portfolio": {
+    "capital_fraction": 0.30,
+    "risk_per_trade": 0.010,
+    "max_positions": 4
+  },
+  "vs_v9": {
+    "v9_pf": 3.76,
+    "v10_pf": 3.92,
+    "improvement": "SL tightened ATR2.5->1.5, TP 3.5R->2.5R, sq 6->4, adx 18->15. 3x more trades on 365d."
+  }
+}

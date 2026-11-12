@@ -1,0 +1,115 @@
+[
+  {
+    "segment": "baseline_60d",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_085912",
+    "loaded_start_utc": "2026-01-31T09:00:00+00:00",
+    "loaded_end_utc": "2026-04-05T08:45:00+00:00",
+    "trades_from": "2026-02-06",
+    "trades_to": "2026-04-05",
+    "balance_end": 1691.3,
+    "return_pct": 69.13,
+    "trades": 64,
+    "winrate": 59.38,
+    "profit_factor": 2.015,
+    "max_dd_pct": 6.29,
+    "avg_rr": 1.538,
+    "fees": 64.65,
+    "funding": -5.81,
+    "maker_entries": 64,
+    "maker_tp_exits": 37,
+    "profiles": {
+      "high_vol": 19,
+      "normal": 44,
+      "low_vol": 1
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "segment": "wf_1_oldest_20d",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_090542",
+    "loaded_start_utc": "2026-01-31T01:15:00+00:00",
+    "loaded_end_utc": "2026-02-24T01:00:00+00:00",
+    "trades_from": "2026-02-06",
+    "trades_to": "2026-02-23",
+    "balance_end": 1188.24,
+    "return_pct": 18.82,
+    "trades": 21,
+    "winrate": 61.9,
+    "profit_factor": 2.023,
+    "max_dd_pct": 4.58,
+    "avg_rr": 1.391,
+    "fees": 14.43,
+    "funding": -1.54,
+    "maker_entries": 21,
+    "maker_tp_exits": 13,
+    "profiles": {
+      "high_vol": 10,
+      "normal": 11
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "segment": "wf_2_mid_20d",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_090906",
+    "loaded_start_utc": "2026-02-20T01:15:00+00:00",
+    "loaded_end_utc": "2026-03-16T01:00:00+00:00",
+    "trades_from": "2026-02-25",
+    "trades_to": "2026-03-14",
+    "balance_end": 1080.98,
+    "return_pct": 8.1,
+    "trades": 21,
+    "winrate": 52.38,
+    "profit_factor": 1.376,
+    "max_dd_pct": 8.47,
+    "avg_rr": 1.374,
+    "fees": 16.29,
+    "funding": -0.09,
+    "maker_entries": 21,
+    "maker_tp_exits": 11,
+    "profiles": {
+      "normal": 11,
+      "high_vol": 10
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "segment": "wf_3_latest_20d",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_091230",
+    "loaded_start_utc": "2026-03-12T01:15:00+00:00",
+    "loaded_end_utc": "2026-04-05T01:00:00+00:00",
+    "trades_from": "2026-03-17",
+    "trades_to": "2026-04-03",
+    "balance_end": 1381.98,
+    "return_pct": 38.2,
+    "trades": 22,
+    "winrate": 68.18,
+    "profit_factor": 3.182,
+    "max_dd_pct": 4.46,
+    "avg_rr": 1.611,
+    "fees": 19.24,
+    "funding": -2.87,
+    "maker_entries": 22,
+    "maker_tp_exits": 15,
+    "profiles": {
+      "high_vol": 5,
+      "normal": 17
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "version": "v11",
+  "date": "2026-04-14",
+  "description": "v11 filter impact analysis — which filters to keep/remove in live system",
+  "backtest_file": "backtest_v11_20260414_190641.json",
+
+  "baseline_comparison": {
+    "note": "Phase 1 reproduced v10 configs with same params. Small numeric differences from portfolio dynamics.",
+    "bbs_1h_5m":  {"my_baseline_n": 138, "my_baseline_pf": 6.21, "v10_published_n": 93,  "v10_published_pf": 9.66},
+    "bbs_1h_15m": {"my_baseline_n": 288, "my_baseline_pf": 3.90, "v10_published_n": 288, "v10_published_pf": 3.92},
+    "kc_1h_15m":  {"my_baseline_n": 83,  "my_baseline_pf": 5.50, "v10_published_n": 83,  "v10_published_pf": 5.76}
+  },
+
+  "filter_verdicts": {
+    "symbol_blacklist_arb_op_pol": {
+      "verdict": "KEEP",
+      "evidence": "Removing ARB/OP/POL: BBS_1H_5M PF 6.21→7.13 (+15%), BBS_1H_15M PF 3.90→4.06 (+4%). Minimal trade count impact.",
+      "applied_in_live": true
+    },
+    "time_gate_utc_07_20": {
+      "verdict": "REMOVED",
+      "evidence": "Kills 40-46% of trades with NO PF improvement. BBS_1H_5M: 116→63 trades, PF 7.13→5.90. KC: 73→44 trades, PF 5.17→3.74.",
+      "applied_in_live": false,
+      "code_change": "Removed gate check from _execute_entry_locked (4b)"
+    },
+    "ltf_bar_confirmation_next_bar": {
+      "verdict": "REMOVED",
+      "evidence": "Hurts next_bar strategies: BBS_1H_15M PF 4.06→3.57, KC 5.17→4.71. For pullback_ema21 (BBS_1H_5M) it helped (7.13→7.85) but that's a different entry mode.",
+      "applied_in_live": false,
+      "code_change": "Removed bar body check from _check_next_bar_entry"
+    },
+    "break_even_sl_at_1_5r": {
+      "verdict": "REMOVED",
+      "evidence": "Consistently hurts PF: BBS_1H_5M 7.13→6.59, KC 5.17→3.83. High WR strategies should ride to full TP.",
+      "applied_in_live": false,
+      "code_change": "Removed _check_break_even call from _manage_positions"
+    },
+    "sl_cooldown_4h_24h": {
+      "verdict": "KEEP",
+      "evidence": "No backtest effect (as expected for pullback strategies). Essential live safety mechanism preventing ARIA-style infinite re-entry after SL.",
+      "applied_in_live": true
+    },
+    "funding_rate_filter": {
+      "verdict": "KEEP",
+      "evidence": "Not testable in backtest (no historical funding data). Good risk management — blocks entries when funding > 0.05%/8h (extreme overcrowding).",
+      "applied_in_live": true
+    },
+    "vwap_filter_bbs_1h_5m": {
+      "verdict": "NOT_APPLIED",
+      "evidence": "Phase 3: VWAP filter 116→111 trades, PF 7.13→6.93 (-3%). Marginal negative effect.",
+      "applied_in_live": false
+    }
+  },
+
+  "per_strategy_with_blacklist_only": {
+    "bbs_1h_5m":  {"n": 116, "pf": 7.13, "pnl_pct": 101.2, "dd_pct": 1.2, "wr_pct": null},
+    "bbs_1h_15m": {"n": 240, "pf": 4.06, "pnl_pct": 137.7, "dd_pct": 1.7, "wr_pct": null},
+    "kc_1h_15m":  {"n": 73,  "pf": 5.17, "pnl_pct": 32.0,  "dd_pct": 1.3, "wr_pct": null}
+  },
+
+  "walk_forward_v11_combined": {
+    "bbs_1h_5m":  {"train_pf": 4.48, "test_pf": 23.92, "train_n": 28, "test_n": 16, "passed": true},
+    "bbs_1h_15m": {"train_pf": 5.06, "test_pf": 2.43,  "train_n": 71, "test_n": 45, "passed": true},
+    "kc_1h_15m":  {"train_pf": 2.06, "test_pf": 4.46,  "train_n": 25, "test_n": 7,  "passed": true}
+  },
+
+  "summary": "Symbol blacklist, SL cooldown, and funding rate filter KEPT. Time gate, break-even SL, and LTF bar confirmation REMOVED based on annual backtest evidence.",
+
+  "range_lgc_strategy": {
+    "verdict": "DEAD",
+    "evidence": "PF ~0.5-0.6 across all 26 param configs. 2000+ signals/year but all losing. Crypto is trending-dominant — range fade strategies don't work on this data.",
+    "do_not_add_to_live": true
+  }
+}

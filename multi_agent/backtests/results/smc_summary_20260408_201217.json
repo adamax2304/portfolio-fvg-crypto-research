@@ -1,0 +1,58 @@
+[
+  {
+    "label": "VARIANT A: TP1 only (1:1 RR)",
+    "total_pnl_pct": -0.12,
+    "win_rate_pct": 22.2,
+    "max_drawdown_pct": 0.13,
+    "profit_factor": 0.44,
+    "total_trades": 9,
+    "avg_win_usd": 0.49,
+    "avg_loss_usd": -0.32,
+    "best_month": "2026-04 -0.0%",
+    "worst_month": "2026-03 -0.1%",
+    "start_balance": 1000.0,
+    "end_balance": 1000.3
+  },
+  {
+    "label": "VARIANT B: TP1 + TP2 (50%/50% split)",
+    "total_pnl_pct": -0.03,
+    "win_rate_pct": 22.2,
+    "max_drawdown_pct": 0.09,
+    "profit_factor": 0.75,
+    "total_trades": 9,
+    "avg_win_usd": 0.49,
+    "avg_loss_usd": -0.19,
+    "best_month": "2026-04 -0.0%",
+    "worst_month": "2026-03 -0.0%",
+    "start_balance": 1000.0,
+    "end_balance": 1000.6
+  },
+  {
+    "label": "VARIANT C: Min RR 1.5",
+    "total_pnl_pct": -0.12,
+    "win_rate_pct": 22.2,
+    "max_drawdown_pct": 0.13,
+    "profit_factor": 0.44,
+    "total_trades": 9,
+    "avg_win_usd": 0.49,
+    "avg_loss_usd": -0.32,
+    "best_month": "2026-04 -0.0%",
+    "worst_month": "2026-03 -0.1%",
+    "start_balance": 1000.0,
+    "end_balance": 1000.3
+  },
+  {
+    "label": "VARIANT D: Min RR 2.0",
+    "total_pnl_pct": -0.02,
+    "win_rate_pct": 28.6,
+    "max_drawdown_pct": 0.06,
+    "profit_factor": 0.85,
+    "total_trades": 7,
+    "avg_win_usd": 0.49,
+    "avg_loss_usd": -0.23,
+    "best_month": "2026-04 -0.0%",
+    "worst_month": "2026-04 -0.0%",
+    "start_balance": 1000.0,
+    "end_balance": 1000.3
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "strategy": "Swing_BBS_4h->15m",
+  "version": "v10",
+  "date": "2026-04-13",
+  "description": "NEW Swing strategy: BBS signal on 4h, pullback entry on 15m. Ultra-selective. 365d backtest.",
+  "backtest_result": {
+    "period": "365d",
+    "symbols": 20,
+    "profit_factor": 6.93,
+    "pnl_pct": 18.2,
+    "trades_365d": 16,
+    "win_rate_pct": 68.8,
+    "max_dd_pct": 1.2,
+    "avg_exit_r": 2.353,
+    "avg_mfe": 3.669,
+    "avg_mae": 0.872,
+    "avg_bars": 67,
+    "walk_forward": {
+      "train_pf": 99.0,
+      "train_pnl_pct": 3.7,
+      "train_trades": 2,
+      "test_pf": 99.0,
+      "test_pnl_pct": 13.3,
+      "test_trades": 7,
+      "passed": true,
+      "note": "Too few trades in train period for statistical significance"
+    }
+  },
+  "signal_params": {
+    "signal_timeframe": "4h",
+    "entry_timeframe": "15m",
+    "min_squeeze_bars": 3,
+    "adx_threshold": 12.0,
+    "vol_mult": 1.0,
+    "htf_filter": false,
+    "headfake_filter": true,
+    "entry_mode": "pullback_ema21",
+    "max_wait_bars": 15
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 2.0,
+    "tp_mode": "fixed_r",
+    "tp_r": 2.5
+  },
+  "portfolio": {
+    "capital_fraction": 0.0,
+    "risk_per_trade": 0.010,
+    "max_positions": 2
+  },
+  "notes": "WARNING: Only 16 trades over 365d = ~1.3/month. Statistically insufficient for confident allocation. WF 'passed' but with 2 train trades. Keep as optional overlay or combine with Swing KC for swing bucket."
+}

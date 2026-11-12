@@ -1,0 +1,58 @@
+[
+  {
+    "label": "A: Standard (min RR 1.5, SL at sweep wick + 0.1%)",
+    "total_pnl_pct": -3.27,
+    "win_rate_pct": 40.7,
+    "max_drawdown_pct": 10.75,
+    "profit_factor": 0.91,
+    "total_trades": 27,
+    "avg_win_usd": 30.33,
+    "avg_loss_usd": -22.9,
+    "best_month": "2026-03 +1.0%",
+    "worst_month": "2026-02 -2.2%",
+    "start_balance": 1000.0,
+    "end_balance": 967.28
+  },
+  {
+    "label": "B: Tight SL (SL at 50% body of sweep candle + 0.1%)",
+    "total_pnl_pct": 15.62,
+    "win_rate_pct": 75.0,
+    "max_drawdown_pct": 2.6,
+    "profit_factor": 4.05,
+    "total_trades": 8,
+    "avg_win_usd": 34.57,
+    "avg_loss_usd": -25.6,
+    "best_month": "2026-03 +11.9%",
+    "worst_month": "2026-02 +0.8%",
+    "start_balance": 1000.0,
+    "end_balance": 1156.2
+  },
+  {
+    "label": "C: Wide TP (TP at 2x ATR, SL at sweep wick)",
+    "total_pnl_pct": -4.5,
+    "win_rate_pct": 33.3,
+    "max_drawdown_pct": 6.7,
+    "profit_factor": 0.66,
+    "total_trades": 9,
+    "avg_win_usd": 29.43,
+    "avg_loss_usd": -22.22,
+    "best_month": "2026-03 -1.2%",
+    "worst_month": "2026-02 -3.3%",
+    "start_balance": 1000.0,
+    "end_balance": 954.97
+  },
+  {
+    "label": "D: Combined best (tight SL + swing TP + min RR 1.5)",
+    "total_pnl_pct": 15.62,
+    "win_rate_pct": 75.0,
+    "max_drawdown_pct": 2.6,
+    "profit_factor": 4.05,
+    "total_trades": 8,
+    "avg_win_usd": 34.57,
+    "avg_loss_usd": -25.6,
+    "best_month": "2026-03 +11.9%",
+    "worst_month": "2026-02 +0.8%",
+    "start_balance": 1000.0,
+    "end_balance": 1156.2
+  }
+]

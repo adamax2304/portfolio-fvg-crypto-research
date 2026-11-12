@@ -1,0 +1,44 @@
+[
+  {
+    "label": "VARIANT A: Base (no OI filter)",
+    "total_pnl_pct": -0.47,
+    "win_rate_pct": 42.9,
+    "max_drawdown_pct": 0.83,
+    "profit_factor": 0.71,
+    "total_trades": 14,
+    "avg_win_usd": 1.94,
+    "avg_loss_usd": -2.05,
+    "best_month": "2026-03 +0.1%",
+    "worst_month": "2026-04 -0.5%",
+    "start_balance": 1000.0,
+    "end_balance": 995.26
+  },
+  {
+    "label": "VARIANT B: Base + OI Delta filter",
+    "total_pnl_pct": -0.45,
+    "win_rate_pct": 41.7,
+    "max_drawdown_pct": 0.76,
+    "profit_factor": 0.66,
+    "total_trades": 12,
+    "avg_win_usd": 1.74,
+    "avg_loss_usd": -1.89,
+    "best_month": "2026-03 +0.1%",
+    "worst_month": "2026-04 -0.5%",
+    "start_balance": 1000.0,
+    "end_balance": 995.5
+  },
+  {
+    "label": "VARIANT C: ATR mult +0.1 (looser entry)",
+    "total_pnl_pct": -0.47,
+    "win_rate_pct": 42.9,
+    "max_drawdown_pct": 0.83,
+    "profit_factor": 0.71,
+    "total_trades": 14,
+    "avg_win_usd": 1.94,
+    "avg_loss_usd": -2.05,
+    "best_month": "2026-03 +0.1%",
+    "worst_month": "2026-04 -0.5%",
+    "start_balance": 1000.0,
+    "end_balance": 995.26
+  }
+]

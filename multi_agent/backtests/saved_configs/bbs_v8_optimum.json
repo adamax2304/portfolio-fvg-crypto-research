@@ -1,0 +1,55 @@
+{
+  "strategy": "BB_SQUEEZE",
+  "version": "v8",
+  "date": "2026-04-13",
+  "description": "BBS optimum found in v8 multi-strategy research (130+ configs tested)",
+  "backtest_result": {
+    "profit_factor": 1.771,
+    "pnl_pct": 31.9,
+    "trades_180d": 79,
+    "max_dd_pct": 7.9,
+    "win_rate_pct": 31,
+    "mfe_cap_pct": 38.0,
+    "walk_forward": {
+      "train_pf": 2.16,
+      "test_pf": 1.39,
+      "test_pnl_pct": 5.7,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "entry_timeframe": "15m",
+    "htf_timeframe": "1h",
+    "min_squeeze_bars": 10,
+    "adx_threshold": 22.0,
+    "adx_period": 14,
+    "vol_mult": 1.0,
+    "htf_filter": true,
+    "headfake_filter": true,
+    "bb_length": 20,
+    "bb_mult": 2.0,
+    "kc_length": 20,
+    "kc_mult": 1.5,
+    "mom_length": 20,
+    "ce_length": 22,
+    "ce_mult": 3.0
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 2.5,
+    "sl_max_pct": 5.0,
+    "tp_mode": "fixed_r",
+    "tp_r": 3.5
+  },
+  "portfolio": {
+    "capital_fraction": 0.65,
+    "risk_per_trade": 0.010,
+    "max_positions": 4,
+    "regimes": {"TREND": 1.0, "TRANSITION": 0.85}
+  },
+  "regime_pf": {
+    "TREND": 1.77,
+    "TRANSITION": 0.75
+  },
+  "symbol_blacklist": ["ARB/USDT:USDT", "OP/USDT:USDT", "POL/USDT:USDT"]
+}

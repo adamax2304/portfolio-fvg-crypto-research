@@ -1,0 +1,49 @@
+{
+  "strategy": "KC_SQUEEZE",
+  "version": "v8",
+  "date": "2026-04-13",
+  "description": "KC Squeeze in SQUEEZE regime only (v8 research)",
+  "backtest_result": {
+    "profit_factor": 1.413,
+    "pnl_pct": 3.6,
+    "trades_180d": 31,
+    "max_dd_pct": 4.0,
+    "win_rate_pct": 23,
+    "combined_with_bbs": {
+      "profit_factor": 1.616,
+      "pnl_pct": 30.6,
+      "trades_180d": 109,
+      "max_dd_pct": 8.8,
+      "walk_forward_test_pf": 1.22,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "entry_timeframe": "15m",
+    "min_squeeze_bars": 10,
+    "adx_min": 15.0,
+    "vol_mult": 1.0,
+    "mom_bars": 12,
+    "htf_filter": false,
+    "bb_length": 20,
+    "bb_mult": 2.0,
+    "kc_ema_length": 20,
+    "kc_atr_length": 10,
+    "kc_mult": 1.5
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 2.5,
+    "tp_mode": "fixed_r",
+    "tp_r": 3.5
+  },
+  "portfolio": {
+    "capital_fraction": 0.20,
+    "risk_per_trade": 0.010,
+    "max_positions": 3,
+    "regimes": {"SQUEEZE": 1.0}
+  },
+  "regime_pf": {
+    "SQUEEZE": 1.41
+  }
+}

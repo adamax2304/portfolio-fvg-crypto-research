@@ -1,0 +1,82 @@
+{
+  "timestamp": "20260415_022459",
+  "days": 180,
+  "universe": [
+    "BTC",
+    "ETH",
+    "RAVE",
+    "SOL",
+    "DOGE",
+    "XRP",
+    "HYPE",
+    "1000PEPE",
+    "TAO",
+    "ZEC",
+    "ADA",
+    "DOT",
+    "LINK",
+    "SUI",
+    "AAVE",
+    "WLD",
+    "NEAR",
+    "ENA",
+    "TRUMP",
+    "BNB",
+    "XPL",
+    "AVAX",
+    "MON",
+    "LDO",
+    "ASTER",
+    "EDGE",
+    "LTC",
+    "PUMPFUN",
+    "1000BONK"
+  ],
+  "n_symbols": 29,
+  "new_vs_v10": [
+    "1000BONK",
+    "AAVE",
+    "ASTER",
+    "EDGE",
+    "ENA",
+    "HYPE",
+    "LDO",
+    "LTC",
+    "MON",
+    "PUMPFUN",
+    "RAVE",
+    "TAO",
+    "TRUMP",
+    "WLD",
+    "XPL",
+    "ZEC"
+  ],
+  "filters": {
+    "min_volume_usd": 20000000,
+    "top_n_vol": 100,
+    "mcap_top_n": 150
+  },
+  "strategies": {
+    "BBS_1H_5M": {
+      "n_trades": 63,
+      "pf": 8.968,
+      "pnl_pct": 98.62,
+      "max_dd": 1.42,
+      "wr_pct": 79.4
+    },
+    "BBS_1H_15M": {
+      "n_trades": 107,
+      "pf": 3.648,
+      "pnl_pct": 99.94,
+      "max_dd": 3.65,
+      "wr_pct": 60.7
+    },
+    "KC_1H_15M": {
+      "n_trades": 34,
+      "pf": 6.376,
+      "pnl_pct": 34.97,
+      "max_dd": 1.79,
+      "wr_pct": 73.5
+    }
+  }
+}

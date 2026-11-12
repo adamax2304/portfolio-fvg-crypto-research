@@ -1,0 +1,396 @@
+{
+  "results": [
+    {
+      "config_id": "SOLO_V7",
+      "trades": 227,
+      "wins": 116,
+      "losses": 111,
+      "wr_pct": 51.1,
+      "profit_factor": 2.043,
+      "pnl_pct": 241.7,
+      "max_dd_pct": 17.5,
+      "final_balance": 3416.97
+    },
+    {
+      "config_id": "SOLO_BBS1h5m",
+      "trades": 173,
+      "wins": 107,
+      "losses": 66,
+      "wr_pct": 61.85,
+      "profit_factor": 2.525,
+      "pnl_pct": 304.37,
+      "max_dd_pct": 13.44,
+      "final_balance": 4043.72
+    },
+    {
+      "config_id": "SOLO_BBS1h15m",
+      "trades": 309,
+      "wins": 172,
+      "losses": 137,
+      "wr_pct": 55.66,
+      "profit_factor": 1.87,
+      "pnl_pct": 490.8,
+      "max_dd_pct": 20.65,
+      "final_balance": 5908.03
+    },
+    {
+      "config_id": "SOLO_KC1h15m",
+      "trades": 76,
+      "wins": 41,
+      "losses": 35,
+      "wr_pct": 53.95,
+      "profit_factor": 1.564,
+      "pnl_pct": 28.16,
+      "max_dd_pct": 8.84,
+      "final_balance": 1281.65
+    },
+    {
+      "config_id": "P_V7_BBS5",
+      "trades": 400,
+      "wins": 223,
+      "losses": 177,
+      "wr_pct": 55.75,
+      "profit_factor": 2.258,
+      "pnl_pct": 1281.73,
+      "max_dd_pct": 11.12,
+      "final_balance": 13817.28
+    },
+    {
+      "config_id": "P_V7_BBS15",
+      "trades": 530,
+      "wins": 284,
+      "losses": 246,
+      "wr_pct": 53.58,
+      "profit_factor": 1.85,
+      "pnl_pct": 1740.37,
+      "max_dd_pct": 12.67,
+      "final_balance": 18403.66
+    },
+    {
+      "config_id": "P_V7_KC",
+      "trades": 301,
+      "wins": 155,
+      "losses": 146,
+      "wr_pct": 51.5,
+      "profit_factor": 1.946,
+      "pnl_pct": 328.58,
+      "max_dd_pct": 11.07,
+      "final_balance": 4285.84
+    },
+    {
+      "config_id": "P_BBS5_BBS15",
+      "trades": 461,
+      "wins": 258,
+      "losses": 203,
+      "wr_pct": 55.97,
+      "profit_factor": 1.879,
+      "pnl_pct": 1423.04,
+      "max_dd_pct": 25.75,
+      "final_balance": 15230.38
+    },
+    {
+      "config_id": "P_BBS5_BBS15_KC",
+      "trades": 530,
+      "wins": 293,
+      "losses": 237,
+      "wr_pct": 55.28,
+      "profit_factor": 1.844,
+      "pnl_pct": 1666.52,
+      "max_dd_pct": 27.87,
+      "final_balance": 17665.22
+    },
+    {
+      "config_id": "P_V7_BBS5_BBS15",
+      "trades": 680,
+      "wins": 368,
+      "losses": 312,
+      "wr_pct": 54.12,
+      "profit_factor": 1.855,
+      "pnl_pct": 4344.28,
+      "max_dd_pct": 18.3,
+      "final_balance": 44442.83
+    },
+    {
+      "config_id": "P_ALL_FOUR",
+      "trades": 746,
+      "wins": 400,
+      "losses": 346,
+      "wr_pct": 53.62,
+      "profit_factor": 1.854,
+      "pnl_pct": 4829.55,
+      "max_dd_pct": 20.63,
+      "final_balance": 49295.5
+    },
+    {
+      "config_id": "P_ALL_FOUR_rpt0.005",
+      "trades": 743,
+      "wins": 397,
+      "losses": 346,
+      "wr_pct": 53.43,
+      "profit_factor": 1.892,
+      "pnl_pct": 610.09,
+      "max_dd_pct": 10.78,
+      "final_balance": 7100.94
+    },
+    {
+      "config_id": "P_ALL_FOUR_rpt0.01",
+      "trades": 746,
+      "wins": 400,
+      "losses": 346,
+      "wr_pct": 53.62,
+      "profit_factor": 1.854,
+      "pnl_pct": 4829.55,
+      "max_dd_pct": 20.63,
+      "final_balance": 49295.5
+    },
+    {
+      "config_id": "P_ALL_FOUR_rpt0.015",
+      "trades": 746,
+      "wins": 400,
+      "losses": 346,
+      "wr_pct": 53.62,
+      "profit_factor": 1.819,
+      "pnl_pct": 31402.24,
+      "max_dd_pct": 29.62,
+      "final_balance": 315022.37
+    },
+    {
+      "config_id": "P_ALL_FOUR_rpt0.02",
+      "trades": 746,
+      "wins": 400,
+      "losses": 346,
+      "wr_pct": 53.62,
+      "profit_factor": 1.787,
+      "pnl_pct": 189225.43,
+      "max_dd_pct": 37.78,
+      "final_balance": 1893254.31
+    },
+    {
+      "config_id": "P_ALL_FOUR_mc2",
+      "trades": 516,
+      "wins": 260,
+      "losses": 256,
+      "wr_pct": 50.39,
+      "profit_factor": 1.534,
+      "pnl_pct": 619.03,
+      "max_dd_pct": 16.65,
+      "final_balance": 7190.27
+    },
+    {
+      "config_id": "P_ALL_FOUR_mc3",
+      "trades": 624,
+      "wins": 315,
+      "losses": 309,
+      "wr_pct": 50.48,
+      "profit_factor": 1.544,
+      "pnl_pct": 1106.27,
+      "max_dd_pct": 20.78,
+      "final_balance": 12062.68
+    },
+    {
+      "config_id": "P_ALL_FOUR_mc4",
+      "trades": 685,
+      "wins": 353,
+      "losses": 332,
+      "wr_pct": 51.53,
+      "profit_factor": 1.655,
+      "pnl_pct": 2099.25,
+      "max_dd_pct": 20.63,
+      "final_balance": 21992.53
+    },
+    {
+      "config_id": "P_ALL_FOUR_mc5",
+      "trades": 720,
+      "wins": 379,
+      "losses": 341,
+      "wr_pct": 52.64,
+      "profit_factor": 1.752,
+      "pnl_pct": 3249.88,
+      "max_dd_pct": 20.63,
+      "final_balance": 33498.78
+    },
+    {
+      "config_id": "P_ALL_FOUR_mc6",
+      "trades": 746,
+      "wins": 400,
+      "losses": 346,
+      "wr_pct": 53.62,
+      "profit_factor": 1.854,
+      "pnl_pct": 4829.55,
+      "max_dd_pct": 20.63,
+      "final_balance": 49295.5
+    },
+    {
+      "config_id": "P_ALL_FOUR_mc8",
+      "trades": 777,
+      "wins": 423,
+      "losses": 354,
+      "wr_pct": 54.44,
+      "profit_factor": 1.934,
+      "pnl_pct": 7184.69,
+      "max_dd_pct": 20.63,
+      "final_balance": 72846.91
+    },
+    {
+      "config_id": "P_ALL_FOUR_mc10",
+      "trades": 789,
+      "wins": 434,
+      "losses": 355,
+      "wr_pct": 55.01,
+      "profit_factor": 2.003,
+      "pnl_pct": 9067.36,
+      "max_dd_pct": 20.63,
+      "final_balance": 91673.56
+    },
+    {
+      "config_id": "WF_P_ALL_FOUR_Q1",
+      "trades": 171,
+      "wins": 88,
+      "losses": 83,
+      "wr_pct": 51.46,
+      "profit_factor": 2.156,
+      "pnl_pct": 192.58,
+      "max_dd_pct": 12.04,
+      "final_balance": 2925.81
+    },
+    {
+      "config_id": "WF_P_ALL_FOUR_Q2",
+      "trades": 161,
+      "wins": 96,
+      "losses": 65,
+      "wr_pct": 59.63,
+      "profit_factor": 2.374,
+      "pnl_pct": 150.16,
+      "max_dd_pct": 11.73,
+      "final_balance": 2501.57
+    },
+    {
+      "config_id": "WF_P_ALL_FOUR_Q3",
+      "trades": 183,
+      "wins": 97,
+      "losses": 86,
+      "wr_pct": 53.01,
+      "profit_factor": 2.026,
+      "pnl_pct": 153.13,
+      "max_dd_pct": 13.91,
+      "final_balance": 2531.32
+    },
+    {
+      "config_id": "WF_P_ALL_FOUR_Q4",
+      "trades": 229,
+      "wins": 117,
+      "losses": 112,
+      "wr_pct": 51.09,
+      "profit_factor": 1.75,
+      "pnl_pct": 164.32,
+      "max_dd_pct": 20.63,
+      "final_balance": 2643.17
+    }
+  ],
+  "combo_details": {
+    "P_V7_BBS5": {
+      "V7_AL": {
+        "trades": 227,
+        "pnl": 4790.876459679151,
+        "wins": 116
+      },
+      "BBS_1h5m": {
+        "trades": 173,
+        "pnl": 8026.408304438636,
+        "wins": 107
+      }
+    },
+    "P_V7_BBS15": {
+      "V7_AL": {
+        "trades": 224,
+        "pnl": 7011.377569581207,
+        "wins": 115
+      },
+      "BBS_1h15m": {
+        "trades": 306,
+        "pnl": 10392.285475280354,
+        "wins": 169
+      }
+    },
+    "P_V7_KC": {
+      "V7_AL": {
+        "trades": 225,
+        "pnl": 2655.212086323023,
+        "wins": 114
+      },
+      "KC_1h15m": {
+        "trades": 76,
+        "pnl": 630.6285312465684,
+        "wins": 41
+      }
+    },
+    "P_BBS5_BBS15": {
+      "BBS_1h15m": {
+        "trades": 293,
+        "pnl": 5834.706965685286,
+        "wins": 156
+      },
+      "BBS_1h5m": {
+        "trades": 168,
+        "pnl": 8395.668962391144,
+        "wins": 102
+      }
+    },
+    "P_BBS5_BBS15_KC": {
+      "KC_1h15m": {
+        "trades": 70,
+        "pnl": 1245.3842210094256,
+        "wins": 36
+      },
+      "BBS_1h15m": {
+        "trades": 293,
+        "pnl": 6280.05604332321,
+        "wins": 156
+      },
+      "BBS_1h5m": {
+        "trades": 167,
+        "pnl": 9139.775622330237,
+        "wins": 101
+      }
+    },
+    "P_V7_BBS5_BBS15": {
+      "V7_AL": {
+        "trades": 223,
+        "pnl": 11615.341824987503,
+        "wins": 114
+      },
+      "BBS_1h15m": {
+        "trades": 290,
+        "pnl": 11884.668769103886,
+        "wins": 153
+      },
+      "BBS_1h5m": {
+        "trades": 167,
+        "pnl": 19942.81694317566,
+        "wins": 101
+      }
+    },
+    "P_ALL_FOUR": {
+      "V7_AL": {
+        "trades": 221,
+        "pnl": 11617.257251350988,
+        "wins": 112
+      },
+      "KC_1h15m": {
+        "trades": 70,
+        "pnl": 3415.8562076200233,
+        "wins": 36
+      },
+      "BBS_1h15m": {
+        "trades": 289,
+        "pnl": 12322.82562994273,
+        "wins": 152
+      },
+      "BBS_1h5m": {
+        "trades": 166,
+        "pnl": 20939.561550878047,
+        "wins": 100
+      }
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "generated": "20260416_180152",
+  "symbols": [
+    "BTC/USDT:USDT",
+    "ETH/USDT:USDT"
+  ],
+  "phase": "baselines",
+  "duration_sec": 1.5,
+  "results": [
+    {
+      "trades": 171,
+      "wins": 60,
+      "losses": 111,
+      "wr_pct": 35.09,
+      "pnl_usd": -288.18,
+      "pnl_pct": -28.82,
+      "profit_factor": 0.566,
+      "max_dd_pct": 28.82,
+      "avg_r": -0.031,
+      "avg_mfe": 0.425,
+      "avg_mae": 0.443,
+      "avg_bars": 12.7,
+      "final_bal": 711.82,
+      "exit_reasons": {
+        "eod": 125,
+        "tp": 34,
+        "sl": 12
+      },
+      "total_sigs": 171,
+      "config_id": "ARB-LO_base",
+      "params": {
+        "open_hr": 7,
+        "close_hr": 13,
+        "min_range_atr": 0.5,
+        "max_range_atr": 4.0,
+        "sl_mode": "opposite",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 1.0
+      }
+    },
+    {
+      "trades": 411,
+      "wins": 205,
+      "losses": 206,
+      "wr_pct": 49.88,
+      "pnl_usd": -411.03,
+      "pnl_pct": -41.1,
+      "profit_factor": 0.798,
+      "max_dd_pct": 42.65,
+      "avg_r": 0.008,
+      "avg_mfe": 0.559,
+      "avg_mae": 0.532,
+      "avg_bars": 17.9,
+      "final_bal": 588.97,
+      "exit_reasons": {
+        "eod": 178,
+        "tp": 152,
+        "sl": 81
+      },
+      "total_sigs": 413,
+      "config_id": "ARB-NY_base",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.5,
+        "max_range_atr": 4.0,
+        "sl_mode": "opposite",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 1.0
+      }
+    },
+    {
+      "trades": 718,
+      "wins": 348,
+      "losses": 370,
+      "wr_pct": 48.47,
+      "pnl_usd": -943.0,
+      "pnl_pct": -94.3,
+      "profit_factor": 0.656,
+      "max_dd_pct": 94.3,
+      "avg_r": 0.011,
+      "avg_mfe": 0.952,
+      "avg_mae": 0.9,
+      "avg_bars": 7.0,
+      "final_bal": 57.0,
+      "exit_reasons": {
+        "sl": 338,
+        "tp": 336,
+        "eod": 44
+      },
+      "total_sigs": 718,
+      "config_id": "ORB-NY_30m",
+      "params": {
+        "open_hr": 13,
+        "or_bars": 2,
+        "window_h": 4,
+        "min_width_atr": 0.3,
+        "sl_mode": "opposite",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 1.5
+      }
+    },
+    {
+      "trades": 655,
+      "wins": 306,
+      "losses": 349,
+      "wr_pct": 46.72,
+      "pnl_usd": -775.22,
+      "pnl_pct": -77.52,
+      "profit_factor": 0.807,
+      "max_dd_pct": 78.32,
+      "avg_r": 0.041,
+      "avg_mfe": 0.85,
+      "avg_mae": 0.771,
+      "avg_bars": 14.6,
+      "final_bal": 224.78,
+      "exit_reasons": {
+        "sl": 238,
+        "eod": 190,
+        "tp": 227
+      },
+      "total_sigs": 657,
+      "config_id": "ORB-NY_60m",
+      "params": {
+        "open_hr": 13,
+        "or_bars": 4,
+        "window_h": 4,
+        "min_width_atr": 0.3,
+        "sl_mode": "opposite",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 1.5
+      }
+    },
+    {
+      "trades": 496,
+      "wins": 202,
+      "losses": 294,
+      "wr_pct": 40.73,
+      "pnl_usd": -953.35,
+      "pnl_pct": -95.33,
+      "profit_factor": 0.558,
+      "max_dd_pct": 95.47,
+      "avg_r": 0.021,
+      "avg_mfe": 1.255,
+      "avg_mae": 1.088,
+      "avg_bars": 2.8,
+      "final_bal": 46.65,
+      "exit_reasons": {
+        "tp": 200,
+        "sl": 290,
+        "eod": 6
+      },
+      "total_sigs": 496,
+      "config_id": "PDH-NY_base",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.5,
+        "sl_mode": "atr",
+        "sl_atr_mult": 1.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 1.5
+      }
+    },
+    {
+      "trades": 518,
+      "wins": 171,
+      "losses": 347,
+      "wr_pct": 33.01,
+      "pnl_usd": -973.07,
+      "pnl_pct": -97.31,
+      "profit_factor": 0.543,
+      "max_dd_pct": 97.35,
+      "avg_r": -0.077,
+      "avg_mfe": 1.238,
+      "avg_mae": 1.224,
+      "avg_bars": 7.8,
+      "final_bal": 26.93,
+      "exit_reasons": {
+        "sl": 325,
+        "tp": 131,
+        "eod": 62
+      },
+      "total_sigs": 518,
+      "config_id": "Sweep-NY_asian",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 20,
+        "sweep_ref": "asian",
+        "sl_buf_atr": 0.25,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "need_confirm": true
+      }
+    },
+    {
+      "trades": 606,
+      "wins": 193,
+      "losses": 413,
+      "wr_pct": 31.85,
+      "pnl_usd": -988.38,
+      "pnl_pct": -98.84,
+      "profit_factor": 0.521,
+      "max_dd_pct": 98.86,
+      "avg_r": -0.088,
+      "avg_mfe": 1.293,
+      "avg_mae": 1.232,
+      "avg_bars": 7.0,
+      "final_bal": 11.62,
+      "exit_reasons": {
+        "sl": 394,
+        "tp": 164,
+        "eod": 48
+      },
+      "total_sigs": 607,
+      "config_id": "Sweep-NY_london",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 20,
+        "sweep_ref": "london",
+        "sl_buf_atr": 0.25,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "need_confirm": true
+      }
+    }
+  ]
+}

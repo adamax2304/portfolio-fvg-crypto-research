@@ -1,0 +1,1764 @@
+{
+  "created_at_utc": "2026-05-03T20:16:17.350765+00:00",
+  "assumptions": {
+    "start_balance": 1000.0,
+    "risk_per_trade": 0.01,
+    "max_positions": 4,
+    "notional_cap_frac": 1.5,
+    "taker_fee": 0.00055,
+    "slippage_each_side": 0.00035,
+    "symbol_cooldown_ms": 14400000,
+    "common_universe_count": 25,
+    "common_universe": [
+      "ADA_USDT_USDT",
+      "APT_USDT_USDT",
+      "ARB_USDT_USDT",
+      "ATOM_USDT_USDT",
+      "AVAX_USDT_USDT",
+      "BCH_USDT_USDT",
+      "BNB_USDT_USDT",
+      "BTC_USDT_USDT",
+      "DOGE_USDT_USDT",
+      "DOT_USDT_USDT",
+      "ETH_USDT_USDT",
+      "FIL_USDT_USDT",
+      "HBAR_USDT_USDT",
+      "ICP_USDT_USDT",
+      "INJ_USDT_USDT",
+      "LINK_USDT_USDT",
+      "LTC_USDT_USDT",
+      "NEAR_USDT_USDT",
+      "OP_USDT_USDT",
+      "SOL_USDT_USDT",
+      "TON_USDT_USDT",
+      "TRX_USDT_USDT",
+      "UNI_USDT_USDT",
+      "XLM_USDT_USDT",
+      "XRP_USDT_USDT"
+    ],
+    "note": "All strategies use next-bar entries and actual cached funding history. No orderbook history is used."
+  },
+  "results": [
+    {
+      "strategy": "VWAP_PULLBACK_15M",
+      "metrics": {
+        "trades": 12199,
+        "wr_pct": 40.69,
+        "profit_factor": 0.955,
+        "return_pct": -99.71,
+        "max_dd_pct": 99.74,
+        "final_balance": 2.91,
+        "avg_monthly_pct": -14.24,
+        "profitable_months": 6,
+        "months": 25
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 923.63,
+          "ret_pct": -7.64
+        },
+        {
+          "month": "2024-05",
+          "start": 923.63,
+          "end": 488.14,
+          "ret_pct": -47.15
+        },
+        {
+          "month": "2024-06",
+          "start": 488.14,
+          "end": 485.58,
+          "ret_pct": -0.52
+        },
+        {
+          "month": "2024-07",
+          "start": 485.58,
+          "end": 342.86,
+          "ret_pct": -29.39
+        },
+        {
+          "month": "2024-08",
+          "start": 342.86,
+          "end": 510.18,
+          "ret_pct": 48.8
+        },
+        {
+          "month": "2024-09",
+          "start": 510.18,
+          "end": 426.69,
+          "ret_pct": -16.36
+        },
+        {
+          "month": "2024-10",
+          "start": 426.69,
+          "end": 183.56,
+          "ret_pct": -56.98
+        },
+        {
+          "month": "2024-11",
+          "start": 183.56,
+          "end": 312.32,
+          "ret_pct": 70.15
+        },
+        {
+          "month": "2024-12",
+          "start": 312.32,
+          "end": 524.52,
+          "ret_pct": 67.94
+        },
+        {
+          "month": "2025-01",
+          "start": 524.52,
+          "end": 481.82,
+          "ret_pct": -8.14
+        },
+        {
+          "month": "2025-02",
+          "start": 481.82,
+          "end": 654.59,
+          "ret_pct": 35.86
+        },
+        {
+          "month": "2025-03",
+          "start": 654.59,
+          "end": 493.21,
+          "ret_pct": -24.65
+        },
+        {
+          "month": "2025-04",
+          "start": 493.21,
+          "end": 222.88,
+          "ret_pct": -54.81
+        },
+        {
+          "month": "2025-05",
+          "start": 222.88,
+          "end": 275.11,
+          "ret_pct": 23.43
+        },
+        {
+          "month": "2025-06",
+          "start": 275.11,
+          "end": 166.24,
+          "ret_pct": -39.57
+        },
+        {
+          "month": "2025-07",
+          "start": 166.24,
+          "end": 106.16,
+          "ret_pct": -36.14
+        },
+        {
+          "month": "2025-08",
+          "start": 106.16,
+          "end": 73.55,
+          "ret_pct": -30.72
+        },
+        {
+          "month": "2025-09",
+          "start": 73.55,
+          "end": 60.98,
+          "ret_pct": -17.1
+        },
+        {
+          "month": "2025-10",
+          "start": 60.98,
+          "end": 35.82,
+          "ret_pct": -41.26
+        },
+        {
+          "month": "2025-11",
+          "start": 35.82,
+          "end": 23.48,
+          "ret_pct": -34.45
+        },
+        {
+          "month": "2025-12",
+          "start": 23.48,
+          "end": 15.22,
+          "ret_pct": -35.15
+        },
+        {
+          "month": "2026-01",
+          "start": 15.22,
+          "end": 11.62,
+          "ret_pct": -23.7
+        },
+        {
+          "month": "2026-02",
+          "start": 11.62,
+          "end": 11.78,
+          "ret_pct": 1.44
+        },
+        {
+          "month": "2026-03",
+          "start": 11.78,
+          "end": 6.61,
+          "ret_pct": -43.94
+        },
+        {
+          "month": "2026-04",
+          "start": 6.61,
+          "end": 2.91,
+          "ret_pct": -55.97
+        }
+      ],
+      "trades_sample": [
+        {
+          "symbol": "ETH/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1713490200000,
+          "exit_ts": 1713492900000,
+          "entry": 3008.5766295000003,
+          "exit": 2886.6199635000007,
+          "qty": 0.1701529047748025,
+          "notional": 511.91805274700977,
+          "risk_usd": 10.730415675464515,
+          "pnl_usd": 20.199584323065714,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 30.824421059907053,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "INJ/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1713627900000,
+          "exit_ts": 1713654900000,
+          "entry": 28.474962750000003,
+          "exit": 29.70459975,
+          "qty": 16.276765586251358,
+          "notional": 463.4802937589894,
+          "risk_usd": 10.335139837751578,
+          "pnl_usd": 19.493676899783573,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 65.26569830715337,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "OP/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1713755700000,
+          "exit_ts": 1713765600000,
+          "entry": 2.482768665,
+          "exit": 2.575198365,
+          "qty": 216.3812653811864,
+          "notional": 537.224625381459,
+          "risk_usd": 10.37952043134622,
+          "pnl_usd": 19.398108326389163,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 63.65331040968767,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "TON/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1713844800000,
+          "exit_ts": 1713853800000,
+          "entry": 5.868245395000001,
+          "exit": 5.5716493950000014,
+          "qty": 66.75806996134843,
+          "notional": 391.75273662977077,
+          "risk_usd": 10.17089937952356,
+          "pnl_usd": 19.380138605048337,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 34.93384310096086,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "ICP/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1713619800000,
+          "exit_ts": 1713629700000,
+          "entry": 14.699142900000002,
+          "exit": 15.452589700000004,
+          "qty": 26.226558645378866,
+          "notional": 385.5079333036544,
+          "risk_usd": 10.153425970992108,
+          "pnl_usd": 19.325389785561583,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 59.98466328519463,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "ADA/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1713489300000,
+          "exit_ts": 1713492900000,
+          "entry": 0.44704348,
+          "exit": 0.42634917,
+          "qty": 955.6543558683352,
+          "notional": 427.219048924539,
+          "risk_usd": 10.183949756398034,
+          "pnl_usd": 19.3175436734939,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 32.10144937248553,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "NEAR/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1714223700000,
+          "exit_ts": 1714243500000,
+          "entry": 7.045465050000001,
+          "exit": 7.462967047,
+          "qty": 47.06056346087879,
+          "notional": 331.5635550969286,
+          "risk_usd": 10.059433095608343,
+          "pnl_usd": 19.27235298068181,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 59.835444749394675,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "NEAR/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1714054500000,
+          "exit_ts": 1714091400000,
+          "entry": 6.875405550000001,
+          "exit": 7.246462850000002,
+          "qty": 52.74554668036184,
+          "notional": 362.6470243839439,
+          "risk_usd": 10.043044825725037,
+          "pnl_usd": 19.161944020340723,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 61.64182123248456,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "HBAR/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1713878100000,
+          "exit_ts": 1713883500000,
+          "entry": 0.0906817275,
+          "exit": 0.09605536885,
+          "qty": 3606.2235950992745,
+          "notional": 327.01858535486275,
+          "risk_usd": 9.92154152598602,
+          "pnl_usd": 19.008173580355383,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 70.91988799856912,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "ARB/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1714546800000,
+          "exit_ts": 1714551300000,
+          "entry": 1.01224559,
+          "exit": 0.97674174,
+          "qty": 547.505208355054,
+          "notional": 554.2097326594346,
+          "risk_usd": 10.10388559211955,
+          "pnl_usd": 18.83960328426662,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 43.990383384688016,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "LINK/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1713733200000,
+          "exit_ts": 1713753900000,
+          "entry": 14.951231100000001,
+          "exit": 15.4006079,
+          "qty": 43.41148555493969,
+          "notional": 649.0551529262151,
+          "risk_usd": 10.211731499722651,
+          "pnl_usd": 18.78342433075211,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 64.15124279739743,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "HBAR/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1713744900000,
+          "exit_ts": 1713762000000,
+          "entry": 0.089511318,
+          "exit": 0.092107751,
+          "qty": 7520.8849854709315,
+          "notional": 673.204327575914,
+          "risk_usd": 10.23831610665132,
+          "pnl_usd": 18.77620909446669,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 55.84679123162834,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "AVAX/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1714546800000,
+          "exit_ts": 1714547700000,
+          "entry": 31.97380525,
+          "exit": 30.995844750000003,
+          "qty": 19.765237401439652,
+          "notional": 631.9698513936476,
+          "risk_usd": 10.10388559211955,
+          "pnl_usd": 18.645085906996027,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 31.71070831607996,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "DOGE/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1713485700000,
+          "exit_ts": 1713490200000,
+          "entry": 0.150267388,
+          "exit": 0.14525082000000006,
+          "qty": 3827.587104399755,
+          "notional": 575.1615165206344,
+          "risk_usd": 10.0,
+          "pnl_usd": 18.579234060013384,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 45.373820113183655,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "ATOM/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1713485700000,
+          "exit_ts": 1713490200000,
+          "entry": 8.127154500000001,
+          "exit": 7.880757300000003,
+          "qty": 77.61233415214416,
+          "notional": 630.7674307601022,
+          "risk_usd": 10.0,
+          "pnl_usd": 18.44013555071779,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 35.98674693144039,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "AVAX/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1713485700000,
+          "exit_ts": 1713489300000,
+          "entry": 34.522912749999996,
+          "exit": 33.50672324999999,
+          "qty": 18.793910209274763,
+          "notional": 648.8205223861269,
+          "risk_usd": 10.0,
+          "pnl_usd": 18.39497563980337,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 41.70894395587154,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "TON/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1713771000000,
+          "exit_ts": 1713802500000,
+          "entry": 6.15344554,
+          "exit": 6.036912179999999,
+          "qty": 166.673871290392,
+          "notional": 1025.6185899263967,
+          "risk_usd": 10.426194014680025,
+          "pnl_usd": 18.305568483193152,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 47.24527467232381,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "AVAX/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1714344300000,
+          "exit_ts": 1714363200000,
+          "entry": 34.37296525,
+          "exit": 33.24663225,
+          "qty": 16.743319998330804,
+          "notional": 575.5175564722548,
+          "risk_usd": 9.828910669390138,
+          "pnl_usd": 18.235856736174515,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 28.803695839933184,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "INJ/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "LONG",
+          "entry_ts": 1713622500000,
+          "exit_ts": 1713627900000,
+          "entry": 27.939775500000003,
+          "exit": 28.569997,
+          "qty": 30.32905923818208,
+          "notional": 847.3871062410084,
+          "risk_usd": 10.153425970992108,
+          "pnl_usd": 18.17138667594711,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 55.70209777354108,
+            "trend_1h": 1,
+            "funding_rate": null
+          }
+        },
+        {
+          "symbol": "DOGE/USDT:USDT",
+          "strategy": "VWAP_PULLBACK_15M",
+          "direction": "SHORT",
+          "entry_ts": 1714545900000,
+          "exit_ts": 1714546800000,
+          "entry": 0.130094451,
+          "exit": 0.12572398800000006,
+          "qty": 4282.851150499348,
+          "notional": 557.175169138931,
+          "risk_usd": 9.745837652667587,
+          "pnl_usd": 18.11544472508,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "rsi": 38.73964324783833,
+            "trend_1h": -1,
+            "funding_rate": null
+          }
+        }
+      ],
+      "signal_count": 93568
+    },
+    {
+      "strategy": "BBS_1H_5M_PULLBACK",
+      "metrics": {
+        "trades": 174,
+        "wr_pct": 28.74,
+        "profit_factor": 0.762,
+        "return_pct": -24.69,
+        "max_dd_pct": 33.35,
+        "final_balance": 753.08,
+        "avg_monthly_pct": -0.98,
+        "profitable_months": 5,
+        "months": 25
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 891.1,
+          "ret_pct": -10.89
+        },
+        {
+          "month": "2024-05",
+          "start": 891.1,
+          "end": 911.76,
+          "ret_pct": 2.32
+        },
+        {
+          "month": "2024-06",
+          "start": 911.76,
+          "end": 764.83,
+          "ret_pct": -16.11
+        },
+        {
+          "month": "2024-07",
+          "start": 764.83,
+          "end": 807.81,
+          "ret_pct": 5.62
+        },
+        {
+          "month": "2024-08",
+          "start": 807.81,
+          "end": 805.35,
+          "ret_pct": -0.3
+        },
+        {
+          "month": "2024-09",
+          "start": 805.35,
+          "end": 761.31,
+          "ret_pct": -5.47
+        },
+        {
+          "month": "2024-10",
+          "start": 761.31,
+          "end": 790.96,
+          "ret_pct": 3.89
+        },
+        {
+          "month": "2024-11",
+          "start": 790.96,
+          "end": 785.58,
+          "ret_pct": -0.68
+        },
+        {
+          "month": "2024-12",
+          "start": 785.58,
+          "end": 798.69,
+          "ret_pct": 1.67
+        },
+        {
+          "month": "2025-01",
+          "start": 798.69,
+          "end": 724.33,
+          "ret_pct": -9.31
+        },
+        {
+          "month": "2025-02",
+          "start": 724.33,
+          "end": 679.56,
+          "ret_pct": -6.18
+        },
+        {
+          "month": "2025-03",
+          "start": 679.56,
+          "end": 753.08,
+          "ret_pct": 10.82
+        },
+        {
+          "month": "2025-04",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-05",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-06",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-09",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-11",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-12",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-03",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 753.08,
+          "end": 753.08,
+          "ret_pct": 0.0
+        }
+      ],
+      "trades_sample": [
+        {
+          "symbol": "BCH/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1716236100000,
+          "exit_ts": 1716247200000,
+          "entry": 498.72449250000005,
+          "exit": 510.7029797734789,
+          "qty": 2.1105053342892353,
+          "notional": 1052.5607017619418,
+          "risk_usd": 9.043702418143281,
+          "pnl_usd": 24.108940151746594,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 19,
+            "adx": 19.56409636661815,
+            "funding_rate": -9.586e-05
+          }
+        },
+        {
+          "symbol": "INJ/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1715566200000,
+          "exit_ts": 1715568000000,
+          "entry": 23.1478954,
+          "exit": 22.709342693568264,
+          "qty": 58.3135175705012,
+          "notional": 1349.8352051280237,
+          "risk_usd": 9.309103767924075,
+          "pnl_usd": 24.10279767948071,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 23,
+            "adx": 30.24847453968028,
+            "funding_rate": 8.672e-05
+          }
+        },
+        {
+          "symbol": "XRP/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1733085000000,
+          "exit_ts": 1733096100000,
+          "entry": 2.0906314650000004,
+          "exit": 2.2483006726395285,
+          "qty": 145.42948759435697,
+          "notional": 304.0394627035899,
+          "risk_usd": 7.823245896641118,
+          "pnl_usd": 22.582697303808857,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 19,
+            "adx": 28.844592084152683,
+            "funding_rate": 0.00021014
+          }
+        },
+        {
+          "symbol": "XRP/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1732220100000,
+          "exit_ts": 1732233300000,
+          "entry": 1.18581489,
+          "exit": 1.253369708829567,
+          "qty": 336.48816630131637,
+          "notional": 399.0126779088972,
+          "risk_usd": 7.812493840680368,
+          "pnl_usd": 22.2799808986668,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 26,
+            "adx": 17.41456924995106,
+            "funding_rate": 0.00024527
+          }
+        },
+        {
+          "symbol": "NEAR/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1714913700000,
+          "exit_ts": 1714920900000,
+          "entry": 7.096482900000001,
+          "exit": 7.223871601822842,
+          "qty": 186.1296679692558,
+          "notional": 1320.8660059265017,
+          "risk_usd": 8.67671627999943,
+          "pnl_usd": 22.24482321757553,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 24,
+            "adx": 29.005186165784814,
+            "funding_rate": 0.0001
+          }
+        },
+        {
+          "symbol": "HBAR/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1733046000000,
+          "exit_ts": 1733049300000,
+          "entry": 0.1905566715,
+          "exit": 0.20513246255546116,
+          "qty": 1546.564985074407,
+          "notional": 294.70827581422617,
+          "risk_usd": 7.688643973974611,
+          "pnl_usd": 22.205830648299454,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 13,
+            "adx": 30.29934114235316,
+            "funding_rate": 0.0001601
+          }
+        },
+        {
+          "symbol": "LINK/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1733656800000,
+          "exit_ts": 1733658000000,
+          "entry": 25.9850916,
+          "exit": 26.844287622391594,
+          "qty": 26.652275227908984,
+          "notional": 692.5618131456258,
+          "risk_usd": 8.039758436585831,
+          "pnl_usd": 22.12511612817028,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 8,
+            "adx": 21.488666322069697,
+            "funding_rate": 0.00028373
+          }
+        },
+        {
+          "symbol": "ICP/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1723384200000,
+          "exit_ts": 1723403400000,
+          "entry": 7.12450555,
+          "exit": 6.973426412123796,
+          "qty": 151.72194790662758,
+          "notional": 1080.9438599175792,
+          "risk_usd": 8.26868347323884,
+          "pnl_usd": 21.667080999774118,
+          "reason": "TP",
+          "funding_pnl": -0.07850895254581378,
+          "note": {
+            "squeeze_bars": 36,
+            "adx": 16.081886144819936,
+            "funding_rate": -4.069e-05
+          }
+        },
+        {
+          "symbol": "ARB/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1722460800000,
+          "exit_ts": 1722486900000,
+          "entry": 0.65876935,
+          "exit": 0.6435797128710872,
+          "qty": 1483.3546047454242,
+          "notional": 977.1885487876501,
+          "risk_usd": 8.078058053026185,
+          "pnl_usd": 21.566822020796074,
+          "reason": "TP",
+          "funding_pnl": 0.09771885487876501,
+          "note": {
+            "squeeze_bars": 8,
+            "adx": 36.7356829531222,
+            "funding_rate": 0.0001
+          }
+        },
+        {
+          "symbol": "ADA/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1722460800000,
+          "exit_ts": 1722486900000,
+          "entry": 0.39146294000000004,
+          "exit": 0.38258845256847956,
+          "qty": 2535.8609017553053,
+          "notional": 992.6955640321831,
+          "risk_usd": 8.078058053026185,
+          "pnl_usd": 21.4594635498625,
+          "reason": "TP",
+          "funding_pnl": 0.03458551345088126,
+          "note": {
+            "squeeze_bars": 30,
+            "adx": 24.363584333108612,
+            "funding_rate": 5.533e-05
+          }
+        },
+        {
+          "symbol": "DOGE/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1722460800000,
+          "exit_ts": 1722486900000,
+          "entry": 0.12233716700000001,
+          "exit": 0.11969680523323857,
+          "qty": 8492.572026950598,
+          "notional": 1038.957202320584,
+          "risk_usd": 8.078058053026185,
+          "pnl_usd": 21.396838183472266,
+          "reason": "TP",
+          "funding_pnl": 0.1038957202320584,
+          "note": {
+            "squeeze_bars": 12,
+            "adx": 36.12451650989808,
+            "funding_rate": 0.0001
+          }
+        },
+        {
+          "symbol": "XLM/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1741630500000,
+          "exit_ts": 1741632900000,
+          "entry": 0.25130201350000003,
+          "exit": 0.24177760755588779,
+          "qty": 2208.203739969111,
+          "notional": 554.9260460724681,
+          "risk_usd": 7.3319316323722346,
+          "pnl_usd": 20.432977681947705,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 12,
+            "adx": 30.951775644666792,
+            "funding_rate": -0.0001028
+          }
+        },
+        {
+          "symbol": "UNI/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1728753300000,
+          "exit_ts": 1728768600000,
+          "entry": 8.0748252,
+          "exit": 8.241674788389473,
+          "qty": 128.5358509966692,
+          "notional": 1037.9045287313495,
+          "risk_usd": 7.756538110606483,
+          "pnl_usd": 20.29266346587278,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 9,
+            "adx": 22.07071816629551,
+            "funding_rate": 0.0001
+          }
+        },
+        {
+          "symbol": "LINK/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1731208200000,
+          "exit_ts": 1731212700000,
+          "entry": 14.008901400000001,
+          "exit": 14.287949485744821,
+          "qty": 76.99718079654096,
+          "notional": 1078.6459138567159,
+          "risk_usd": 7.79355759686648,
+          "pnl_usd": 20.287588150030263,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 13,
+            "adx": 23.215163209201187,
+            "funding_rate": 0.0001
+          }
+        },
+        {
+          "symbol": "ETH/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1725643800000,
+          "exit_ts": 1725649200000,
+          "entry": 2263.0576525,
+          "exit": 2208.073932338829,
+          "qty": 0.3831973235863475,
+          "notional": 867.1976355596025,
+          "risk_usd": 7.526719121656171,
+          "pnl_usd": 20.127285295389587,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 17,
+            "adx": 30.909453810066644,
+            "funding_rate": 4.52e-05
+          }
+        },
+        {
+          "symbol": "DOT/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1725649800000,
+          "exit_ts": 1725655800000,
+          "entry": 3.93762135,
+          "exit": 3.8613040732914645,
+          "qty": 278.710972945897,
+          "notional": 1097.4582775510366,
+          "risk_usd": 7.727991974610067,
+          "pnl_usd": 20.074957093055275,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 24,
+            "adx": 17.76100974220447,
+            "funding_rate": -2.404e-05
+          }
+        },
+        {
+          "symbol": "OP/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1729886100000,
+          "exit_ts": 1729897500000,
+          "entry": 1.6442243200000002,
+          "exit": 1.6042558312573596,
+          "qty": 525.2116993004894,
+          "notional": 863.5658491383917,
+          "risk_usd": 7.498710357316801,
+          "pnl_usd": 20.053541011782556,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 13,
+            "adx": 15.257000583384103,
+            "funding_rate": 0.0001
+          }
+        },
+        {
+          "symbol": "SOL/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "LONG",
+          "entry_ts": 1737703800000,
+          "exit_ts": 1737720000000,
+          "entry": 261.5215005,
+          "exit": 267.21530497831554,
+          "qty": 3.4819328003959336,
+          "notional": 910.6002905997116,
+          "risk_usd": 7.141867321755744,
+          "pnl_usd": 18.72182022885384,
+          "reason": "TP",
+          "funding_pnl": -0.09106002905997117,
+          "note": {
+            "squeeze_bars": 10,
+            "adx": 16.879103867466196,
+            "funding_rate": 6.057e-05
+          }
+        },
+        {
+          "symbol": "DOGE/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1722363300000,
+          "exit_ts": 1722369900000,
+          "entry": 0.1260058825,
+          "exit": 0.12384438143342104,
+          "qty": 9213.611631234859,
+          "notional": 1160.969264606013,
+          "risk_usd": 7.31346219798074,
+          "pnl_usd": 18.64911855414423,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 8,
+            "adx": 32.35198826549509,
+            "funding_rate": 8.492e-05
+          }
+        },
+        {
+          "symbol": "BCH/USDT:USDT",
+          "strategy": "BBS_1H_5M_PULLBACK",
+          "direction": "SHORT",
+          "entry_ts": 1730755800000,
+          "exit_ts": 1730756400000,
+          "entry": 328.1351125,
+          "exit": 322.48594693259656,
+          "qty": 3.5198647958827185,
+          "notional": 1154.9912307817654,
+          "risk_usd": 7.299667099312347,
+          "pnl_usd": 18.62474501740996,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "squeeze_bars": 17,
+            "adx": 29.368814687861295,
+            "funding_rate": -0.00011452
+          }
+        }
+      ],
+      "signal_count": 178
+    },
+    {
+      "strategy": "FUNDING_FADE_15M",
+      "metrics": {
+        "trades": 769,
+        "wr_pct": 38.62,
+        "profit_factor": 0.731,
+        "return_pct": -75.37,
+        "max_dd_pct": 76.46,
+        "final_balance": 246.28,
+        "avg_monthly_pct": -5.35,
+        "profitable_months": 4,
+        "months": 24
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-05",
+          "start": 1000.0,
+          "end": 954.96,
+          "ret_pct": -4.5
+        },
+        {
+          "month": "2024-06",
+          "start": 954.96,
+          "end": 914.61,
+          "ret_pct": -4.23
+        },
+        {
+          "month": "2024-07",
+          "start": 914.61,
+          "end": 973.24,
+          "ret_pct": 6.41
+        },
+        {
+          "month": "2024-08",
+          "start": 973.24,
+          "end": 958.58,
+          "ret_pct": -1.51
+        },
+        {
+          "month": "2024-09",
+          "start": 958.58,
+          "end": 923.9,
+          "ret_pct": -3.62
+        },
+        {
+          "month": "2024-10",
+          "start": 923.9,
+          "end": 806.96,
+          "ret_pct": -12.66
+        },
+        {
+          "month": "2024-11",
+          "start": 806.96,
+          "end": 693.43,
+          "ret_pct": -14.07
+        },
+        {
+          "month": "2024-12",
+          "start": 693.43,
+          "end": 801.55,
+          "ret_pct": 15.59
+        },
+        {
+          "month": "2025-01",
+          "start": 801.55,
+          "end": 756.68,
+          "ret_pct": -5.6
+        },
+        {
+          "month": "2025-02",
+          "start": 756.68,
+          "end": 690.28,
+          "ret_pct": -8.78
+        },
+        {
+          "month": "2025-03",
+          "start": 690.28,
+          "end": 507.93,
+          "ret_pct": -26.42
+        },
+        {
+          "month": "2025-04",
+          "start": 507.93,
+          "end": 524.27,
+          "ret_pct": 3.22
+        },
+        {
+          "month": "2025-05",
+          "start": 524.27,
+          "end": 453.95,
+          "ret_pct": -13.41
+        },
+        {
+          "month": "2025-06",
+          "start": 453.95,
+          "end": 429.23,
+          "ret_pct": -5.45
+        },
+        {
+          "month": "2025-07",
+          "start": 429.23,
+          "end": 396.46,
+          "ret_pct": -7.63
+        },
+        {
+          "month": "2025-08",
+          "start": 396.46,
+          "end": 406.72,
+          "ret_pct": 2.59
+        },
+        {
+          "month": "2025-09",
+          "start": 406.72,
+          "end": 360.16,
+          "ret_pct": -11.45
+        },
+        {
+          "month": "2025-10",
+          "start": 360.16,
+          "end": 338.77,
+          "ret_pct": -5.94
+        },
+        {
+          "month": "2025-11",
+          "start": 338.77,
+          "end": 324.89,
+          "ret_pct": -4.1
+        },
+        {
+          "month": "2025-12",
+          "start": 324.89,
+          "end": 307.93,
+          "ret_pct": -5.22
+        },
+        {
+          "month": "2026-01",
+          "start": 307.93,
+          "end": 295.94,
+          "ret_pct": -3.89
+        },
+        {
+          "month": "2026-02",
+          "start": 295.94,
+          "end": 284.01,
+          "ret_pct": -4.03
+        },
+        {
+          "month": "2026-03",
+          "start": 284.01,
+          "end": 268.09,
+          "ret_pct": -5.6
+        },
+        {
+          "month": "2026-04",
+          "start": 268.09,
+          "end": 246.28,
+          "ret_pct": -8.14
+        }
+      ],
+      "trades_sample": [
+        {
+          "symbol": "DOGE/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1722858300000,
+          "exit_ts": 1722864600000,
+          "entry": 0.08217875250000001,
+          "exit": 0.08655684780507557,
+          "qty": 3843.5867133317356,
+          "notional": 315.8611612271772,
+          "risk_usd": 9.585281339455378,
+          "pnl_usd": 16.470886493019222,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -1.784e-05,
+            "funding_z": -1.6289685515675547,
+            "ret8_1h": -0.07434577904303064,
+            "vwap_dev_pct": -8.46872572316113
+          }
+        },
+        {
+          "symbol": "OP/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1722858300000,
+          "exit_ts": 1722864600000,
+          "entry": 1.080878175,
+          "exit": 1.1327792275109405,
+          "qty": 323.36245690381315,
+          "notional": 349.51542228170973,
+          "risk_usd": 9.585281339455378,
+          "pnl_usd": 16.38915432280094,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -6.665e-05,
+            "funding_z": -1.7833149326383164,
+            "ret8_1h": -0.024929527836504595,
+            "vwap_dev_pct": -6.482853438725645
+          }
+        },
+        {
+          "symbol": "TON/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1715703300000,
+          "exit_ts": 1715709600000,
+          "entry": 6.65592876,
+          "exit": 6.867311435614268,
+          "qty": 80.12292393155407,
+          "notional": 533.292473731323,
+          "risk_usd": 9.806494116337811,
+          "pnl_usd": 16.340661188664633,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -0.00087164,
+            "funding_z": -2.0893842080966283,
+            "ret8_1h": -0.04426467656023003,
+            "vwap_dev_pct": -3.31533510828802
+          }
+        },
+        {
+          "symbol": "BCH/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1723058100000,
+          "exit_ts": 1723061700000,
+          "entry": 311.0588325,
+          "exit": 318.01050728399343,
+          "qty": 2.446665266625454,
+          "notional": 761.0568413548149,
+          "risk_usd": 10.014674544728091,
+          "pnl_usd": 16.161904081701078,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -0.00066236,
+            "funding_z": -2.81824165222212,
+            "ret8_1h": -0.020526480727044882,
+            "vwap_dev_pct": -2.406330654093203
+          }
+        },
+        {
+          "symbol": "AVAX/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1722858300000,
+          "exit_ts": 1722865500000,
+          "entry": 17.891259750000003,
+          "exit": 18.750730709860065,
+          "qty": 18.934719967520916,
+          "notional": 338.76599323242834,
+          "risk_usd": 9.585281339455378,
+          "pnl_usd": 15.892248739541163,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -0.00051775,
+            "funding_z": -2.8590285698927147,
+            "ret8_1h": -0.022287862513426515,
+            "vwap_dev_pct": -4.650434552939997
+          }
+        },
+        {
+          "symbol": "BCH/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1722796200000,
+          "exit_ts": 1722798900000,
+          "entry": 336.46772250000004,
+          "exit": 347.299583116591,
+          "qty": 1.5153946385644435,
+          "notional": 509.881382726489,
+          "risk_usd": 9.499066943895182,
+          "pnl_usd": 15.844645984132935,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -0.00026123,
+            "funding_z": -1.9384473697133888,
+            "ret8_1h": -0.0238741958541816,
+            "vwap_dev_pct": -3.6198753357119418
+          }
+        },
+        {
+          "symbol": "NEAR/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1721940300000,
+          "exit_ts": 1721943900000,
+          "entry": 5.2098228,
+          "exit": 5.383251369670413,
+          "qty": 93.01882406196928,
+          "notional": 484.61159042723625,
+          "risk_usd": 9.323442481270027,
+          "pnl_usd": 15.590176193135907,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -7.831e-05,
+            "funding_z": -2.6870183843414606,
+            "ret8_1h": -0.025976418570375803,
+            "vwap_dev_pct": -4.979732688679572
+          }
+        },
+        {
+          "symbol": "XRP/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1723419000000,
+          "exit_ts": 1723434300000,
+          "entry": 0.5512928850000001,
+          "exit": 0.5643095234751861,
+          "qty": 1244.776788257749,
+          "notional": 686.2365867796487,
+          "risk_usd": 9.511681033851058,
+          "pnl_usd": 15.440176797141538,
+          "reason": "TP",
+          "funding_pnl": 0.001139152734054217,
+          "note": {
+            "funding_rate": -0.00010421,
+            "funding_z": -1.776207656728697,
+            "ret8_1h": -0.024011299435028333,
+            "vwap_dev_pct": -3.5815676409562625
+          }
+        },
+        {
+          "symbol": "FIL/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1722858300000,
+          "exit_ts": 1722864600000,
+          "entry": 2.97604125,
+          "exit": 3.114542582243672,
+          "qty": 112.74142764066914,
+          "notional": 335.52313924252155,
+          "risk_usd": 9.585281339455378,
+          "pnl_usd": 15.237174313259429,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -0.00015097,
+            "funding_z": -3.1546458924843113,
+            "ret8_1h": -0.027261064785118694,
+            "vwap_dev_pct": -4.513787451330886
+          }
+        },
+        {
+          "symbol": "APT/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1725376500000,
+          "exit_ts": 1725389100000,
+          "entry": 6.120141300000001,
+          "exit": 6.24719817289649,
+          "qty": 126.08109072280939,
+          "notional": 771.6340904817127,
+          "risk_usd": 9.677755813135253,
+          "pnl_usd": 15.167910522342936,
+          "reason": "TP",
+          "funding_pnl": 0.006049611269376628,
+          "note": {
+            "funding_rate": -0.00011681,
+            "funding_z": -2.013325324441273,
+            "ret8_1h": -0.04262036306235195,
+            "vwap_dev_pct": -2.102374044516575
+          }
+        },
+        {
+          "symbol": "FIL/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1722719700000,
+          "exit_ts": 1722738600000,
+          "entry": 3.64227435,
+          "exit": 3.751503743961383,
+          "qty": 143.7563150168038,
+          "notional": 523.5999388362243,
+          "risk_usd": 9.370583995182187,
+          "pnl_usd": 15.126479249333585,
+          "reason": "TP",
+          "funding_pnl": 0.00866034298835115,
+          "note": {
+            "funding_rate": -1.777e-05,
+            "funding_z": -1.5461186017514954,
+            "ret8_1h": -0.058190207639066904,
+            "vwap_dev_pct": -2.9795543757968224
+          }
+        },
+        {
+          "symbol": "HBAR/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1725233400000,
+          "exit_ts": 1725255900000,
+          "entry": 0.0478267335,
+          "exit": 0.048620248235412895,
+          "qty": 19881.912043112578,
+          "notional": 950.8869087563858,
+          "risk_usd": 9.470324437357387,
+          "pnl_usd": 14.732758543186582,
+          "reason": "TP",
+          "funding_pnl": 0.01082109302164767,
+          "note": {
+            "funding_rate": -0.00014413,
+            "funding_z": -2.1836935759347247,
+            "ret8_1h": -0.022648439094062445,
+            "vwap_dev_pct": -2.014429144906793
+          }
+        },
+        {
+          "symbol": "BCH/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1720170900000,
+          "exit_ts": 1720173600000,
+          "entry": 293.20258500000006,
+          "exit": 305.045122151524,
+          "qty": 1.2759149667368133,
+          "notional": 374.10156648742276,
+          "risk_usd": 8.673796348338724,
+          "pnl_usd": 14.690248133912345,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -0.00032106,
+            "funding_z": -1.9216945060536241,
+            "ret8_1h": -0.0695154048614336,
+            "vwap_dev_pct": -4.475484986070944
+          }
+        },
+        {
+          "symbol": "INJ/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1722207600000,
+          "exit_ts": 1722211200000,
+          "entry": 24.12143955,
+          "exit": 24.47521558045095,
+          "qty": 44.70721502883655,
+          "notional": 1078.4023847669325,
+          "risk_usd": 9.586620157031065,
+          "pnl_usd": 14.579611362179447,
+          "reason": "TP",
+          "funding_pnl": -0.04178809240971863,
+          "note": {
+            "funding_rate": -3.979e-05,
+            "funding_z": -2.378243509045847,
+            "ret8_1h": -0.020593013809910743,
+            "vwap_dev_pct": -2.3347230664483076
+          }
+        },
+        {
+          "symbol": "LTC/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1720170900000,
+          "exit_ts": 1720182600000,
+          "entry": 58.15034550000001,
+          "exit": 60.22365530334789,
+          "qty": 7.25718273649354,
+          "notional": 422.00768348373487,
+          "risk_usd": 8.673796348338724,
+          "pnl_usd": 14.57390414696522,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -5.104e-05,
+            "funding_z": -2.008584236183154,
+            "ret8_1h": -0.05806348699952146,
+            "vwap_dev_pct": -3.8568372709279375
+          }
+        },
+        {
+          "symbol": "XLM/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1720170900000,
+          "exit_ts": 1720177200000,
+          "entry": 0.078247377,
+          "exit": 0.08082393392197426,
+          "qty": 5822.401837096332,
+          "notional": 455.5876715927693,
+          "risk_usd": 8.673796348338724,
+          "pnl_usd": 14.492352354768387,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -0.00016668,
+            "funding_z": -4.610823669928094,
+            "ret8_1h": -0.04994597190539074,
+            "vwap_dev_pct": -3.486638183545665
+          }
+        },
+        {
+          "symbol": "NEAR/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1720780200000,
+          "exit_ts": 1720790100000,
+          "entry": 4.778671950000001,
+          "exit": 4.868160014966195,
+          "qty": 171.75872200035414,
+          "notional": 820.7785869909403,
+          "risk_usd": 9.148439918674677,
+          "pnl_usd": 14.459045531568103,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -4.451e-05,
+            "funding_z": -1.5827852517019276,
+            "ret8_1h": -0.05087440381558028,
+            "vwap_dev_pct": -2.543665631950165
+          }
+        },
+        {
+          "symbol": "DOGE/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "LONG",
+          "entry_ts": 1722539700000,
+          "exit_ts": 1722546000000,
+          "entry": 0.1139898825,
+          "exit": 0.11768397342429249,
+          "qty": 3997.8500758001805,
+          "notional": 455.7144603930787,
+          "risk_usd": 9.509728357493811,
+          "pnl_usd": 14.259013143338159,
+          "reason": "TP",
+          "funding_pnl": 0.0,
+          "note": {
+            "funding_rate": -1.447e-05,
+            "funding_z": -2.2307905210705252,
+            "ret8_1h": -0.045850984301021636,
+            "vwap_dev_pct": -3.2067713338386317
+          }
+        },
+        {
+          "symbol": "HBAR/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "SHORT",
+          "entry_ts": 1717623000000,
+          "exit_ts": 1717650000000,
+          "entry": 0.1051331905,
+          "exit": 0.1038603089014603,
+          "qty": 12056.176673453778,
+          "notional": 1267.5043189118724,
+          "risk_usd": 9.459320345064215,
+          "pnl_usd": 14.190525867143458,
+          "reason": "TP",
+          "funding_pnl": 0.23025483457353071,
+          "note": {
+            "funding_rate": 0.00018367,
+            "funding_z": 2.09797544514694,
+            "ret8_1h": 0.023479188900747072,
+            "vwap_dev_pct": 1.5482167014014614
+          }
+        },
+        {
+          "symbol": "INJ/USDT:USDT",
+          "strategy": "FUNDING_FADE_15M",
+          "direction": "SHORT",
+          "entry_ts": 1717423200000,
+          "exit_ts": 1717449300000,
+          "entry": 25.7010015,
+          "exit": 25.162803618538764,
+          "qty": 27.03054121677513,
+          "notional": 694.7119803581495,
+          "risk_usd": 9.32924531246428,
+          "pnl_usd": 13.861069316270557,
+          "reason": "TP",
+          "funding_pnl": 0.06947119803581496,
+          "note": {
+            "funding_rate": 0.00019177,
+            "funding_z": 3.7062420622472056,
+            "ret8_1h": 0.0387459092561917,
+            "vwap_dev_pct": 2.2103851776336336
+          }
+        }
+      ],
+      "signal_count": 1249
+    }
+  ]
+}

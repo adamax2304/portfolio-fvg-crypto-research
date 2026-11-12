@@ -1,0 +1,1640 @@
+{
+  "symbols": [
+    "BTC/USDT:USDT",
+    "ETH/USDT:USDT",
+    "BNB/USDT:USDT",
+    "SOL/USDT:USDT",
+    "XRP/USDT:USDT",
+    "DOGE/USDT:USDT",
+    "ADA/USDT:USDT",
+    "AVAX/USDT:USDT",
+    "LINK/USDT:USDT",
+    "DOT/USDT:USDT",
+    "NEAR/USDT:USDT",
+    "UNI/USDT:USDT",
+    "APT/USDT:USDT",
+    "ATOM/USDT:USDT"
+  ],
+  "results": [
+    {
+      "trades": 1878,
+      "wins": 786,
+      "losses": 1092,
+      "wr_pct": 41.85,
+      "pnl_usd": -833.78,
+      "pnl_pct": -83.38,
+      "profit_factor": 0.745,
+      "max_dd_pct": 84.45,
+      "avg_r": 0.041,
+      "avg_mfe": 1.132,
+      "avg_bars": 15.5,
+      "final_bal": 166.22,
+      "exit_reasons": {
+        "TRAIL": 578,
+        "SL": 780,
+        "TP": 160,
+        "EOS": 360
+      },
+      "total_sigs": 1878,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 140,
+          "wins": 49,
+          "losses": 91,
+          "wr_pct": 35.0,
+          "pnl_usd": -373.51,
+          "pnl_pct": -37.35,
+          "profit_factor": 0.48,
+          "max_dd_pct": 39.43,
+          "avg_r": -0.081,
+          "avg_mfe": 1.05,
+          "avg_bars": 13.8,
+          "final_bal": 626.49,
+          "exit_reasons": {
+            "TRAIL": 49,
+            "SL": 59,
+            "TP": 8,
+            "EOS": 24
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 141,
+          "wins": 62,
+          "losses": 79,
+          "wr_pct": 43.97,
+          "pnl_usd": 46.25,
+          "pnl_pct": 4.62,
+          "profit_factor": 1.065,
+          "max_dd_pct": 8.72,
+          "avg_r": 0.169,
+          "avg_mfe": 1.241,
+          "avg_bars": 15.2,
+          "final_bal": 1046.25,
+          "exit_reasons": {
+            "SL": 53,
+            "TRAIL": 47,
+            "EOS": 27,
+            "TP": 14
+          }
+        },
+        "BNB/USDT:USDT": {
+          "trades": 119,
+          "wins": 40,
+          "losses": 79,
+          "wr_pct": 33.61,
+          "pnl_usd": -360.22,
+          "pnl_pct": -36.02,
+          "profit_factor": 0.42,
+          "max_dd_pct": 36.2,
+          "avg_r": -0.167,
+          "avg_mfe": 0.962,
+          "avg_bars": 14.5,
+          "final_bal": 639.78,
+          "exit_reasons": {
+            "SL": 54,
+            "EOS": 23,
+            "TRAIL": 36,
+            "TP": 6
+          }
+        },
+        "SOL/USDT:USDT": {
+          "trades": 145,
+          "wins": 59,
+          "losses": 86,
+          "wr_pct": 40.69,
+          "pnl_usd": -288.27,
+          "pnl_pct": -28.83,
+          "profit_factor": 0.566,
+          "max_dd_pct": 29.7,
+          "avg_r": -0.113,
+          "avg_mfe": 1.048,
+          "avg_bars": 14.6,
+          "final_bal": 711.73,
+          "exit_reasons": {
+            "SL": 64,
+            "TRAIL": 49,
+            "EOS": 25,
+            "TP": 7
+          }
+        },
+        "XRP/USDT:USDT": {
+          "trades": 140,
+          "wins": 53,
+          "losses": 87,
+          "wr_pct": 37.86,
+          "pnl_usd": -249.05,
+          "pnl_pct": -24.91,
+          "profit_factor": 0.656,
+          "max_dd_pct": 27.64,
+          "avg_r": -0.063,
+          "avg_mfe": 1.085,
+          "avg_bars": 15.1,
+          "final_bal": 750.95,
+          "exit_reasons": {
+            "SL": 68,
+            "EOS": 25,
+            "TRAIL": 35,
+            "TP": 12
+          }
+        },
+        "DOGE/USDT:USDT": {
+          "trades": 125,
+          "wins": 50,
+          "losses": 75,
+          "wr_pct": 40.0,
+          "pnl_usd": 0.16,
+          "pnl_pct": 0.02,
+          "profit_factor": 1.0,
+          "max_dd_pct": 15.74,
+          "avg_r": 0.12,
+          "avg_mfe": 1.193,
+          "avg_bars": 15.3,
+          "final_bal": 1000.16,
+          "exit_reasons": {
+            "SL": 49,
+            "TRAIL": 41,
+            "EOS": 22,
+            "TP": 13
+          }
+        },
+        "ADA/USDT:USDT": {
+          "trades": 139,
+          "wins": 61,
+          "losses": 78,
+          "wr_pct": 43.88,
+          "pnl_usd": -51.93,
+          "pnl_pct": -5.19,
+          "profit_factor": 0.925,
+          "max_dd_pct": 12.85,
+          "avg_r": 0.076,
+          "avg_mfe": 1.124,
+          "avg_bars": 16.4,
+          "final_bal": 948.07,
+          "exit_reasons": {
+            "SL": 52,
+            "TRAIL": 44,
+            "TP": 14,
+            "EOS": 29
+          }
+        },
+        "AVAX/USDT:USDT": {
+          "trades": 130,
+          "wins": 58,
+          "losses": 72,
+          "wr_pct": 44.62,
+          "pnl_usd": 22.23,
+          "pnl_pct": 2.22,
+          "profit_factor": 1.031,
+          "max_dd_pct": 12.14,
+          "avg_r": 0.148,
+          "avg_mfe": 1.2,
+          "avg_bars": 14.0,
+          "final_bal": 1022.23,
+          "exit_reasons": {
+            "TP": 18,
+            "SL": 57,
+            "TRAIL": 34,
+            "EOS": 21
+          }
+        },
+        "LINK/USDT:USDT": {
+          "trades": 144,
+          "wins": 68,
+          "losses": 76,
+          "wr_pct": 47.22,
+          "pnl_usd": -64.76,
+          "pnl_pct": -6.48,
+          "profit_factor": 0.908,
+          "max_dd_pct": 14.16,
+          "avg_r": 0.07,
+          "avg_mfe": 1.153,
+          "avg_bars": 16.8,
+          "final_bal": 935.24,
+          "exit_reasons": {
+            "SL": 59,
+            "TP": 11,
+            "TRAIL": 47,
+            "EOS": 27
+          }
+        },
+        "DOT/USDT:USDT": {
+          "trades": 138,
+          "wins": 53,
+          "losses": 85,
+          "wr_pct": 38.41,
+          "pnl_usd": -144.19,
+          "pnl_pct": -14.42,
+          "profit_factor": 0.791,
+          "max_dd_pct": 21.9,
+          "avg_r": 0.009,
+          "avg_mfe": 1.125,
+          "avg_bars": 14.8,
+          "final_bal": 855.81,
+          "exit_reasons": {
+            "SL": 60,
+            "TRAIL": 41,
+            "EOS": 23,
+            "TP": 14
+          }
+        },
+        "NEAR/USDT:USDT": {
+          "trades": 139,
+          "wins": 67,
+          "losses": 72,
+          "wr_pct": 48.2,
+          "pnl_usd": 104.92,
+          "pnl_pct": 10.49,
+          "profit_factor": 1.14,
+          "max_dd_pct": 10.9,
+          "avg_r": 0.175,
+          "avg_mfe": 1.146,
+          "avg_bars": 17.3,
+          "final_bal": 1104.92,
+          "exit_reasons": {
+            "SL": 56,
+            "EOS": 37,
+            "TRAIL": 35,
+            "TP": 11
+          }
+        },
+        "UNI/USDT:USDT": {
+          "trades": 123,
+          "wins": 58,
+          "losses": 65,
+          "wr_pct": 47.15,
+          "pnl_usd": -9.94,
+          "pnl_pct": -0.99,
+          "profit_factor": 0.982,
+          "max_dd_pct": 15.16,
+          "avg_r": 0.097,
+          "avg_mfe": 1.132,
+          "avg_bars": 17.1,
+          "final_bal": 990.06,
+          "exit_reasons": {
+            "SL": 45,
+            "TRAIL": 42,
+            "EOS": 30,
+            "TP": 6
+          }
+        },
+        "APT/USDT:USDT": {
+          "trades": 125,
+          "wins": 51,
+          "losses": 74,
+          "wr_pct": 40.8,
+          "pnl_usd": -73.01,
+          "pnl_pct": -7.3,
+          "profit_factor": 0.884,
+          "max_dd_pct": 17.7,
+          "avg_r": 0.047,
+          "avg_mfe": 1.158,
+          "avg_bars": 15.5,
+          "final_bal": 926.99,
+          "exit_reasons": {
+            "SL": 54,
+            "TRAIL": 37,
+            "EOS": 20,
+            "TP": 14
+          }
+        },
+        "ATOM/USDT:USDT": {
+          "trades": 130,
+          "wins": 57,
+          "losses": 73,
+          "wr_pct": 43.85,
+          "pnl_usd": -57.35,
+          "pnl_pct": -5.73,
+          "profit_factor": 0.915,
+          "max_dd_pct": 11.73,
+          "avg_r": 0.089,
+          "avg_mfe": 1.228,
+          "avg_bars": 16.6,
+          "final_bal": 942.65,
+          "exit_reasons": {
+            "SL": 50,
+            "TRAIL": 41,
+            "TP": 12,
+            "EOS": 27
+          }
+        }
+      },
+      "config_id": "TOP20_A_ADX_RngM2_sw5",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "adx_1h",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 2341,
+      "wins": 995,
+      "losses": 1346,
+      "wr_pct": 42.5,
+      "pnl_usd": -818.65,
+      "pnl_pct": -81.87,
+      "profit_factor": 0.831,
+      "max_dd_pct": 82.36,
+      "avg_r": 0.069,
+      "avg_mfe": 1.176,
+      "avg_bars": 15.1,
+      "final_bal": 181.35,
+      "exit_reasons": {
+        "SL": 947,
+        "TRAIL": 757,
+        "TP": 217,
+        "EOS": 420
+      },
+      "total_sigs": 2341,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 171,
+          "wins": 61,
+          "losses": 110,
+          "wr_pct": 35.67,
+          "pnl_usd": -283.05,
+          "pnl_pct": -28.3,
+          "profit_factor": 0.681,
+          "max_dd_pct": 30.25,
+          "avg_r": 0.058,
+          "avg_mfe": 1.182,
+          "avg_bars": 14.5,
+          "final_bal": 716.95,
+          "exit_reasons": {
+            "SL": 67,
+            "TRAIL": 56,
+            "TP": 17,
+            "EOS": 31
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 170,
+          "wins": 75,
+          "losses": 95,
+          "wr_pct": 44.12,
+          "pnl_usd": 98.31,
+          "pnl_pct": 9.83,
+          "profit_factor": 1.114,
+          "max_dd_pct": 12.12,
+          "avg_r": 0.206,
+          "avg_mfe": 1.356,
+          "avg_bars": 14.3,
+          "final_bal": 1098.31,
+          "exit_reasons": {
+            "EOS": 24,
+            "SL": 61,
+            "TRAIL": 65,
+            "TP": 20
+          }
+        },
+        "BNB/USDT:USDT": {
+          "trades": 149,
+          "wins": 60,
+          "losses": 89,
+          "wr_pct": 40.27,
+          "pnl_usd": -266.1,
+          "pnl_pct": -26.61,
+          "profit_factor": 0.637,
+          "max_dd_pct": 27.74,
+          "avg_r": 0.011,
+          "avg_mfe": 1.116,
+          "avg_bars": 14.6,
+          "final_bal": 733.9,
+          "exit_reasons": {
+            "SL": 60,
+            "TRAIL": 51,
+            "EOS": 26,
+            "TP": 12
+          }
+        },
+        "SOL/USDT:USDT": {
+          "trades": 181,
+          "wins": 72,
+          "losses": 109,
+          "wr_pct": 39.78,
+          "pnl_usd": -240.98,
+          "pnl_pct": -24.1,
+          "profit_factor": 0.724,
+          "max_dd_pct": 24.1,
+          "avg_r": -0.019,
+          "avg_mfe": 1.12,
+          "avg_bars": 14.3,
+          "final_bal": 759.02,
+          "exit_reasons": {
+            "SL": 78,
+            "EOS": 29,
+            "TRAIL": 60,
+            "TP": 14
+          }
+        },
+        "XRP/USDT:USDT": {
+          "trades": 175,
+          "wins": 64,
+          "losses": 111,
+          "wr_pct": 36.57,
+          "pnl_usd": -286.18,
+          "pnl_pct": -28.62,
+          "profit_factor": 0.688,
+          "max_dd_pct": 30.73,
+          "avg_r": -0.039,
+          "avg_mfe": 1.165,
+          "avg_bars": 14.8,
+          "final_bal": 713.82,
+          "exit_reasons": {
+            "SL": 84,
+            "TP": 17,
+            "EOS": 26,
+            "TRAIL": 48
+          }
+        },
+        "DOGE/USDT:USDT": {
+          "trades": 171,
+          "wins": 71,
+          "losses": 100,
+          "wr_pct": 41.52,
+          "pnl_usd": -77.18,
+          "pnl_pct": -7.72,
+          "profit_factor": 0.909,
+          "max_dd_pct": 18.7,
+          "avg_r": 0.079,
+          "avg_mfe": 1.193,
+          "avg_bars": 13.9,
+          "final_bal": 922.82,
+          "exit_reasons": {
+            "EOS": 26,
+            "TRAIL": 52,
+            "SL": 72,
+            "TP": 21
+          }
+        },
+        "ADA/USDT:USDT": {
+          "trades": 184,
+          "wins": 79,
+          "losses": 105,
+          "wr_pct": 42.93,
+          "pnl_usd": -104.99,
+          "pnl_pct": -10.5,
+          "profit_factor": 0.884,
+          "max_dd_pct": 15.93,
+          "avg_r": 0.06,
+          "avg_mfe": 1.146,
+          "avg_bars": 15.8,
+          "final_bal": 895.01,
+          "exit_reasons": {
+            "EOS": 36,
+            "SL": 69,
+            "TRAIL": 61,
+            "TP": 18
+          }
+        },
+        "AVAX/USDT:USDT": {
+          "trades": 156,
+          "wins": 73,
+          "losses": 83,
+          "wr_pct": 46.79,
+          "pnl_usd": 53.4,
+          "pnl_pct": 5.34,
+          "profit_factor": 1.065,
+          "max_dd_pct": 12.4,
+          "avg_r": 0.169,
+          "avg_mfe": 1.244,
+          "avg_bars": 14.6,
+          "final_bal": 1053.4,
+          "exit_reasons": {
+            "EOS": 27,
+            "SL": 61,
+            "TP": 20,
+            "TRAIL": 48
+          }
+        },
+        "LINK/USDT:USDT": {
+          "trades": 173,
+          "wins": 83,
+          "losses": 90,
+          "wr_pct": 47.98,
+          "pnl_usd": -94.4,
+          "pnl_pct": -9.44,
+          "profit_factor": 0.888,
+          "max_dd_pct": 18.17,
+          "avg_r": 0.067,
+          "avg_mfe": 1.177,
+          "avg_bars": 16.0,
+          "final_bal": 905.6,
+          "exit_reasons": {
+            "EOS": 32,
+            "SL": 70,
+            "TP": 13,
+            "TRAIL": 58
+          }
+        },
+        "DOT/USDT:USDT": {
+          "trades": 162,
+          "wins": 69,
+          "losses": 93,
+          "wr_pct": 42.59,
+          "pnl_usd": -92.55,
+          "pnl_pct": -9.26,
+          "profit_factor": 0.882,
+          "max_dd_pct": 20.2,
+          "avg_r": 0.06,
+          "avg_mfe": 1.154,
+          "avg_bars": 14.6,
+          "final_bal": 907.45,
+          "exit_reasons": {
+            "EOS": 28,
+            "SL": 64,
+            "TRAIL": 54,
+            "TP": 16
+          }
+        },
+        "NEAR/USDT:USDT": {
+          "trades": 167,
+          "wins": 76,
+          "losses": 91,
+          "wr_pct": 45.51,
+          "pnl_usd": 36.8,
+          "pnl_pct": 3.68,
+          "profit_factor": 1.043,
+          "max_dd_pct": 11.39,
+          "avg_r": 0.128,
+          "avg_mfe": 1.152,
+          "avg_bars": 16.9,
+          "final_bal": 1036.8,
+          "exit_reasons": {
+            "EOS": 39,
+            "SL": 67,
+            "TRAIL": 49,
+            "TP": 12
+          }
+        },
+        "UNI/USDT:USDT": {
+          "trades": 152,
+          "wins": 70,
+          "losses": 82,
+          "wr_pct": 46.05,
+          "pnl_usd": -45.27,
+          "pnl_pct": -4.53,
+          "profit_factor": 0.935,
+          "max_dd_pct": 19.58,
+          "avg_r": 0.076,
+          "avg_mfe": 1.129,
+          "avg_bars": 15.9,
+          "final_bal": 954.73,
+          "exit_reasons": {
+            "EOS": 34,
+            "SL": 59,
+            "TRAIL": 51,
+            "TP": 8
+          }
+        },
+        "APT/USDT:USDT": {
+          "trades": 164,
+          "wins": 70,
+          "losses": 94,
+          "wr_pct": 42.68,
+          "pnl_usd": -67.38,
+          "pnl_pct": -6.74,
+          "profit_factor": 0.915,
+          "max_dd_pct": 19.02,
+          "avg_r": 0.067,
+          "avg_mfe": 1.134,
+          "avg_bars": 15.6,
+          "final_bal": 932.62,
+          "exit_reasons": {
+            "SL": 69,
+            "EOS": 32,
+            "TRAIL": 48,
+            "TP": 15
+          }
+        },
+        "ATOM/USDT:USDT": {
+          "trades": 166,
+          "wins": 72,
+          "losses": 94,
+          "wr_pct": 43.37,
+          "pnl_usd": -122.51,
+          "pnl_pct": -12.25,
+          "profit_factor": 0.856,
+          "max_dd_pct": 19.71,
+          "avg_r": 0.06,
+          "avg_mfe": 1.191,
+          "avg_bars": 15.7,
+          "final_bal": 877.49,
+          "exit_reasons": {
+            "TRAIL": 56,
+            "SL": 66,
+            "EOS": 30,
+            "TP": 14
+          }
+        }
+      },
+      "config_id": "TOP20_B_ST_RngM2_sw5",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "st_1h",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 1878,
+      "wins": 824,
+      "losses": 1054,
+      "wr_pct": 43.88,
+      "pnl_usd": -881.24,
+      "pnl_pct": -88.12,
+      "profit_factor": 0.712,
+      "max_dd_pct": 88.59,
+      "avg_r": 0.022,
+      "avg_mfe": 0.978,
+      "avg_bars": 13.3,
+      "final_bal": 118.76,
+      "exit_reasons": {
+        "TP": 479,
+        "SL": 780,
+        "TRAIL": 313,
+        "EOS": 306
+      },
+      "total_sigs": 1878,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 140,
+          "wins": 54,
+          "losses": 86,
+          "wr_pct": 38.57,
+          "pnl_usd": -364.49,
+          "pnl_pct": -36.45,
+          "profit_factor": 0.49,
+          "max_dd_pct": 38.71,
+          "avg_r": -0.072,
+          "avg_mfe": 0.91,
+          "avg_bars": 11.8,
+          "final_bal": 635.51,
+          "exit_reasons": {
+            "TP": 31,
+            "SL": 59,
+            "TRAIL": 28,
+            "EOS": 22
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 141,
+          "wins": 66,
+          "losses": 75,
+          "wr_pct": 46.81,
+          "pnl_usd": -29.33,
+          "pnl_pct": -2.93,
+          "profit_factor": 0.957,
+          "max_dd_pct": 8.78,
+          "avg_r": 0.113,
+          "avg_mfe": 1.049,
+          "avg_bars": 12.7,
+          "final_bal": 970.67,
+          "exit_reasons": {
+            "SL": 53,
+            "TRAIL": 25,
+            "TP": 41,
+            "EOS": 22
+          }
+        },
+        "BNB/USDT:USDT": {
+          "trades": 119,
+          "wins": 43,
+          "losses": 76,
+          "wr_pct": 36.13,
+          "pnl_usd": -310.04,
+          "pnl_pct": -31.0,
+          "profit_factor": 0.507,
+          "max_dd_pct": 31.68,
+          "avg_r": -0.103,
+          "avg_mfe": 0.885,
+          "avg_bars": 12.8,
+          "final_bal": 689.96,
+          "exit_reasons": {
+            "SL": 54,
+            "EOS": 21,
+            "TRAIL": 18,
+            "TP": 26
+          }
+        },
+        "SOL/USDT:USDT": {
+          "trades": 145,
+          "wins": 60,
+          "losses": 85,
+          "wr_pct": 41.38,
+          "pnl_usd": -227.57,
+          "pnl_pct": -22.76,
+          "profit_factor": 0.667,
+          "max_dd_pct": 25.32,
+          "avg_r": -0.057,
+          "avg_mfe": 0.974,
+          "avg_bars": 13.0,
+          "final_bal": 772.43,
+          "exit_reasons": {
+            "SL": 64,
+            "TRAIL": 28,
+            "EOS": 23,
+            "TP": 30
+          }
+        },
+        "XRP/USDT:USDT": {
+          "trades": 140,
+          "wins": 56,
+          "losses": 84,
+          "wr_pct": 40.0,
+          "pnl_usd": -270.74,
+          "pnl_pct": -27.07,
+          "profit_factor": 0.62,
+          "max_dd_pct": 28.24,
+          "avg_r": -0.085,
+          "avg_mfe": 0.926,
+          "avg_bars": 12.9,
+          "final_bal": 729.26,
+          "exit_reasons": {
+            "SL": 68,
+            "EOS": 23,
+            "TRAIL": 15,
+            "TP": 34
+          }
+        },
+        "DOGE/USDT:USDT": {
+          "trades": 125,
+          "wins": 53,
+          "losses": 72,
+          "wr_pct": 42.4,
+          "pnl_usd": -66.96,
+          "pnl_pct": -6.7,
+          "profit_factor": 0.883,
+          "max_dd_pct": 13.82,
+          "avg_r": 0.062,
+          "avg_mfe": 1.04,
+          "avg_bars": 12.9,
+          "final_bal": 933.04,
+          "exit_reasons": {
+            "SL": 49,
+            "TRAIL": 27,
+            "TP": 34,
+            "EOS": 15
+          }
+        },
+        "ADA/USDT:USDT": {
+          "trades": 139,
+          "wins": 64,
+          "losses": 75,
+          "wr_pct": 46.04,
+          "pnl_usd": -110.35,
+          "pnl_pct": -11.04,
+          "profit_factor": 0.834,
+          "max_dd_pct": 13.32,
+          "avg_r": 0.028,
+          "avg_mfe": 0.958,
+          "avg_bars": 14.7,
+          "final_bal": 889.65,
+          "exit_reasons": {
+            "SL": 52,
+            "TP": 34,
+            "EOS": 27,
+            "TRAIL": 26
+          }
+        },
+        "AVAX/USDT:USDT": {
+          "trades": 130,
+          "wins": 60,
+          "losses": 70,
+          "wr_pct": 46.15,
+          "pnl_usd": -75.12,
+          "pnl_pct": -7.51,
+          "profit_factor": 0.889,
+          "max_dd_pct": 14.14,
+          "avg_r": 0.068,
+          "avg_mfe": 1.027,
+          "avg_bars": 11.8,
+          "final_bal": 924.88,
+          "exit_reasons": {
+            "TP": 38,
+            "SL": 57,
+            "TRAIL": 19,
+            "EOS": 16
+          }
+        },
+        "LINK/USDT:USDT": {
+          "trades": 144,
+          "wins": 69,
+          "losses": 75,
+          "wr_pct": 47.92,
+          "pnl_usd": -141.1,
+          "pnl_pct": -14.11,
+          "profit_factor": 0.797,
+          "max_dd_pct": 15.31,
+          "avg_r": 0.009,
+          "avg_mfe": 0.965,
+          "avg_bars": 14.7,
+          "final_bal": 858.9,
+          "exit_reasons": {
+            "SL": 59,
+            "TP": 34,
+            "EOS": 23,
+            "TRAIL": 28
+          }
+        },
+        "DOT/USDT:USDT": {
+          "trades": 138,
+          "wins": 54,
+          "losses": 84,
+          "wr_pct": 39.13,
+          "pnl_usd": -158.84,
+          "pnl_pct": -15.88,
+          "profit_factor": 0.771,
+          "max_dd_pct": 19.6,
+          "avg_r": -0.005,
+          "avg_mfe": 1.006,
+          "avg_bars": 12.9,
+          "final_bal": 841.16,
+          "exit_reasons": {
+            "SL": 60,
+            "TRAIL": 23,
+            "TP": 34,
+            "EOS": 21
+          }
+        },
+        "NEAR/USDT:USDT": {
+          "trades": 139,
+          "wins": 70,
+          "losses": 69,
+          "wr_pct": 50.36,
+          "pnl_usd": 23.13,
+          "pnl_pct": 2.31,
+          "profit_factor": 1.032,
+          "max_dd_pct": 10.27,
+          "avg_r": 0.117,
+          "avg_mfe": 0.956,
+          "avg_bars": 14.1,
+          "final_bal": 1023.13,
+          "exit_reasons": {
+            "SL": 56,
+            "TP": 40,
+            "EOS": 28,
+            "TRAIL": 15
+          }
+        },
+        "UNI/USDT:USDT": {
+          "trades": 123,
+          "wins": 62,
+          "losses": 61,
+          "wr_pct": 50.41,
+          "pnl_usd": 46.38,
+          "pnl_pct": 4.64,
+          "profit_factor": 1.082,
+          "max_dd_pct": 12.69,
+          "avg_r": 0.142,
+          "avg_mfe": 0.993,
+          "avg_bars": 14.3,
+          "final_bal": 1046.38,
+          "exit_reasons": {
+            "SL": 45,
+            "TP": 35,
+            "TRAIL": 19,
+            "EOS": 24
+          }
+        },
+        "APT/USDT:USDT": {
+          "trades": 125,
+          "wins": 54,
+          "losses": 71,
+          "wr_pct": 43.2,
+          "pnl_usd": -103.24,
+          "pnl_pct": -10.32,
+          "profit_factor": 0.832,
+          "max_dd_pct": 19.11,
+          "avg_r": 0.018,
+          "avg_mfe": 0.98,
+          "avg_bars": 13.6,
+          "final_bal": 896.76,
+          "exit_reasons": {
+            "SL": 54,
+            "TRAIL": 23,
+            "EOS": 17,
+            "TP": 31
+          }
+        },
+        "ATOM/USDT:USDT": {
+          "trades": 130,
+          "wins": 59,
+          "losses": 71,
+          "wr_pct": 45.38,
+          "pnl_usd": -69.73,
+          "pnl_pct": -6.97,
+          "profit_factor": 0.894,
+          "max_dd_pct": 9.07,
+          "avg_r": 0.077,
+          "avg_mfe": 1.029,
+          "avg_bars": 14.1,
+          "final_bal": 930.27,
+          "exit_reasons": {
+            "SL": 50,
+            "TP": 37,
+            "TRAIL": 19,
+            "EOS": 24
+          }
+        }
+      },
+      "config_id": "TOP20_C_ADX_LvlTP_sw5",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "adx_1h",
+        "tp_mode": "nearest_level"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 1878,
+      "wins": 810,
+      "losses": 1068,
+      "wr_pct": 43.13,
+      "pnl_usd": -770.06,
+      "pnl_pct": -77.01,
+      "profit_factor": 0.782,
+      "max_dd_pct": 78.9,
+      "avg_r": 0.113,
+      "avg_mfe": 1.191,
+      "avg_bars": 15.1,
+      "final_bal": 229.94,
+      "exit_reasons": {
+        "TRAIL": 625,
+        "SL": 762,
+        "TP": 160,
+        "EOS": 331
+      },
+      "total_sigs": 1878,
+      "config_id": "GRID_Grid_2leg_p03",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "adx_1h",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0
+      },
+      "grid_cfg": {
+        "legs": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.3
+          ]
+        ],
+        "timeout_bars": 8
+      }
+    },
+    {
+      "trades": 1878,
+      "wins": 829,
+      "losses": 1049,
+      "wr_pct": 44.14,
+      "pnl_usd": -787.25,
+      "pnl_pct": -78.73,
+      "profit_factor": 0.757,
+      "max_dd_pct": 80.27,
+      "avg_r": 0.14,
+      "avg_mfe": 1.21,
+      "avg_bars": 15.1,
+      "final_bal": 212.75,
+      "exit_reasons": {
+        "TRAIL": 625,
+        "SL": 762,
+        "TP": 159,
+        "EOS": 332
+      },
+      "total_sigs": 1878,
+      "config_id": "GRID_Grid_2leg_p05",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "adx_1h",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0
+      },
+      "grid_cfg": {
+        "legs": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "timeout_bars": 8
+      }
+    },
+    {
+      "trades": 1878,
+      "wins": 849,
+      "losses": 1029,
+      "wr_pct": 45.21,
+      "pnl_usd": -778.74,
+      "pnl_pct": -77.87,
+      "profit_factor": 0.742,
+      "max_dd_pct": 79.57,
+      "avg_r": 0.177,
+      "avg_mfe": 1.223,
+      "avg_bars": 15.1,
+      "final_bal": 221.26,
+      "exit_reasons": {
+        "TRAIL": 644,
+        "SL": 754,
+        "TP": 158,
+        "EOS": 322
+      },
+      "total_sigs": 1878,
+      "config_id": "GRID_Grid_2leg_p08",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "adx_1h",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0
+      },
+      "grid_cfg": {
+        "legs": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.8
+          ]
+        ],
+        "timeout_bars": 12
+      }
+    },
+    {
+      "trades": 1878,
+      "wins": 845,
+      "losses": 1033,
+      "wr_pct": 44.99,
+      "pnl_usd": -761.54,
+      "pnl_pct": -76.15,
+      "profit_factor": 0.771,
+      "max_dd_pct": 78.08,
+      "avg_r": 0.164,
+      "avg_mfe": 1.224,
+      "avg_bars": 15.0,
+      "final_bal": 238.46,
+      "exit_reasons": {
+        "TRAIL": 641,
+        "SL": 754,
+        "TP": 159,
+        "EOS": 324
+      },
+      "total_sigs": 1878,
+      "config_id": "GRID_Grid_3leg_030507",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "adx_1h",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0
+      },
+      "grid_cfg": {
+        "legs": [
+          [
+            0.4,
+            0.0
+          ],
+          [
+            0.3,
+            0.3
+          ],
+          [
+            0.3,
+            0.7
+          ]
+        ],
+        "timeout_bars": 12
+      }
+    },
+    {
+      "trades": 1878,
+      "wins": 861,
+      "losses": 1017,
+      "wr_pct": 45.85,
+      "pnl_usd": -745.77,
+      "pnl_pct": -74.58,
+      "profit_factor": 0.765,
+      "max_dd_pct": 76.46,
+      "avg_r": 0.215,
+      "avg_mfe": 1.265,
+      "avg_bars": 14.8,
+      "final_bal": 254.23,
+      "exit_reasons": {
+        "TRAIL": 668,
+        "SL": 744,
+        "TP": 158,
+        "EOS": 308
+      },
+      "total_sigs": 1878,
+      "config_id": "GRID_Grid_3leg_conservative",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "adx_1h",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0
+      },
+      "grid_cfg": {
+        "legs": [
+          [
+            0.25,
+            0.0
+          ],
+          [
+            0.35,
+            0.4
+          ],
+          [
+            0.4,
+            0.8
+          ]
+        ],
+        "timeout_bars": 16
+      }
+    },
+    {
+      "trades": 1878,
+      "wins": 846,
+      "losses": 1032,
+      "wr_pct": 45.05,
+      "pnl_usd": -776.39,
+      "pnl_pct": -77.64,
+      "profit_factor": 0.753,
+      "max_dd_pct": 79.74,
+      "avg_r": 0.18,
+      "avg_mfe": 1.241,
+      "avg_bars": 15.0,
+      "final_bal": 223.61,
+      "exit_reasons": {
+        "TRAIL": 654,
+        "SL": 749,
+        "TP": 157,
+        "EOS": 318
+      },
+      "total_sigs": 1878,
+      "config_id": "GRID_Grid_heavy_pullback",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "max_entry_hr": 3,
+        "htf_filter": "adx_1h",
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0
+      },
+      "grid_cfg": {
+        "legs": [
+          [
+            0.3,
+            0.0
+          ],
+          [
+            0.7,
+            0.5
+          ]
+        ],
+        "timeout_bars": 10
+      }
+    },
+    {
+      "trades": 1765,
+      "wins": 651,
+      "losses": 1114,
+      "wr_pct": 36.88,
+      "pnl_usd": -987.51,
+      "pnl_pct": -98.75,
+      "profit_factor": 0.49,
+      "max_dd_pct": 98.78,
+      "avg_r": -0.046,
+      "avg_mfe": 0.95,
+      "avg_bars": 10.7,
+      "final_bal": 12.49,
+      "exit_reasons": {
+        "EOS": 902,
+        "SL": 754,
+        "TP": 109
+      },
+      "total_sigs": 1765,
+      "config_id": "Asia_Tokyo_none_R2",
+      "params": {
+        "sl_atr_mult": 2.0,
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0,
+        "min_range_atr": 0.3
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 886,
+      "wins": 355,
+      "losses": 531,
+      "wr_pct": 40.07,
+      "pnl_usd": -664.24,
+      "pnl_pct": -66.42,
+      "profit_factor": 0.769,
+      "max_dd_pct": 68.38,
+      "avg_r": 0.061,
+      "avg_mfe": 1.094,
+      "avg_bars": 9.9,
+      "final_bal": 335.76,
+      "exit_reasons": {
+        "EOS": 422,
+        "SL": 377,
+        "TP": 87
+      },
+      "total_sigs": 886,
+      "config_id": "Asia_Tokyo_adx_R2",
+      "params": {
+        "sl_atr_mult": 2.0,
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0,
+        "htf_filter": "adx_1h",
+        "min_range_atr": 0.3
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 1063,
+      "wins": 420,
+      "losses": 643,
+      "wr_pct": 39.51,
+      "pnl_usd": -805.61,
+      "pnl_pct": -80.56,
+      "profit_factor": 0.661,
+      "max_dd_pct": 82.73,
+      "avg_r": 0.043,
+      "avg_mfe": 1.068,
+      "avg_bars": 10.2,
+      "final_bal": 194.39,
+      "exit_reasons": {
+        "EOS": 524,
+        "SL": 443,
+        "TP": 96
+      },
+      "total_sigs": 1063,
+      "config_id": "Asia_Tokyo_st_R2",
+      "params": {
+        "sl_atr_mult": 2.0,
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0,
+        "htf_filter": "st_1h",
+        "min_range_atr": 0.3
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 1063,
+      "wins": 425,
+      "losses": 638,
+      "wr_pct": 39.98,
+      "pnl_usd": -752.92,
+      "pnl_pct": -75.29,
+      "profit_factor": 0.683,
+      "max_dd_pct": 75.69,
+      "avg_r": 0.025,
+      "avg_mfe": 0.894,
+      "avg_bars": 11.1,
+      "final_bal": 247.08,
+      "exit_reasons": {
+        "EOS": 556,
+        "TRAIL": 112,
+        "SL": 328,
+        "TP": 67
+      },
+      "total_sigs": 1063,
+      "config_id": "Asia_Tokyo_st_sw5",
+      "params": {
+        "sl_atr_mult": 2.5,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "htf_filter": "st_1h",
+        "min_range_atr": 0.3
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 785,
+      "wins": 271,
+      "losses": 514,
+      "wr_pct": 34.52,
+      "pnl_usd": -837.46,
+      "pnl_pct": -83.75,
+      "profit_factor": 0.536,
+      "max_dd_pct": 83.75,
+      "avg_r": -0.077,
+      "avg_mfe": 0.893,
+      "avg_bars": 14.5,
+      "final_bal": 162.54,
+      "exit_reasons": {
+        "SL": 282,
+        "EOS": 474,
+        "TP": 29
+      },
+      "total_sigs": 785,
+      "config_id": "Asia_LOopen_adx_R2",
+      "params": {
+        "sl_atr_mult": 2.5,
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0,
+        "htf_filter": "adx_1h",
+        "max_entry_hr": 3
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 944,
+      "wins": 349,
+      "losses": 595,
+      "wr_pct": 36.97,
+      "pnl_usd": -795.59,
+      "pnl_pct": -79.56,
+      "profit_factor": 0.655,
+      "max_dd_pct": 80.16,
+      "avg_r": -0.005,
+      "avg_mfe": 0.965,
+      "avg_bars": 14.4,
+      "final_bal": 204.41,
+      "exit_reasons": {
+        "EOS": 585,
+        "SL": 319,
+        "TP": 40
+      },
+      "total_sigs": 944,
+      "config_id": "Asia_LOopen_st_R2",
+      "params": {
+        "sl_atr_mult": 2.5,
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0,
+        "htf_filter": "st_1h",
+        "max_entry_hr": 3
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 944,
+      "wins": 356,
+      "losses": 588,
+      "wr_pct": 37.71,
+      "pnl_usd": -817.2,
+      "pnl_pct": -81.72,
+      "profit_factor": 0.615,
+      "max_dd_pct": 82.33,
+      "avg_r": -0.018,
+      "avg_mfe": 0.95,
+      "avg_bars": 13.2,
+      "final_bal": 182.8,
+      "exit_reasons": {
+        "TRAIL": 187,
+        "SL": 295,
+        "EOS": 427,
+        "TP": 35
+      },
+      "total_sigs": 944,
+      "config_id": "Asia_LOopen_st_sw5",
+      "params": {
+        "sl_atr_mult": 2.5,
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0,
+        "htf_filter": "st_1h",
+        "max_entry_hr": 3
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 785,
+      "wins": 273,
+      "losses": 512,
+      "wr_pct": 34.78,
+      "pnl_usd": -849.69,
+      "pnl_pct": -84.97,
+      "profit_factor": 0.501,
+      "max_dd_pct": 84.97,
+      "avg_r": -0.088,
+      "avg_mfe": 0.887,
+      "avg_bars": 13.4,
+      "final_bal": 150.31,
+      "exit_reasons": {
+        "SL": 264,
+        "EOS": 370,
+        "TRAIL": 124,
+        "TP": 27
+      },
+      "total_sigs": 785,
+      "config_id": "Asia_LOopen_adx_sw5",
+      "params": {
+        "sl_atr_mult": 2.5,
+        "tp_mode": "range_mult",
+        "tp_range_mult": 2.0,
+        "htf_filter": "adx_1h",
+        "max_entry_hr": 3
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 1631,
+      "wins": 602,
+      "losses": 1029,
+      "wr_pct": 36.91,
+      "pnl_usd": -894.74,
+      "pnl_pct": -89.47,
+      "profit_factor": 0.727,
+      "max_dd_pct": 90.88,
+      "avg_r": 0.028,
+      "avg_mfe": 1.226,
+      "avg_bars": 18.9,
+      "final_bal": 105.26,
+      "exit_reasons": {
+        "SL": 895,
+        "TP": 300,
+        "EOS": 436
+      },
+      "total_sigs": 1631,
+      "config_id": "Asia_PDH_adx_R25",
+      "params": {
+        "sl_atr_mult": 2.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.5,
+        "htf_filter": "adx_1h"
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 1939,
+      "wins": 751,
+      "losses": 1188,
+      "wr_pct": 38.73,
+      "pnl_usd": -944.39,
+      "pnl_pct": -94.44,
+      "profit_factor": 0.702,
+      "max_dd_pct": 95.04,
+      "avg_r": 0.021,
+      "avg_mfe": 1.223,
+      "avg_bars": 14.2,
+      "final_bal": 55.61,
+      "exit_reasons": {
+        "SL": 894,
+        "TP": 209,
+        "TRAIL": 693,
+        "EOS": 143
+      },
+      "total_sigs": 1939,
+      "config_id": "Asia_PDH_st_R3_sw5",
+      "params": {
+        "sl_atr_mult": 2.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "htf_filter": "st_1h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 1702,
+      "wins": 698,
+      "losses": 1004,
+      "wr_pct": 41.01,
+      "pnl_usd": -999.84,
+      "pnl_pct": -99.98,
+      "profit_factor": 0.177,
+      "max_dd_pct": 99.98,
+      "avg_r": -0.112,
+      "avg_mfe": 0.857,
+      "avg_bars": 3.2,
+      "final_bal": 0.16,
+      "exit_reasons": {
+        "SL": 855,
+        "TP": 803,
+        "EOS": 44
+      },
+      "total_sigs": 1702,
+      "config_id": "Asia_TokyoMR_mid",
+      "params": {
+        "sl_atr_mult": 1.0,
+        "tp_to": "mid",
+        "min_range_atr": 0.8
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 1702,
+      "wins": 515,
+      "losses": 1187,
+      "wr_pct": 30.26,
+      "pnl_usd": -999.85,
+      "pnl_pct": -99.98,
+      "profit_factor": 0.326,
+      "max_dd_pct": 99.98,
+      "avg_r": -0.109,
+      "avg_mfe": 1.278,
+      "avg_bars": 6.4,
+      "final_bal": 0.15,
+      "exit_reasons": {
+        "SL": 1071,
+        "TP": 329,
+        "EOS": 302
+      },
+      "total_sigs": 1702,
+      "config_id": "Asia_TokyoMR_opp",
+      "params": {
+        "sl_atr_mult": 1.0,
+        "tp_to": "opp",
+        "min_range_atr": 0.8
+      },
+      "trail_cfg": null
+    }
+  ]
+}

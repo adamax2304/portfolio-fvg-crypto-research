@@ -1,0 +1,583 @@
+{
+  "results": [
+    {
+      "config_id": "BBS1h5m_base",
+      "trades": 166,
+      "wr_pct": 68.1,
+      "profit_factor": 7.194,
+      "pnl_pct": 401.54,
+      "max_dd_pct": 5.4,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 173
+      }
+    },
+    {
+      "config_id": "BBS1h5m_exWed",
+      "trades": 143,
+      "wr_pct": 69.9,
+      "profit_factor": 7.798,
+      "pnl_pct": 319.68,
+      "max_dd_pct": 3.48,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "exWed",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": null,
+        "total_sigs": 150
+      }
+    },
+    {
+      "config_id": "BBS1h5m_skipChop",
+      "trades": 132,
+      "wr_pct": 69.7,
+      "profit_factor": 7.563,
+      "pnl_pct": 289.57,
+      "max_dd_pct": 3.38,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "skipChop",
+        "dows": null,
+        "skip_regimes": [
+          "chop"
+        ],
+        "total_sigs": 138
+      }
+    },
+    {
+      "config_id": "BBS1h5m_skipChopPan",
+      "trades": 118,
+      "wr_pct": 70.3,
+      "profit_factor": 7.956,
+      "pnl_pct": 246.82,
+      "max_dd_pct": 3.38,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "skipChopPan",
+        "dows": null,
+        "skip_regimes": [
+          "chop",
+          "panic"
+        ],
+        "total_sigs": 123
+      }
+    },
+    {
+      "config_id": "BBS1h5m_exWed+chop",
+      "trades": 110,
+      "wr_pct": 72.7,
+      "profit_factor": 8.645,
+      "pnl_pct": 231.75,
+      "max_dd_pct": 3.38,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "exWed+chop",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": [
+          "chop"
+        ],
+        "total_sigs": 116
+      }
+    },
+    {
+      "config_id": "BBS1h5m_exWed+chopPan",
+      "trades": 98,
+      "wr_pct": 72.4,
+      "profit_factor": 8.613,
+      "pnl_pct": 190.91,
+      "max_dd_pct": 3.38,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "exWed+chopPan",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": [
+          "chop",
+          "panic"
+        ],
+        "total_sigs": 103
+      }
+    },
+    {
+      "config_id": "BBS1h15m_base",
+      "trades": 288,
+      "wr_pct": 59.7,
+      "profit_factor": 3.925,
+      "pnl_pct": 592.45,
+      "max_dd_pct": 4.13,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 316
+      }
+    },
+    {
+      "config_id": "BBS1h15m_exWed",
+      "trades": 244,
+      "wr_pct": 62.3,
+      "profit_factor": 4.622,
+      "pnl_pct": 497.16,
+      "max_dd_pct": 3.29,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "exWed",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": null,
+        "total_sigs": 266
+      }
+    },
+    {
+      "config_id": "BBS1h15m_skipChop",
+      "trades": 230,
+      "wr_pct": 60.9,
+      "profit_factor": 4.256,
+      "pnl_pct": 418.39,
+      "max_dd_pct": 4.22,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "skipChop",
+        "dows": null,
+        "skip_regimes": [
+          "chop"
+        ],
+        "total_sigs": 258
+      }
+    },
+    {
+      "config_id": "BBS1h15m_skipChopPan",
+      "trades": 196,
+      "wr_pct": 58.7,
+      "profit_factor": 3.873,
+      "pnl_pct": 274.92,
+      "max_dd_pct": 4.81,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "skipChopPan",
+        "dows": null,
+        "skip_regimes": [
+          "chop",
+          "panic"
+        ],
+        "total_sigs": 223
+      }
+    },
+    {
+      "config_id": "BBS1h15m_exWed+chop",
+      "trades": 188,
+      "wr_pct": 64.4,
+      "profit_factor": 5.231,
+      "pnl_pct": 349.77,
+      "max_dd_pct": 3.82,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "exWed+chop",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": [
+          "chop"
+        ],
+        "total_sigs": 210
+      }
+    },
+    {
+      "config_id": "BBS1h15m_exWed+chopPan",
+      "trades": 160,
+      "wr_pct": 60.6,
+      "profit_factor": 4.404,
+      "pnl_pct": 218.71,
+      "max_dd_pct": 3.82,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "exWed+chopPan",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": [
+          "chop",
+          "panic"
+        ],
+        "total_sigs": 181
+      }
+    },
+    {
+      "config_id": "KC1h15m_base",
+      "trades": 74,
+      "wr_pct": 66.2,
+      "profit_factor": 4.16,
+      "pnl_pct": 56.52,
+      "max_dd_pct": 1.99,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 76
+      }
+    },
+    {
+      "config_id": "KC1h15m_exWed",
+      "trades": 67,
+      "wr_pct": 68.7,
+      "profit_factor": 4.599,
+      "pnl_pct": 54.75,
+      "max_dd_pct": 1.99,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "exWed",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": null,
+        "total_sigs": 69
+      }
+    },
+    {
+      "config_id": "KC1h15m_skipChop",
+      "trades": 63,
+      "wr_pct": 69.8,
+      "profit_factor": 4.806,
+      "pnl_pct": 52.63,
+      "max_dd_pct": 1.92,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "skipChop",
+        "dows": null,
+        "skip_regimes": [
+          "chop"
+        ],
+        "total_sigs": 65
+      }
+    },
+    {
+      "config_id": "KC1h15m_skipChopPan",
+      "trades": 54,
+      "wr_pct": 64.8,
+      "profit_factor": 3.695,
+      "pnl_pct": 34.67,
+      "max_dd_pct": 1.92,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "skipChopPan",
+        "dows": null,
+        "skip_regimes": [
+          "chop",
+          "panic"
+        ],
+        "total_sigs": 54
+      }
+    },
+    {
+      "config_id": "KC1h15m_exWed+chop",
+      "trades": 56,
+      "wr_pct": 73.2,
+      "profit_factor": 5.574,
+      "pnl_pct": 50.91,
+      "max_dd_pct": 1.34,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "exWed+chop",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": [
+          "chop"
+        ],
+        "total_sigs": 58
+      }
+    },
+    {
+      "config_id": "KC1h15m_exWed+chopPan",
+      "trades": 48,
+      "wr_pct": 68.8,
+      "profit_factor": 4.333,
+      "pnl_pct": 34.57,
+      "max_dd_pct": 1.35,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "exWed+chopPan",
+        "dows": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "skip_regimes": [
+          "chop",
+          "panic"
+        ],
+        "total_sigs": 48
+      }
+    },
+    {
+      "config_id": "WF_BBS1h5m_base_Q1",
+      "trades": 33,
+      "wr_pct": 60.6,
+      "profit_factor": 4.529,
+      "pnl_pct": 29.14,
+      "max_dd_pct": 2.08,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 173
+      }
+    },
+    {
+      "config_id": "WF_BBS1h5m_base_Q2",
+      "trades": 39,
+      "wr_pct": 51.3,
+      "profit_factor": 2.743,
+      "pnl_pct": 20.44,
+      "max_dd_pct": 5.6,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 173
+      }
+    },
+    {
+      "config_id": "WF_BBS1h5m_base_Q3",
+      "trades": 43,
+      "wr_pct": 74.4,
+      "profit_factor": 7.551,
+      "pnl_pct": 60.88,
+      "max_dd_pct": 1.43,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 173
+      }
+    },
+    {
+      "config_id": "WF_BBS1h5m_base_Q4",
+      "trades": 51,
+      "wr_pct": 80.4,
+      "profit_factor": 11.114,
+      "pnl_pct": 100.43,
+      "max_dd_pct": 2.01,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h5m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 173
+      }
+    },
+    {
+      "config_id": "WF_BBS1h15m_base_Q1",
+      "trades": 63,
+      "wr_pct": 61.9,
+      "profit_factor": 4.443,
+      "pnl_pct": 53.3,
+      "max_dd_pct": 2.71,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 316
+      }
+    },
+    {
+      "config_id": "WF_BBS1h15m_base_Q2",
+      "trades": 65,
+      "wr_pct": 60.0,
+      "profit_factor": 4.006,
+      "pnl_pct": 57.19,
+      "max_dd_pct": 3.41,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 316
+      }
+    },
+    {
+      "config_id": "WF_BBS1h15m_base_Q3",
+      "trades": 74,
+      "wr_pct": 54.1,
+      "profit_factor": 2.739,
+      "pnl_pct": 42.64,
+      "max_dd_pct": 3.21,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 316
+      }
+    },
+    {
+      "config_id": "WF_BBS1h15m_base_Q4",
+      "trades": 86,
+      "wr_pct": 62.8,
+      "profit_factor": 4.58,
+      "pnl_pct": 101.45,
+      "max_dd_pct": 4.45,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "BBS1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 316
+      }
+    },
+    {
+      "config_id": "WF_KC1h15m_base_Q1",
+      "trades": 13,
+      "wr_pct": 53.8,
+      "profit_factor": 2.491,
+      "pnl_pct": 5.17,
+      "max_dd_pct": 0.76,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 76
+      }
+    },
+    {
+      "config_id": "WF_KC1h15m_base_Q2",
+      "trades": 22,
+      "wr_pct": 63.6,
+      "profit_factor": 3.512,
+      "pnl_pct": 12.34,
+      "max_dd_pct": 2.01,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 76
+      }
+    },
+    {
+      "config_id": "WF_KC1h15m_base_Q3",
+      "trades": 27,
+      "wr_pct": 70.4,
+      "profit_factor": 5.033,
+      "pnl_pct": 21.66,
+      "max_dd_pct": 1.95,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 76
+      }
+    },
+    {
+      "config_id": "WF_KC1h15m_base_Q4",
+      "trades": 12,
+      "wr_pct": 75.0,
+      "profit_factor": 5.721,
+      "pnl_pct": 8.9,
+      "max_dd_pct": 0.72,
+      "avg_r": 0.0,
+      "params": {
+        "strat": "KC1h15m",
+        "overlay": "base",
+        "dows": null,
+        "skip_regimes": null,
+        "total_sigs": 76
+      }
+    }
+  ],
+  "btc_regime_counts": {
+    "chop": 92,
+    "normal": 182,
+    "panic": 37,
+    "high": 55
+  }
+}

@@ -1,0 +1,119 @@
+
+================================================================================
+  NEW STRATEGIES RESEARCH  |  TP/SL grid  |  50 symbols
+  Balance: $500.0  Risk: 1%/trade  Fee: taker=0.055%  maker=0.020%
+  IS=80% / OOS=20%  |  Min IS trades for inclusion: 10
+
+  Strategies:
+  1. KC_4H_15M      — 4h Keltner squeeze → 15m next_bar  (v10 validated PF≈5.7)
+  2. BBS_4H_5M      — 4h BB squeeze → 5m pullback EMA21  (conservative cross-TF)
+  3. BBS_1H_15M_PB  — 1h BB squeeze → 15m pullback EMA21 (vs current next_bar)
+
+  TP/SL grid: SL=[1.0, 1.5, 2.0]×ATR  TP=[1.5, 2.0, 2.5, 3.0, 4.0]R  = 15 combos each
+
+  WARNINGS:
+  - 4h data may be missing if fetch_data_2y.py hasn't finished yet
+  - Survivorship bias: TOP_50 = current top, not historical composition
+  - $500/1% selected: $100/2% blocks too many trades via min_margin=$5
+================================================================================
+
+  Data: 40 symbols loaded  |  4h data: 39 symbols
+  Running 3 strategies × 15 configs = 45 total IS runs
+
+================================================================================
+  STRATEGY: KC_4H_15M  (15 SL/TP combos)
+  HTF=4h (39 syms with data)  LTF=15m (40 syms with data)
+  Signals detected: 93 across 36 symbols in 0.1s
+
+  IS results (80% data)  —  top configs by score:
+  Config                                      Tr    WR%     PF    DD%    Scr  Verdict
+  --------------------------------------------------------------------------------
+  KC_4H_15M SL=1.5×ATR  TP=2.0R           57  73.7%   4.30   4.6%  3.120  ✓ OK
+  KC_4H_15M SL=1.5×ATR  TP=1.5R           57  77.2%   3.64   3.5%  2.779  ✓ OK
+  KC_4H_15M SL=2.0×ATR  TP=1.5R           57  73.7%   3.36   4.4%  2.432  ✓ OK
+  KC_4H_15M SL=1.0×ATR  TP=3.0R           57  64.9%   3.68   4.9%  2.340  ✓ OK
+  KC_4H_15M SL=1.0×ATR  TP=2.0R           57  71.9%   3.25   3.7%  2.302  ✓ OK
+  KC_4H_15M SL=1.0×ATR  TP=2.5R           57  66.7%   3.36   4.9%  2.190  ✓ OK
+  KC_4H_15M SL=1.5×ATR  TP=2.5R           57  63.2%   3.53   5.6%  2.175  ✓ OK
+  KC_4H_15M SL=2.0×ATR  TP=2.5R           57  61.4%   3.33   8.5%  1.958  ✓ OK
+  KC_4H_15M SL=2.0×ATR  TP=2.0R           57  64.9%   3.14   8.5%  1.954  ✓ OK
+  KC_4H_15M SL=2.0×ATR  TP=3.0R           57  57.9%   3.54   9.5%  1.954  ✗ WR↓57.9%
+
+  Best config: SL=1.5×ATR  TP=2.0R
+  IS  (80%): trades=57  WR=73.7%  PF=4.3  DD=4.6%  score=3.12
+  OOS (20%): trades=22  WR=72.7%  PF=4.14  DD=3.3%
+  OOS verdict: ✓ OOS PF=4.14 — solid
+
+================================================================================
+  STRATEGY: BBS_4H_5M  (15 SL/TP combos)
+  HTF=4h (39 syms with data)  LTF=5m (40 syms with data)
+  Signals detected: 90 across 36 symbols in 0.1s
+
+  IS results (80% data)  —  top configs by score:
+  Config                                      Tr    WR%     PF    DD%    Scr  Verdict
+  --------------------------------------------------------------------------------
+  BBS_4H_5M SL=2.0×ATR  TP=1.5R           33  75.8%   2.87   3.1%  2.146  ✓ OK
+  BBS_4H_5M SL=2.0×ATR  TP=2.0R           33  69.7%   3.03   2.5%  2.086  ✓ OK
+  BBS_4H_5M SL=1.5×ATR  TP=2.5R           33  63.6%   2.65   3.0%  1.656  ✓ OK
+  BBS_4H_5M SL=2.0×ATR  TP=2.5R           33  60.6%   2.69   2.5%  1.608  ✓ OK
+  BBS_4H_5M SL=1.5×ATR  TP=2.0R           33  66.7%   2.29   3.5%  1.488  ✓ OK
+  BBS_4H_5M SL=1.5×ATR  TP=1.5R           33  72.7%   2.08   4.1%  1.469  ✓ OK
+  BBS_4H_5M SL=1.5×ATR  TP=3.0R           33  57.6%   2.60   3.0%  1.468  ✗ WR↓57.6%
+  BBS_4H_5M SL=2.0×ATR  TP=3.0R           33  54.5%   2.61   5.0%  1.374  ✗ WR↓54.5%
+  BBS_4H_5M SL=2.0×ATR  TP=4.0R           33  48.5%   2.87   7.1%  1.320  ✗ WR↓48.5%
+  BBS_4H_5M SL=1.5×ATR  TP=4.0R           33  48.5%   2.53   5.7%  1.169  ✗ WR↓48.5%
+
+  Best config: SL=2.0×ATR  TP=1.5R
+  IS  (80%): trades=33  WR=75.8%  PF=2.87  DD=3.1%  score=2.146
+  OOS (20%): trades=9  WR=88.9%  PF=3.07  DD=3.0%
+  OOS verdict: ✓ OOS PF=3.07 — solid
+
+================================================================================
+  STRATEGY: BBS_1H_15M_PB  (15 SL/TP combos)
+  HTF=1h (40 syms with data)  LTF=15m (40 syms with data)
+  Signals detected: 391 across 37 symbols in 0.2s
+
+  IS results (80% data)  —  top configs by score:
+  Config                                      Tr    WR%     PF    DD%    Scr  Verdict
+  --------------------------------------------------------------------------------
+  BBS_1H_15M_PB SL=2.0×ATR  TP=1.5R          247  51.4%   1.11  25.0%  0.323  ✗ PF↓1.11
+  BBS_1H_15M_PB SL=1.5×ATR  TP=2.0R          247  46.2%   1.13  25.4%  0.268  ✗ PF↓1.13
+  BBS_1H_15M_PB SL=1.0×ATR  TP=3.0R          247  39.7%   1.17  24.3%  0.221  ✗ PF↓1.17
+  BBS_1H_15M_PB SL=2.0×ATR  TP=2.0R          247  43.7%   1.13  27.6%  0.217  ✗ PF↓1.13
+  BBS_1H_15M_PB SL=1.5×ATR  TP=1.5R          247  50.6%   0.99  29.6%  0.203  ✗ PF↓0.99
+  BBS_1H_15M_PB SL=1.5×ATR  TP=2.5R          247  39.7%   1.12  28.1%  0.161  ✗ PF↓1.12
+  BBS_1H_15M_PB SL=1.0×ATR  TP=4.0R          247  33.2%   1.21  24.7%  0.153  ✗ PF↓1.21
+  BBS_1H_15M_PB SL=1.0×ATR  TP=2.5R          247  41.3%   1.02  32.9%  0.092  ✗ PF↓1.02
+  BBS_1H_15M_PB SL=1.0×ATR  TP=2.0R          247  44.9%   0.92  36.5%  0.046  ✗ PF↓0.92
+  BBS_1H_15M_PB SL=1.5×ATR  TP=3.0R          247  34.8%   1.10  36.6%  0.017  ✗ PF↓1.10
+
+  ✗ No config passed IS criteria (PF≥2.0, WR≥60%, DD≤35%)
+
+  Best config: SL=2.0×ATR  TP=1.5R
+  IS  (80%): trades=247  WR=51.4%  PF=1.11  DD=25.0%  score=0.323
+  OOS (20%): trades=63  WR=50.8%  PF=0.99  DD=15.2%
+  OOS verdict: ✗ OOS PF too low (0.99) — overfit likely
+
+================================================================================
+  COMBINED PORTFOLIO  (3 strategies, best configs)
+  Balance: $500.0  Risk: 1%/trade  MaxPos: 4
+================================================================================
+
+  FULL period (all data):
+  Trades=426  WR=58.2%  PF=1.62  MaxDD=12.9%  Balance: $500.0→$2301
+
+  Per-strategy breakdown:
+  Strategy              Trades    WR%     PF
+  ------------------------------------------------
+  KC_4H_15M                 79  73.4%   4.20
+  BBS_4H_5M                 39  84.6%   6.95
+  BBS_1H_15M_PB            308  51.0%   1.12
+
+  Walk-forward check:
+  IS  (80%): trades=321  WR=55.8%  PF=1.4  DD=17.0%
+  OOS (20%): trades=90  WR=53.3%  PF=1.25  DD=15.5%
+  → ✗ OOS PF=1.25 — does not validate, likely overfit
+
+================================================================================
+  Total runtime: 4.2s
+================================================================================

@@ -1,0 +1,41 @@
+{
+  "strategy": "MTF_KC_1h->15m",
+  "version": "v9",
+  "date": "2026-04-13",
+  "description": "Multi-TF: KC Squeeze signal on 1h, next-bar entry on 15m.",
+  "backtest_result": {
+    "profit_factor": 3.04,
+    "pnl_pct": 61.8,
+    "trades_180d": 72,
+    "max_dd_pct": 7.5,
+    "walk_forward": {
+      "train_pf": 3.08,
+      "train_pnl_pct": 42.2,
+      "train_trades": 51,
+      "test_pf": 2.97,
+      "test_pnl_pct": 13.8,
+      "test_trades": 21,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "signal_timeframe": "1h",
+    "entry_timeframe": "15m",
+    "min_squeeze_bars": 6,
+    "adx_min": 15.0,
+    "vol_mult": 1.0,
+    "mom_bars": 8,
+    "entry_mode": "next_bar"
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 2.5,
+    "tp_mode": "fixed_r",
+    "tp_r": 3.5
+  },
+  "portfolio": {
+    "capital_fraction": 0.25,
+    "risk_per_trade": 0.010,
+    "max_positions": 3
+  }
+}

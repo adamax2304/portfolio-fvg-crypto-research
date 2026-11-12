@@ -1,0 +1,2864 @@
+{
+  "strategy_results": {
+    "BBS": [
+      {
+        "trades": 93,
+        "wins": 29,
+        "losses": 64,
+        "wr_pct": 31.2,
+        "pnl_pct": 31.92,
+        "profit_factor": 1.647,
+        "max_dd_pct": 13.6,
+        "avg_exit_r": 0.549,
+        "avg_mfe": 2.038,
+        "avg_mae": 1.099,
+        "mfe_cap": 38.5,
+        "giveback": 43.1,
+        "avg_bars": 72.2,
+        "exit_reasons": {
+          "sl_hit": 64,
+          "tp_fixed": 29
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 77,
+            "wr": 33.8,
+            "pf": 1.85
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.73
+          }
+        },
+        "final_bal": 1319.21,
+        "config_id": "bbs_mid_atr25",
+        "desc": "mid + ATR2.5 SL",
+        "total_sigs": 103,
+        "score": 0.6570800000000001
+      },
+      {
+        "trades": 99,
+        "wins": 29,
+        "losses": 70,
+        "wr_pct": 29.3,
+        "pnl_pct": 25.34,
+        "profit_factor": 1.569,
+        "max_dd_pct": 11.82,
+        "avg_exit_r": 0.479,
+        "avg_mfe": 2.001,
+        "avg_mae": 1.123,
+        "mfe_cap": 38.0,
+        "giveback": 44.2,
+        "avg_bars": 64.0,
+        "exit_reasons": {
+          "sl_hit": 70,
+          "tp_fixed": 29
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 61,
+            "wr": 36.1,
+            "pf": 2.0
+          },
+          "RANGE": {
+            "n": 11,
+            "wr": 36.4,
+            "pf": 2.23
+          },
+          "SQUEEZE": {
+            "n": 15,
+            "wr": 13.3,
+            "pf": 0.62
+          },
+          "TRANSITION": {
+            "n": 12,
+            "wr": 8.3,
+            "pf": 0.26
+          }
+        },
+        "final_bal": 1253.38,
+        "config_id": "bbs_allreg_atr25",
+        "desc": "all regimes + ATR2.5",
+        "total_sigs": 108,
+        "score": 0.6202299999999998
+      },
+      {
+        "trades": 95,
+        "wins": 27,
+        "losses": 68,
+        "wr_pct": 28.4,
+        "pnl_pct": 20.64,
+        "profit_factor": 1.441,
+        "max_dd_pct": 11.62,
+        "avg_exit_r": 0.436,
+        "avg_mfe": 2.002,
+        "avg_mae": 1.215,
+        "mfe_cap": 35.9,
+        "giveback": 48.1,
+        "avg_bars": 53.0,
+        "exit_reasons": {
+          "sl_hit": 68,
+          "tp_fixed": 27
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 30.4,
+            "pf": 1.58
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.76
+          }
+        },
+        "final_bal": 1206.43,
+        "config_id": "bbs_mid",
+        "desc": "mid sq10 adx20",
+        "total_sigs": 103,
+        "score": 0.55953
+      },
+      {
+        "trades": 177,
+        "wins": 48,
+        "losses": 129,
+        "wr_pct": 27.1,
+        "pnl_pct": 29.1,
+        "profit_factor": 1.358,
+        "max_dd_pct": 26.2,
+        "avg_exit_r": 0.354,
+        "avg_mfe": 1.941,
+        "avg_mae": 1.033,
+        "mfe_cap": 34.5,
+        "giveback": 51.5,
+        "avg_bars": 56.7,
+        "exit_reasons": {
+          "sl_hit": 129,
+          "tp_fixed": 48
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 143,
+            "wr": 28.0,
+            "pf": 1.41
+          },
+          "TRANSITION": {
+            "n": 34,
+            "wr": 23.5,
+            "pf": 1.1
+          }
+        },
+        "final_bal": 1290.99,
+        "config_id": "bbs_loose_atr25",
+        "desc": "loose + ATR2.5 SL",
+        "total_sigs": 210,
+        "score": 0.5144
+      },
+      {
+        "trades": 30,
+        "wins": 10,
+        "losses": 20,
+        "wr_pct": 33.3,
+        "pnl_pct": 4.81,
+        "profit_factor": 1.379,
+        "max_dd_pct": 8.22,
+        "avg_exit_r": 0.558,
+        "avg_mfe": 2.159,
+        "avg_mae": 1.35,
+        "mfe_cap": 30.0,
+        "giveback": 52.9,
+        "avg_bars": 51.3,
+        "exit_reasons": {
+          "sl_hit": 22,
+          "tp_partial": 8
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 25,
+            "wr": 36.0,
+            "pf": 1.52
+          },
+          "TRANSITION": {
+            "n": 5,
+            "wr": 20.0,
+            "pf": 0.69
+          }
+        },
+        "final_bal": 1048.06,
+        "config_id": "bbs_partial",
+        "desc": "partial TP: 50%@2R rest@4R",
+        "total_sigs": 32,
+        "score": 0.49963500000000005
+      },
+      {
+        "trades": 30,
+        "wins": 8,
+        "losses": 22,
+        "wr_pct": 26.7,
+        "pnl_pct": 4.01,
+        "profit_factor": 1.297,
+        "max_dd_pct": 11.19,
+        "avg_exit_r": 0.322,
+        "avg_mfe": 1.941,
+        "avg_mae": 1.36,
+        "mfe_cap": 30.9,
+        "giveback": 52.9,
+        "avg_bars": 54.5,
+        "exit_reasons": {
+          "sl_hit": 22,
+          "tp_fixed": 8
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 25,
+            "wr": 28.0,
+            "pf": 1.39
+          },
+          "TRANSITION": {
+            "n": 5,
+            "wr": 20.0,
+            "pf": 0.78
+          }
+        },
+        "final_bal": 1040.07,
+        "config_id": "bbs_atr25",
+        "desc": "ATR2.5 SL",
+        "total_sigs": 32,
+        "score": 0.46753
+      },
+      {
+        "trades": 181,
+        "wins": 46,
+        "losses": 135,
+        "wr_pct": 25.4,
+        "pnl_pct": 12.94,
+        "profit_factor": 1.216,
+        "max_dd_pct": 31.29,
+        "avg_exit_r": 0.259,
+        "avg_mfe": 1.89,
+        "avg_mae": 1.072,
+        "mfe_cap": 32.4,
+        "giveback": 53.5,
+        "avg_bars": 48.2,
+        "exit_reasons": {
+          "sl_hit": 135,
+          "tp_fixed": 46
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 147,
+            "wr": 25.9,
+            "pf": 1.24
+          },
+          "TRANSITION": {
+            "n": 34,
+            "wr": 23.5,
+            "pf": 1.1
+          }
+        },
+        "final_bal": 1129.37,
+        "config_id": "bbs_loose",
+        "desc": "loose sq8 adx15",
+        "total_sigs": 210,
+        "score": 0.4255749999999999
+      },
+      {
+        "trades": 34,
+        "wins": 8,
+        "losses": 26,
+        "wr_pct": 23.5,
+        "pnl_pct": -0.27,
+        "profit_factor": 1.069,
+        "max_dd_pct": 11.98,
+        "avg_exit_r": 0.143,
+        "avg_mfe": 1.842,
+        "avg_mae": 1.595,
+        "mfe_cap": 27.1,
+        "giveback": 55.6,
+        "avg_bars": 41.4,
+        "exit_reasons": {
+          "sl_hit": 26,
+          "tp_fixed": 8
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 29,
+            "wr": 24.1,
+            "pf": 1.11
+          },
+          "TRANSITION": {
+            "n": 5,
+            "wr": 20.0,
+            "pf": 0.78
+          }
+        },
+        "final_bal": 997.34,
+        "config_id": "bbs_nohtf",
+        "desc": "no HTF filter",
+        "total_sigs": 35,
+        "score": 0.367925
+      },
+      {
+        "trades": 30,
+        "wins": 10,
+        "losses": 20,
+        "wr_pct": 33.3,
+        "pnl_pct": -0.62,
+        "profit_factor": 1.048,
+        "max_dd_pct": 8.32,
+        "avg_exit_r": 0.091,
+        "avg_mfe": 1.893,
+        "avg_mae": 1.175,
+        "mfe_cap": 22.1,
+        "giveback": 41.2,
+        "avg_bars": 43.1,
+        "exit_reasons": {
+          "sl_hit": 20,
+          "trail_atr": 10
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 25,
+            "wr": 36.0,
+            "pf": 1.24
+          },
+          "TRANSITION": {
+            "n": 5,
+            "wr": 20.0,
+            "pf": 0.13
+          }
+        },
+        "final_bal": 993.82,
+        "config_id": "bbs_trail",
+        "desc": "ATR trail after 2R",
+        "total_sigs": 32,
+        "score": 0.36744000000000004
+      },
+      {
+        "trades": 31,
+        "wins": 7,
+        "losses": 24,
+        "wr_pct": 22.6,
+        "pnl_pct": -1.09,
+        "profit_factor": 1.025,
+        "max_dd_pct": 11.98,
+        "avg_exit_r": 0.108,
+        "avg_mfe": 1.791,
+        "avg_mae": 1.669,
+        "mfe_cap": 26.4,
+        "giveback": 56.2,
+        "avg_bars": 38.0,
+        "exit_reasons": {
+          "sl_hit": 24,
+          "tp_fixed": 7
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 26,
+            "wr": 23.1,
+            "pf": 1.06
+          },
+          "TRANSITION": {
+            "n": 5,
+            "wr": 20.0,
+            "pf": 0.79
+          }
+        },
+        "final_bal": 989.15,
+        "config_id": "bbs_prod",
+        "desc": "current production",
+        "total_sigs": 32,
+        "score": 0.34894499999999995
+      }
+    ],
+    "EMA_MOM": [
+      {
+        "trades": 571,
+        "wins": 139,
+        "losses": 432,
+        "wr_pct": 24.3,
+        "pnl_pct": -19.65,
+        "profit_factor": 0.976,
+        "max_dd_pct": 29.34,
+        "avg_exit_r": 0.07,
+        "avg_mfe": 1.602,
+        "avg_mae": 1.131,
+        "mfe_cap": 32.1,
+        "giveback": 51.4,
+        "avg_bars": 54.6,
+        "exit_reasons": {
+          "sl_hit": 432,
+          "tp_fixed": 139
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 336,
+            "wr": 21.4,
+            "pf": 0.83
+          },
+          "RANGE": {
+            "n": 54,
+            "wr": 27.8,
+            "pf": 1.16
+          },
+          "SQUEEZE": {
+            "n": 124,
+            "wr": 29.0,
+            "pf": 1.26
+          },
+          "TRANSITION": {
+            "n": 57,
+            "wr": 28.1,
+            "pf": 1.16
+          }
+        },
+        "final_bal": 803.54,
+        "config_id": "ema_8_50_htf",
+        "desc": "EMA8/50 +HTF wide SL",
+        "total_sigs": 1034,
+        "score": 0.296965
+      },
+      {
+        "trades": 707,
+        "wins": 168,
+        "losses": 539,
+        "wr_pct": 23.8,
+        "pnl_pct": -32.75,
+        "profit_factor": 0.93,
+        "max_dd_pct": 48.4,
+        "avg_exit_r": 0.021,
+        "avg_mfe": 1.556,
+        "avg_mae": 1.061,
+        "mfe_cap": 31.7,
+        "giveback": 52.4,
+        "avg_bars": 63.9,
+        "exit_reasons": {
+          "sl_hit": 539,
+          "tp_fixed": 168
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 379,
+            "wr": 23.5,
+            "pf": 0.91
+          },
+          "RANGE": {
+            "n": 63,
+            "wr": 20.6,
+            "pf": 0.71
+          },
+          "SQUEEZE": {
+            "n": 171,
+            "wr": 22.2,
+            "pf": 0.95
+          },
+          "TRANSITION": {
+            "n": 94,
+            "wr": 29.8,
+            "pf": 1.16
+          }
+        },
+        "final_bal": 672.55,
+        "config_id": "ema_21_100",
+        "desc": "EMA21/100 adx20",
+        "total_sigs": 2221,
+        "score": 0.230625
+      },
+      {
+        "trades": 893,
+        "wins": 230,
+        "losses": 663,
+        "wr_pct": 25.8,
+        "pnl_pct": -51.51,
+        "profit_factor": 0.885,
+        "max_dd_pct": 53.76,
+        "avg_exit_r": 0.023,
+        "avg_mfe": 1.499,
+        "avg_mae": 1.108,
+        "mfe_cap": 34.4,
+        "giveback": 48.9,
+        "avg_bars": 27.4,
+        "exit_reasons": {
+          "sl_hit": 663,
+          "tp_fixed": 230
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 579,
+            "wr": 21.9,
+            "pf": 0.71
+          },
+          "RANGE": {
+            "n": 72,
+            "wr": 29.2,
+            "pf": 1.08
+          },
+          "SQUEEZE": {
+            "n": 145,
+            "wr": 35.2,
+            "pf": 1.36
+          },
+          "TRANSITION": {
+            "n": 97,
+            "wr": 32.0,
+            "pf": 1.23
+          }
+        },
+        "final_bal": 484.91,
+        "config_id": "ema_8_21_htf",
+        "desc": "EMA8/21 +HTF",
+        "total_sigs": 1399,
+        "score": 0.19120999999999994
+      },
+      {
+        "trades": 545,
+        "wins": 151,
+        "losses": 394,
+        "wr_pct": 27.7,
+        "pnl_pct": -48.64,
+        "profit_factor": 0.814,
+        "max_dd_pct": 52.02,
+        "avg_exit_r": -0.028,
+        "avg_mfe": 1.353,
+        "avg_mae": 1.104,
+        "mfe_cap": 38.5,
+        "giveback": 44.9,
+        "avg_bars": 14.8,
+        "exit_reasons": {
+          "sl_hit": 394,
+          "tp_fixed": 151
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 397,
+            "wr": 27.2,
+            "pf": 0.81
+          },
+          "RANGE": {
+            "n": 26,
+            "wr": 26.9,
+            "pf": 0.8
+          },
+          "SQUEEZE": {
+            "n": 56,
+            "wr": 37.5,
+            "pf": 1.14
+          },
+          "TRANSITION": {
+            "n": 66,
+            "wr": 22.7,
+            "pf": 0.61
+          }
+        },
+        "final_bal": 513.56,
+        "config_id": "ema_13_21_fast",
+        "desc": "EMA13/21 fast adx25",
+        "total_sigs": 652,
+        "score": 0.18526
+      },
+      {
+        "trades": 1490,
+        "wins": 388,
+        "losses": 1102,
+        "wr_pct": 26.0,
+        "pnl_pct": -69.01,
+        "profit_factor": 0.897,
+        "max_dd_pct": 74.72,
+        "avg_exit_r": 0.006,
+        "avg_mfe": 1.469,
+        "avg_mae": 1.09,
+        "mfe_cap": 35.3,
+        "giveback": 49.2,
+        "avg_bars": 38.6,
+        "exit_reasons": {
+          "sl_hit": 1102,
+          "tp_fixed": 388
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 1077,
+            "wr": 25.7,
+            "pf": 0.89
+          },
+          "RANGE": {
+            "n": 86,
+            "wr": 24.4,
+            "pf": 0.81
+          },
+          "SQUEEZE": {
+            "n": 205,
+            "wr": 24.9,
+            "pf": 0.87
+          },
+          "TRANSITION": {
+            "n": 122,
+            "wr": 32.0,
+            "pf": 1.07
+          }
+        },
+        "final_bal": 309.87,
+        "config_id": "ema_8_21_loose",
+        "desc": "EMA8/21 adx15 no vol",
+        "total_sigs": 12158,
+        "score": 0.16591999999999996
+      },
+      {
+        "trades": 747,
+        "wins": 160,
+        "losses": 587,
+        "wr_pct": 21.4,
+        "pnl_pct": -54.86,
+        "profit_factor": 0.871,
+        "max_dd_pct": 59.22,
+        "avg_exit_r": -0.041,
+        "avg_mfe": 1.521,
+        "avg_mae": 1.163,
+        "mfe_cap": 29.4,
+        "giveback": 55.2,
+        "avg_bars": 35.9,
+        "exit_reasons": {
+          "sl_hit": 587,
+          "tp_fixed": 160
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 454,
+            "wr": 21.1,
+            "pf": 0.84
+          },
+          "RANGE": {
+            "n": 55,
+            "wr": 25.5,
+            "pf": 1.26
+          },
+          "SQUEEZE": {
+            "n": 164,
+            "wr": 20.1,
+            "pf": 0.81
+          },
+          "TRANSITION": {
+            "n": 74,
+            "wr": 23.0,
+            "pf": 0.97
+          }
+        },
+        "final_bal": 451.42,
+        "config_id": "ema_13_50",
+        "desc": "EMA13/50 adx20 vol1.2",
+        "total_sigs": 1115,
+        "score": 0.15931999999999996
+      },
+      {
+        "trades": 666,
+        "wins": 141,
+        "losses": 525,
+        "wr_pct": 21.2,
+        "pnl_pct": -53.8,
+        "profit_factor": 0.829,
+        "max_dd_pct": 58.09,
+        "avg_exit_r": -0.058,
+        "avg_mfe": 1.5,
+        "avg_mae": 1.17,
+        "mfe_cap": 30.3,
+        "giveback": 55.2,
+        "avg_bars": 34.6,
+        "exit_reasons": {
+          "sl_hit": 525,
+          "tp_fixed": 141
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 385,
+            "wr": 21.8,
+            "pf": 0.87
+          },
+          "RANGE": {
+            "n": 49,
+            "wr": 18.4,
+            "pf": 0.8
+          },
+          "SQUEEZE": {
+            "n": 156,
+            "wr": 17.3,
+            "pf": 0.61
+          },
+          "TRANSITION": {
+            "n": 76,
+            "wr": 27.6,
+            "pf": 1.14
+          }
+        },
+        "final_bal": 461.99,
+        "config_id": "ema_21_50",
+        "desc": "EMA21/50 adx20 vol1.2",
+        "total_sigs": 875,
+        "score": 0.1485649999999999
+      },
+      {
+        "trades": 572,
+        "wins": 118,
+        "losses": 454,
+        "wr_pct": 20.6,
+        "pnl_pct": -49.7,
+        "profit_factor": 0.822,
+        "max_dd_pct": 55.11,
+        "avg_exit_r": -0.09,
+        "avg_mfe": 1.482,
+        "avg_mae": 1.166,
+        "mfe_cap": 28.4,
+        "giveback": 56.6,
+        "avg_bars": 37.7,
+        "exit_reasons": {
+          "sl_hit": 454,
+          "tp_fixed": 118
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 491,
+            "wr": 20.4,
+            "pf": 0.81
+          },
+          "TRANSITION": {
+            "n": 81,
+            "wr": 22.2,
+            "pf": 0.9
+          }
+        },
+        "final_bal": 503.02,
+        "config_id": "ema_13_50_trend",
+        "desc": "EMA13/50 TREND only",
+        "total_sigs": 786,
+        "score": 0.14488499999999993
+      },
+      {
+        "trades": 508,
+        "wins": 103,
+        "losses": 405,
+        "wr_pct": 20.3,
+        "pnl_pct": -49.11,
+        "profit_factor": 0.805,
+        "max_dd_pct": 52.51,
+        "avg_exit_r": -0.092,
+        "avg_mfe": 1.5,
+        "avg_mae": 1.181,
+        "mfe_cap": 27.8,
+        "giveback": 55.6,
+        "avg_bars": 29.4,
+        "exit_reasons": {
+          "sl_hit": 405,
+          "tp_fixed": 103
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 281,
+            "wr": 17.1,
+            "pf": 0.64
+          },
+          "RANGE": {
+            "n": 44,
+            "wr": 27.3,
+            "pf": 1.28
+          },
+          "SQUEEZE": {
+            "n": 125,
+            "wr": 21.6,
+            "pf": 0.86
+          },
+          "TRANSITION": {
+            "n": 58,
+            "wr": 27.6,
+            "pf": 1.24
+          }
+        },
+        "final_bal": 508.87,
+        "config_id": "ema_13_50_htf",
+        "desc": "EMA13/50 +HTF",
+        "total_sigs": 622,
+        "score": 0.14321999999999996
+      },
+      {
+        "trades": 1039,
+        "wins": 204,
+        "losses": 835,
+        "wr_pct": 19.6,
+        "pnl_pct": -66.92,
+        "profit_factor": 0.83,
+        "max_dd_pct": 72.73,
+        "avg_exit_r": -0.041,
+        "avg_mfe": 1.621,
+        "avg_mae": 1.165,
+        "mfe_cap": 27.6,
+        "giveback": 59.8,
+        "avg_bars": 43.2,
+        "exit_reasons": {
+          "sl_hit": 835,
+          "tp_fixed": 204
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 732,
+            "wr": 16.5,
+            "pf": 0.69
+          },
+          "RANGE": {
+            "n": 54,
+            "wr": 31.5,
+            "pf": 1.81
+          },
+          "TRANSITION": {
+            "n": 104,
+            "wr": 30.8,
+            "pf": 1.47
+          },
+          "SQUEEZE": {
+            "n": 149,
+            "wr": 22.8,
+            "pf": 0.85
+          }
+        },
+        "final_bal": 330.79,
+        "config_id": "ema_8_21_3r",
+        "desc": "EMA8/21 +3.5R target",
+        "total_sigs": 2776,
+        "score": 0.11560499999999997
+      },
+      {
+        "trades": 1255,
+        "wins": 304,
+        "losses": 951,
+        "wr_pct": 24.2,
+        "pnl_pct": -76.87,
+        "profit_factor": 0.794,
+        "max_dd_pct": 79.88,
+        "avg_exit_r": -0.061,
+        "avg_mfe": 1.415,
+        "avg_mae": 1.115,
+        "mfe_cap": 33.2,
+        "giveback": 50.6,
+        "avg_bars": 32.2,
+        "exit_reasons": {
+          "sl_hit": 951,
+          "tp_fixed": 304
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 882,
+            "wr": 21.5,
+            "pf": 0.69
+          },
+          "RANGE": {
+            "n": 77,
+            "wr": 29.9,
+            "pf": 1.09
+          },
+          "TRANSITION": {
+            "n": 129,
+            "wr": 32.6,
+            "pf": 1.23
+          },
+          "SQUEEZE": {
+            "n": 167,
+            "wr": 29.3,
+            "pf": 0.92
+          }
+        },
+        "final_bal": 231.29,
+        "config_id": "ema_8_21",
+        "desc": "EMA8/21 adx20 vol1.2",
+        "total_sigs": 2776,
+        "score": 0.11548000000000004
+      },
+      {
+        "trades": 1485,
+        "wins": 515,
+        "losses": 970,
+        "wr_pct": 34.7,
+        "pnl_pct": -87.57,
+        "profit_factor": 0.731,
+        "max_dd_pct": 88.31,
+        "avg_exit_r": -0.111,
+        "avg_mfe": 1.414,
+        "avg_mae": 1.02,
+        "mfe_cap": 26.3,
+        "giveback": 35.5,
+        "avg_bars": 24.2,
+        "exit_reasons": {
+          "sl_hit": 967,
+          "trail_atr": 518
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 1012,
+            "wr": 32.1,
+            "pf": 0.66
+          },
+          "RANGE": {
+            "n": 92,
+            "wr": 40.2,
+            "pf": 1.07
+          },
+          "TRANSITION": {
+            "n": 163,
+            "wr": 41.1,
+            "pf": 0.84
+          },
+          "SQUEEZE": {
+            "n": 218,
+            "wr": 39.4,
+            "pf": 0.87
+          }
+        },
+        "final_bal": 124.27,
+        "config_id": "ema_8_21_trail",
+        "desc": "EMA8/21 +trail",
+        "total_sigs": 2776,
+        "score": 0.07863500000000002
+      }
+    ],
+    "DONCHIAN": [
+      {
+        "trades": 893,
+        "wins": 194,
+        "losses": 699,
+        "wr_pct": 21.7,
+        "pnl_pct": -30.79,
+        "profit_factor": 0.979,
+        "max_dd_pct": 35.18,
+        "avg_exit_r": 0.059,
+        "avg_mfe": 1.679,
+        "avg_mae": 1.051,
+        "mfe_cap": 29.8,
+        "giveback": 56.6,
+        "avg_bars": 62.4,
+        "exit_reasons": {
+          "sl_hit": 699,
+          "tp_fixed": 194
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 514,
+            "wr": 21.2,
+            "pf": 0.94
+          },
+          "RANGE": {
+            "n": 70,
+            "wr": 27.1,
+            "pf": 1.31
+          },
+          "SQUEEZE": {
+            "n": 209,
+            "wr": 23.0,
+            "pf": 1.07
+          },
+          "TRANSITION": {
+            "n": 100,
+            "wr": 18.0,
+            "pf": 0.78
+          }
+        },
+        "final_bal": 692.13,
+        "config_id": "don_100",
+        "desc": "100-bar breakout",
+        "total_sigs": 4208,
+        "score": 0.26159499999999997
+      },
+      {
+        "trades": 1395,
+        "wins": 348,
+        "losses": 1047,
+        "wr_pct": 24.9,
+        "pnl_pct": -42.22,
+        "profit_factor": 0.99,
+        "max_dd_pct": 51.93,
+        "avg_exit_r": 0.101,
+        "avg_mfe": 1.661,
+        "avg_mae": 1.072,
+        "mfe_cap": 32.5,
+        "giveback": 52.3,
+        "avg_bars": 32.5,
+        "exit_reasons": {
+          "tp_fixed": 348,
+          "sl_hit": 1047
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 772,
+            "wr": 24.0,
+            "pf": 0.94
+          },
+          "RANGE": {
+            "n": 127,
+            "wr": 25.2,
+            "pf": 1.0
+          },
+          "SQUEEZE": {
+            "n": 336,
+            "wr": 26.2,
+            "pf": 1.07
+          },
+          "TRANSITION": {
+            "n": 160,
+            "wr": 26.9,
+            "pf": 1.07
+          }
+        },
+        "final_bal": 577.81,
+        "config_id": "don_50_htf_vol",
+        "desc": "50-bar +HTF +vol",
+        "total_sigs": 4665,
+        "score": 0.23422499999999996
+      },
+      {
+        "trades": 1433,
+        "wins": 350,
+        "losses": 1083,
+        "wr_pct": 24.4,
+        "pnl_pct": -51.82,
+        "profit_factor": 0.96,
+        "max_dd_pct": 55.9,
+        "avg_exit_r": 0.077,
+        "avg_mfe": 1.64,
+        "avg_mae": 1.078,
+        "mfe_cap": 31.7,
+        "giveback": 53.4,
+        "avg_bars": 32.5,
+        "exit_reasons": {
+          "tp_fixed": 350,
+          "sl_hit": 1083
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 790,
+            "wr": 23.8,
+            "pf": 0.93
+          },
+          "RANGE": {
+            "n": 134,
+            "wr": 24.6,
+            "pf": 0.96
+          },
+          "SQUEEZE": {
+            "n": 344,
+            "wr": 26.2,
+            "pf": 1.06
+          },
+          "TRANSITION": {
+            "n": 165,
+            "wr": 23.6,
+            "pf": 0.91
+          }
+        },
+        "final_bal": 481.84,
+        "config_id": "don_55_htf",
+        "desc": "55-bar +HTF",
+        "total_sigs": 5256,
+        "score": 0.20299999999999996
+      },
+      {
+        "trades": 1652,
+        "wins": 393,
+        "losses": 1259,
+        "wr_pct": 23.8,
+        "pnl_pct": -63.28,
+        "profit_factor": 0.935,
+        "max_dd_pct": 65.48,
+        "avg_exit_r": 0.052,
+        "avg_mfe": 1.591,
+        "avg_mae": 1.088,
+        "mfe_cap": 33.0,
+        "giveback": 52.4,
+        "avg_bars": 35.1,
+        "exit_reasons": {
+          "sl_hit": 1259,
+          "tp_fixed": 393
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 963,
+            "wr": 23.1,
+            "pf": 0.9
+          },
+          "RANGE": {
+            "n": 93,
+            "wr": 22.6,
+            "pf": 0.88
+          },
+          "SQUEEZE": {
+            "n": 404,
+            "wr": 23.8,
+            "pf": 0.92
+          },
+          "TRANSITION": {
+            "n": 192,
+            "wr": 28.1,
+            "pf": 1.16
+          }
+        },
+        "final_bal": 367.2,
+        "config_id": "don_55_noadx",
+        "desc": "55-bar no ADX",
+        "total_sigs": 8707,
+        "score": 0.18412999999999996
+      },
+      {
+        "trades": 1635,
+        "wins": 384,
+        "losses": 1251,
+        "wr_pct": 23.5,
+        "pnl_pct": -65.64,
+        "profit_factor": 0.916,
+        "max_dd_pct": 69.24,
+        "avg_exit_r": 0.042,
+        "avg_mfe": 1.572,
+        "avg_mae": 1.085,
+        "mfe_cap": 32.2,
+        "giveback": 53.0,
+        "avg_bars": 33.0,
+        "exit_reasons": {
+          "sl_hit": 1251,
+          "tp_fixed": 384
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 989,
+            "wr": 22.6,
+            "pf": 0.87
+          },
+          "RANGE": {
+            "n": 118,
+            "wr": 24.6,
+            "pf": 0.99
+          },
+          "SQUEEZE": {
+            "n": 363,
+            "wr": 25.1,
+            "pf": 0.96
+          },
+          "TRANSITION": {
+            "n": 165,
+            "wr": 24.2,
+            "pf": 1.02
+          }
+        },
+        "final_bal": 343.59,
+        "config_id": "don_55",
+        "desc": "55-bar breakout",
+        "total_sigs": 7090,
+        "score": 0.16924000000000006
+      },
+      {
+        "trades": 1432,
+        "wins": 326,
+        "losses": 1106,
+        "wr_pct": 22.8,
+        "pnl_pct": -67.37,
+        "profit_factor": 0.885,
+        "max_dd_pct": 69.98,
+        "avg_exit_r": 0.005,
+        "avg_mfe": 1.556,
+        "avg_mae": 1.097,
+        "mfe_cap": 31.6,
+        "giveback": 54.7,
+        "avg_bars": 35.4,
+        "exit_reasons": {
+          "sl_hit": 1106,
+          "tp_fixed": 326
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 1161,
+            "wr": 22.0,
+            "pf": 0.85
+          },
+          "TRANSITION": {
+            "n": 271,
+            "wr": 25.8,
+            "pf": 1.05
+          }
+        },
+        "final_bal": 326.26,
+        "config_id": "don_55_trend",
+        "desc": "55-bar TREND only",
+        "total_sigs": 5347,
+        "score": 0.15407999999999994
+      },
+      {
+        "trades": 3611,
+        "wins": 1067,
+        "losses": 2544,
+        "wr_pct": 29.5,
+        "pnl_pct": -97.56,
+        "profit_factor": 0.882,
+        "max_dd_pct": 98.11,
+        "avg_exit_r": 0.022,
+        "avg_mfe": 1.38,
+        "avg_mae": 1.086,
+        "mfe_cap": 38.7,
+        "giveback": 41.9,
+        "avg_bars": 14.7,
+        "exit_reasons": {
+          "tp_fixed": 1067,
+          "sl_hit": 2544
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 2278,
+            "wr": 29.5,
+            "pf": 0.9
+          },
+          "RANGE": {
+            "n": 255,
+            "wr": 32.2,
+            "pf": 1.07
+          },
+          "SQUEEZE": {
+            "n": 676,
+            "wr": 29.4,
+            "pf": 0.81
+          },
+          "TRANSITION": {
+            "n": 402,
+            "wr": 28.6,
+            "pf": 0.78
+          }
+        },
+        "final_bal": 24.4,
+        "config_id": "don_20",
+        "desc": "20-bar breakout",
+        "total_sigs": 12453,
+        "score": 0.14138499999999998
+      },
+      {
+        "trades": 1576,
+        "wins": 364,
+        "losses": 1212,
+        "wr_pct": 23.1,
+        "pnl_pct": -72.12,
+        "profit_factor": 0.883,
+        "max_dd_pct": 77.78,
+        "avg_exit_r": 0.017,
+        "avg_mfe": 1.596,
+        "avg_mae": 1.097,
+        "mfe_cap": 31.2,
+        "giveback": 54.8,
+        "avg_bars": 34.0,
+        "exit_reasons": {
+          "sl_hit": 1212,
+          "tp_fixed": 364
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 923,
+            "wr": 22.1,
+            "pf": 0.84
+          },
+          "RANGE": {
+            "n": 84,
+            "wr": 22.6,
+            "pf": 0.89
+          },
+          "SQUEEZE": {
+            "n": 395,
+            "wr": 23.5,
+            "pf": 0.9
+          },
+          "TRANSITION": {
+            "n": 174,
+            "wr": 27.6,
+            "pf": 1.09
+          }
+        },
+        "final_bal": 278.82,
+        "config_id": "don_55_vol",
+        "desc": "55-bar +vol filter",
+        "total_sigs": 6684,
+        "score": 0.14057999999999998
+      },
+      {
+        "trades": 2923,
+        "wins": 736,
+        "losses": 2187,
+        "wr_pct": 25.2,
+        "pnl_pct": -96.34,
+        "profit_factor": 0.843,
+        "max_dd_pct": 97.03,
+        "avg_exit_r": 0.003,
+        "avg_mfe": 1.499,
+        "avg_mae": 1.119,
+        "mfe_cap": 33.3,
+        "giveback": 50.3,
+        "avg_bars": 17.2,
+        "exit_reasons": {
+          "tp_fixed": 736,
+          "sl_hit": 2187
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 1820,
+            "wr": 25.3,
+            "pf": 0.89
+          },
+          "RANGE": {
+            "n": 206,
+            "wr": 24.8,
+            "pf": 0.73
+          },
+          "SQUEEZE": {
+            "n": 586,
+            "wr": 24.9,
+            "pf": 0.75
+          },
+          "TRANSITION": {
+            "n": 311,
+            "wr": 25.4,
+            "pf": 0.84
+          }
+        },
+        "final_bal": 36.65,
+        "config_id": "don_30",
+        "desc": "30-bar breakout",
+        "total_sigs": 9598,
+        "score": 0.10745499999999995
+      },
+      {
+        "trades": 1907,
+        "wins": 542,
+        "losses": 1365,
+        "wr_pct": 28.4,
+        "pnl_pct": -92.95,
+        "profit_factor": 0.704,
+        "max_dd_pct": 94.07,
+        "avg_exit_r": -0.102,
+        "avg_mfe": 1.549,
+        "avg_mae": 1.041,
+        "mfe_cap": 24.4,
+        "giveback": 42.1,
+        "avg_bars": 25.0,
+        "exit_reasons": {
+          "sl_hit": 1365,
+          "trail_atr": 542
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 1139,
+            "wr": 27.6,
+            "pf": 0.7
+          },
+          "RANGE": {
+            "n": 135,
+            "wr": 29.6,
+            "pf": 0.69
+          },
+          "SQUEEZE": {
+            "n": 432,
+            "wr": 30.3,
+            "pf": 0.64
+          },
+          "TRANSITION": {
+            "n": 201,
+            "wr": 28.4,
+            "pf": 0.89
+          }
+        },
+        "final_bal": 70.5,
+        "config_id": "don_55_trail",
+        "desc": "55-bar +trail",
+        "total_sigs": 7090,
+        "score": 0.049195
+      }
+    ],
+    "KC_SQUEEZE": [
+      {
+        "trades": 127,
+        "wins": 30,
+        "losses": 97,
+        "wr_pct": 23.6,
+        "pnl_pct": 0.64,
+        "profit_factor": 1.092,
+        "max_dd_pct": 15.97,
+        "avg_exit_r": 0.159,
+        "avg_mfe": 1.714,
+        "avg_mae": 1.115,
+        "mfe_cap": 36.0,
+        "giveback": 54.5,
+        "avg_bars": 58.9,
+        "exit_reasons": {
+          "tp_fixed": 30,
+          "sl_hit": 97
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 77,
+            "wr": 23.4,
+            "pf": 1.1
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.62
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 32.1,
+            "pf": 1.62
+          },
+          "TRANSITION": {
+            "n": 14,
+            "wr": 14.3,
+            "pf": 0.54
+          }
+        },
+        "final_bal": 1006.35,
+        "config_id": "kc_atr25",
+        "desc": "sq10 ATR2.5 SL",
+        "total_sigs": 148,
+        "score": 0.394705
+      },
+      {
+        "trades": 131,
+        "wins": 46,
+        "losses": 85,
+        "wr_pct": 35.1,
+        "pnl_pct": 0.54,
+        "profit_factor": 1.126,
+        "max_dd_pct": 15.26,
+        "avg_exit_r": 0.165,
+        "avg_mfe": 1.788,
+        "avg_mae": 1.04,
+        "mfe_cap": 27.9,
+        "giveback": 63.1,
+        "avg_bars": 41.8,
+        "exit_reasons": {
+          "tp_partial": 24,
+          "sl_hit": 107
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 80,
+            "wr": 37.5,
+            "pf": 1.28
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 25.0,
+            "pf": 0.64
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 25.0,
+            "pf": 0.85
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 46.7,
+            "pf": 1.26
+          }
+        },
+        "final_bal": 1005.39,
+        "config_id": "kc_partial",
+        "desc": "sq10 partial 50%@2R rest@4R",
+        "total_sigs": 148,
+        "score": 0.3786699999999999
+      },
+      {
+        "trades": 91,
+        "wins": 22,
+        "losses": 69,
+        "wr_pct": 24.2,
+        "pnl_pct": -5.35,
+        "profit_factor": 0.967,
+        "max_dd_pct": 11.88,
+        "avg_exit_r": 0.069,
+        "avg_mfe": 1.593,
+        "avg_mae": 1.113,
+        "mfe_cap": 36.0,
+        "giveback": 47.6,
+        "avg_bars": 33.2,
+        "exit_reasons": {
+          "sl_hit": 69,
+          "tp_fixed": 22
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 55,
+            "wr": 27.3,
+            "pf": 1.12
+          },
+          "RANGE": {
+            "n": 7,
+            "wr": 14.3,
+            "pf": 0.53
+          },
+          "SQUEEZE": {
+            "n": 17,
+            "wr": 17.6,
+            "pf": 0.72
+          },
+          "TRANSITION": {
+            "n": 12,
+            "wr": 25.0,
+            "pf": 0.99
+          }
+        },
+        "final_bal": 946.53,
+        "config_id": "kc_htf",
+        "desc": "sq10 +HTF",
+        "total_sigs": 99,
+        "score": 0.355005
+      },
+      {
+        "trades": 139,
+        "wins": 37,
+        "losses": 102,
+        "wr_pct": 26.6,
+        "pnl_pct": -10.77,
+        "profit_factor": 0.961,
+        "max_dd_pct": 19.39,
+        "avg_exit_r": 0.098,
+        "avg_mfe": 1.451,
+        "avg_mae": 1.093,
+        "mfe_cap": 37.4,
+        "giveback": 36.2,
+        "avg_bars": 10.7,
+        "exit_reasons": {
+          "sl_hit": 102,
+          "tp_fixed": 37
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 82,
+            "wr": 28.0,
+            "pf": 1.03
+          },
+          "RANGE": {
+            "n": 9,
+            "wr": 11.1,
+            "pf": 0.28
+          },
+          "SQUEEZE": {
+            "n": 29,
+            "wr": 20.7,
+            "pf": 0.78
+          },
+          "TRANSITION": {
+            "n": 19,
+            "wr": 36.8,
+            "pf": 1.42
+          }
+        },
+        "final_bal": 892.32,
+        "config_id": "kc_fast_mom",
+        "desc": "sq10 fast momentum (6 bars)",
+        "total_sigs": 150,
+        "score": 0.34840999999999994
+      },
+      {
+        "trades": 97,
+        "wins": 23,
+        "losses": 74,
+        "wr_pct": 23.7,
+        "pnl_pct": -7.58,
+        "profit_factor": 0.912,
+        "max_dd_pct": 20.4,
+        "avg_exit_r": 0.02,
+        "avg_mfe": 1.726,
+        "avg_mae": 1.081,
+        "mfe_cap": 31.0,
+        "giveback": 56.6,
+        "avg_bars": 41.0,
+        "exit_reasons": {
+          "tp_fixed": 23,
+          "sl_hit": 74
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 82,
+            "wr": 24.4,
+            "pf": 0.94
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 20.0,
+            "pf": 0.77
+          }
+        },
+        "final_bal": 924.16,
+        "config_id": "kc_trend",
+        "desc": "sq10 TREND only",
+        "total_sigs": 109,
+        "score": 0.29812999999999995
+      },
+      {
+        "trades": 136,
+        "wins": 47,
+        "losses": 89,
+        "wr_pct": 34.6,
+        "pnl_pct": -15.16,
+        "profit_factor": 0.829,
+        "max_dd_pct": 19.61,
+        "avg_exit_r": -0.029,
+        "avg_mfe": 1.561,
+        "avg_mae": 1.022,
+        "mfe_cap": 29.0,
+        "giveback": 31.3,
+        "avg_bars": 24.7,
+        "exit_reasons": {
+          "trail_atr": 47,
+          "sl_hit": 89
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 84,
+            "wr": 36.9,
+            "pf": 0.98
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 25.0,
+            "pf": 0.57
+          },
+          "SQUEEZE": {
+            "n": 29,
+            "wr": 24.1,
+            "pf": 0.53
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 46.7,
+            "pf": 0.86
+          }
+        },
+        "final_bal": 848.4,
+        "config_id": "kc_trail",
+        "desc": "sq10 trail after 2R",
+        "total_sigs": 148,
+        "score": 0.27919499999999997
+      },
+      {
+        "trades": 133,
+        "wins": 30,
+        "losses": 103,
+        "wr_pct": 22.6,
+        "pnl_pct": -14.34,
+        "profit_factor": 0.854,
+        "max_dd_pct": 23.86,
+        "avg_exit_r": -0.016,
+        "avg_mfe": 1.608,
+        "avg_mae": 1.126,
+        "mfe_cap": 32.5,
+        "giveback": 54.5,
+        "avg_bars": 36.0,
+        "exit_reasons": {
+          "tp_fixed": 30,
+          "sl_hit": 103
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 81,
+            "wr": 24.7,
+            "pf": 0.94
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.42
+          },
+          "SQUEEZE": {
+            "n": 29,
+            "wr": 20.7,
+            "pf": 0.8
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 20.0,
+            "pf": 0.75
+          }
+        },
+        "final_bal": 856.58,
+        "config_id": "kc_base",
+        "desc": "sq10 adx15 vol1.0",
+        "total_sigs": 148,
+        "score": 0.26835000000000003
+      },
+      {
+        "trades": 541,
+        "wins": 138,
+        "losses": 403,
+        "wr_pct": 25.5,
+        "pnl_pct": -47.52,
+        "profit_factor": 0.828,
+        "max_dd_pct": 52.82,
+        "avg_exit_r": -0.013,
+        "avg_mfe": 1.49,
+        "avg_mae": 1.102,
+        "mfe_cap": 35.3,
+        "giveback": 51.6,
+        "avg_bars": 30.0,
+        "exit_reasons": {
+          "tp_fixed": 138,
+          "sl_hit": 403
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 346,
+            "wr": 26.9,
+            "pf": 0.87
+          },
+          "RANGE": {
+            "n": 34,
+            "wr": 23.5,
+            "pf": 0.79
+          },
+          "SQUEEZE": {
+            "n": 106,
+            "wr": 21.7,
+            "pf": 0.71
+          },
+          "TRANSITION": {
+            "n": 55,
+            "wr": 25.5,
+            "pf": 0.84
+          }
+        },
+        "final_bal": 524.8,
+        "config_id": "kc_loose",
+        "desc": "sq6 adx12 no vol",
+        "total_sigs": 630,
+        "score": 0.17593999999999993
+      },
+      {
+        "trades": 18,
+        "wins": 2,
+        "losses": 16,
+        "wr_pct": 11.1,
+        "pnl_pct": -6.36,
+        "profit_factor": 0.44,
+        "max_dd_pct": 6.59,
+        "avg_exit_r": -0.448,
+        "avg_mfe": 1.361,
+        "avg_mae": 1.211,
+        "mfe_cap": 17.1,
+        "giveback": 71.4,
+        "avg_bars": 34.6,
+        "exit_reasons": {
+          "sl_hit": 16,
+          "tp_fixed": 2
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 13,
+            "wr": 7.7,
+            "pf": 0.27
+          },
+          "RANGE": {
+            "n": 2,
+            "wr": 50.0,
+            "pf": 3.74
+          },
+          "TRANSITION": {
+            "n": 1,
+            "wr": 0.0,
+            "pf": 0.0
+          },
+          "SQUEEZE": {
+            "n": 2,
+            "wr": 0.0,
+            "pf": 0.0
+          }
+        },
+        "final_bal": 936.36,
+        "config_id": "kc_strict",
+        "desc": "sq20 adx20 vol1.3",
+        "total_sigs": 20,
+        "score": 0.10592500000000002
+      },
+      {
+        "trades": 6,
+        "wins": 0,
+        "losses": 6,
+        "wr_pct": 0.0,
+        "pnl_pct": -4.17,
+        "profit_factor": 0.0,
+        "max_dd_pct": 4.17,
+        "avg_exit_r": -1.0,
+        "avg_mfe": 0.703,
+        "avg_mae": 1.434,
+        "mfe_cap": 0.0,
+        "giveback": 100.0,
+        "avg_bars": 12.7,
+        "exit_reasons": {
+          "sl_hit": 6
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 3,
+            "wr": 0.0,
+            "pf": 0.0
+          },
+          "RANGE": {
+            "n": 1,
+            "wr": 0.0,
+            "pf": 0.0
+          },
+          "SQUEEZE": {
+            "n": 2,
+            "wr": 0.0,
+            "pf": 0.0
+          }
+        },
+        "final_bal": 958.27,
+        "config_id": "kc_long_sq",
+        "desc": "sq30 adx15",
+        "total_sigs": 6,
+        "score": -999.0
+      }
+    ]
+  },
+  "sltp_optimization": {
+    "BBS": [
+      {
+        "trades": 93,
+        "wins": 29,
+        "losses": 64,
+        "wr_pct": 31.2,
+        "pnl_pct": 25.33,
+        "profit_factor": 1.657,
+        "max_dd_pct": 11.03,
+        "avg_exit_r": 0.549,
+        "avg_mfe": 2.038,
+        "avg_mae": 1.099,
+        "mfe_cap": 38.5,
+        "giveback": 43.1,
+        "avg_bars": 72.2,
+        "exit_reasons": {
+          "sl_hit": 64,
+          "tp_fixed": 29
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 77,
+            "wr": 33.8,
+            "pf": 1.86
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.74
+          }
+        },
+        "final_bal": 1253.26,
+        "config_id": "atr2.5_3.5r",
+        "score": 0.6545499999999999
+      },
+      {
+        "trades": 93,
+        "wins": 31,
+        "losses": 62,
+        "wr_pct": 33.3,
+        "pnl_pct": 20.84,
+        "profit_factor": 1.575,
+        "max_dd_pct": 11.03,
+        "avg_exit_r": 0.479,
+        "avg_mfe": 1.855,
+        "avg_mae": 1.089,
+        "mfe_cap": 41.3,
+        "giveback": 39.2,
+        "avg_bars": 66.8,
+        "exit_reasons": {
+          "sl_hit": 62,
+          "tp_fixed": 31
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 77,
+            "wr": 36.4,
+            "pf": 1.78
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.68
+          }
+        },
+        "final_bal": 1208.44,
+        "config_id": "atr2.5_3.0r",
+        "score": 0.6300149999999998
+      },
+      {
+        "trades": 93,
+        "wins": 26,
+        "losses": 67,
+        "wr_pct": 28.0,
+        "pnl_pct": 23.37,
+        "profit_factor": 1.581,
+        "max_dd_pct": 11.59,
+        "avg_exit_r": 0.532,
+        "avg_mfe": 2.18,
+        "avg_mae": 1.116,
+        "mfe_cap": 34.6,
+        "giveback": 49.0,
+        "avg_bars": 101.2,
+        "exit_reasons": {
+          "sl_hit": 67,
+          "tp_fixed": 26
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 77,
+            "wr": 29.9,
+            "pf": 1.74
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.83
+          }
+        },
+        "final_bal": 1233.73,
+        "config_id": "atr2.5_4.0r",
+        "score": 0.60852
+      },
+      {
+        "trades": 95,
+        "wins": 27,
+        "losses": 68,
+        "wr_pct": 28.4,
+        "pnl_pct": 16.67,
+        "profit_factor": 1.451,
+        "max_dd_pct": 9.39,
+        "avg_exit_r": 0.436,
+        "avg_mfe": 2.002,
+        "avg_mae": 1.215,
+        "mfe_cap": 35.9,
+        "giveback": 48.1,
+        "avg_bars": 53.0,
+        "exit_reasons": {
+          "sl_hit": 68,
+          "tp_fixed": 27
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 30.4,
+            "pf": 1.59
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.76
+          }
+        },
+        "final_bal": 1166.72,
+        "config_id": "default_3.5r",
+        "score": 0.56042
+      },
+      {
+        "trades": 95,
+        "wins": 27,
+        "losses": 68,
+        "wr_pct": 28.4,
+        "pnl_pct": 17.78,
+        "profit_factor": 1.473,
+        "max_dd_pct": 11.9,
+        "avg_exit_r": 0.466,
+        "avg_mfe": 2.079,
+        "avg_mae": 1.157,
+        "mfe_cap": 35.0,
+        "giveback": 51.8,
+        "avg_bars": 52.8,
+        "exit_reasons": {
+          "sl_hit": 68,
+          "tp_fixed": 27
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 30.4,
+            "pf": 1.61
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.81
+          }
+        },
+        "final_bal": 1177.84,
+        "config_id": "atr2.0_3.5r",
+        "score": 0.56007
+      },
+      {
+        "trades": 95,
+        "wins": 36,
+        "losses": 59,
+        "wr_pct": 37.9,
+        "pnl_pct": 14.41,
+        "profit_factor": 1.464,
+        "max_dd_pct": 10.24,
+        "avg_exit_r": 0.542,
+        "avg_mfe": 2.118,
+        "avg_mae": 1.071,
+        "mfe_cap": 31.7,
+        "giveback": 57.1,
+        "avg_bars": 41.7,
+        "exit_reasons": {
+          "sl_hit": 71,
+          "tp_partial": 24
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 39.2,
+            "pf": 1.57
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 31.2,
+            "pf": 0.95
+          }
+        },
+        "final_bal": 1144.11,
+        "config_id": "atr2.0_partial",
+        "score": 0.540805
+      },
+      {
+        "trades": 95,
+        "wins": 32,
+        "losses": 63,
+        "wr_pct": 33.7,
+        "pnl_pct": 9.97,
+        "profit_factor": 1.336,
+        "max_dd_pct": 9.88,
+        "avg_exit_r": 0.316,
+        "avg_mfe": 1.671,
+        "avg_mae": 1.111,
+        "mfe_cap": 41.6,
+        "giveback": 38.5,
+        "avg_bars": 33.5,
+        "exit_reasons": {
+          "sl_hit": 63,
+          "tp_fixed": 32
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 36.7,
+            "pf": 1.5
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.61
+          }
+        },
+        "final_bal": 1099.7,
+        "config_id": "default_2.5r",
+        "score": 0.533235
+      },
+      {
+        "trades": 95,
+        "wins": 29,
+        "losses": 66,
+        "wr_pct": 30.5,
+        "pnl_pct": 11.93,
+        "profit_factor": 1.365,
+        "max_dd_pct": 9.54,
+        "avg_exit_r": 0.355,
+        "avg_mfe": 1.828,
+        "avg_mae": 1.128,
+        "mfe_cap": 38.3,
+        "giveback": 44.2,
+        "avg_bars": 43.1,
+        "exit_reasons": {
+          "sl_hit": 66,
+          "tp_fixed": 29
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 32.9,
+            "pf": 1.51
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.69
+          }
+        },
+        "final_bal": 1119.31,
+        "config_id": "default_3.0r",
+        "score": 0.5328849999999998
+      },
+      {
+        "trades": 92,
+        "wins": 26,
+        "losses": 66,
+        "wr_pct": 28.3,
+        "pnl_pct": 13.7,
+        "profit_factor": 1.377,
+        "max_dd_pct": 8.97,
+        "avg_exit_r": 0.357,
+        "avg_mfe": 1.884,
+        "avg_mae": 1.118,
+        "mfe_cap": 35.3,
+        "giveback": 49.0,
+        "avg_bars": 81.5,
+        "exit_reasons": {
+          "sl_hit": 66,
+          "tp_fixed": 26
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 76,
+            "wr": 30.3,
+            "pf": 1.52
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.72
+          }
+        },
+        "final_bal": 1137.01,
+        "config_id": "atr3.0_3.5r",
+        "score": 0.528295
+      },
+      {
+        "trades": 96,
+        "wins": 32,
+        "losses": 64,
+        "wr_pct": 33.3,
+        "pnl_pct": 5.89,
+        "profit_factor": 1.271,
+        "max_dd_pct": 9.91,
+        "avg_exit_r": 0.312,
+        "avg_mfe": 1.683,
+        "avg_mae": 1.036,
+        "mfe_cap": 42.4,
+        "giveback": 44.8,
+        "avg_bars": 14.8,
+        "exit_reasons": {
+          "sl_hit": 64,
+          "tp_fixed": 32
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 80,
+            "wr": 33.8,
+            "pf": 1.3
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 31.2,
+            "pf": 1.14
+          }
+        },
+        "final_bal": 1058.89,
+        "config_id": "atr1.5_2.5r",
+        "score": 0.50002
+      },
+      {
+        "trades": 93,
+        "wins": 36,
+        "losses": 57,
+        "wr_pct": 38.7,
+        "pnl_pct": 5.39,
+        "profit_factor": 1.24,
+        "max_dd_pct": 9.0,
+        "avg_exit_r": 0.224,
+        "avg_mfe": 1.771,
+        "avg_mae": 0.977,
+        "mfe_cap": 32.5,
+        "giveback": 29.4,
+        "avg_bars": 48.2,
+        "exit_reasons": {
+          "sl_hit": 57,
+          "trail_atr": 36
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 77,
+            "wr": 40.3,
+            "pf": 1.37
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 31.2,
+            "pf": 0.62
+          }
+        },
+        "final_bal": 1053.87,
+        "config_id": "atr2.5_trail",
+        "score": 0.480435
+      },
+      {
+        "trades": 95,
+        "wins": 27,
+        "losses": 68,
+        "wr_pct": 28.4,
+        "pnl_pct": 6.33,
+        "profit_factor": 1.238,
+        "max_dd_pct": 11.3,
+        "avg_exit_r": 0.273,
+        "avg_mfe": 1.884,
+        "avg_mae": 1.157,
+        "mfe_cap": 34.6,
+        "giveback": 51.8,
+        "avg_bars": 46.4,
+        "exit_reasons": {
+          "sl_hit": 68,
+          "tp_fixed": 27
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 30.4,
+            "pf": 1.36
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 18.8,
+            "pf": 0.64
+          }
+        },
+        "final_bal": 1063.25,
+        "config_id": "atr2.0_3.0r",
+        "score": 0.46054499999999987
+      }
+    ],
+    "KC_SQUEEZE": [
+      {
+        "trades": 127,
+        "wins": 30,
+        "losses": 97,
+        "wr_pct": 23.6,
+        "pnl_pct": 0.64,
+        "profit_factor": 1.092,
+        "max_dd_pct": 15.97,
+        "avg_exit_r": 0.159,
+        "avg_mfe": 1.714,
+        "avg_mae": 1.115,
+        "mfe_cap": 36.0,
+        "giveback": 54.5,
+        "avg_bars": 58.9,
+        "exit_reasons": {
+          "tp_fixed": 30,
+          "sl_hit": 97
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 77,
+            "wr": 23.4,
+            "pf": 1.1
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.62
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 32.1,
+            "pf": 1.62
+          },
+          "TRANSITION": {
+            "n": 14,
+            "wr": 14.3,
+            "pf": 0.54
+          }
+        },
+        "final_bal": 1006.35,
+        "config_id": "atr2.5_3.5r",
+        "score": 0.394705
+      },
+      {
+        "trades": 128,
+        "wins": 33,
+        "losses": 95,
+        "wr_pct": 25.8,
+        "pnl_pct": -2.87,
+        "profit_factor": 1.033,
+        "max_dd_pct": 16.94,
+        "avg_exit_r": 0.109,
+        "avg_mfe": 1.564,
+        "avg_mae": 1.1,
+        "mfe_cap": 38.8,
+        "giveback": 50.0,
+        "avg_bars": 51.6,
+        "exit_reasons": {
+          "tp_fixed": 33,
+          "sl_hit": 95
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 78,
+            "wr": 25.6,
+            "pf": 1.01
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.47
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 32.1,
+            "pf": 1.42
+          },
+          "TRANSITION": {
+            "n": 14,
+            "wr": 21.4,
+            "pf": 0.85
+          }
+        },
+        "final_bal": 971.32,
+        "config_id": "atr2.5_3.0r",
+        "score": 0.3788349999999999
+      },
+      {
+        "trades": 131,
+        "wins": 46,
+        "losses": 85,
+        "wr_pct": 35.1,
+        "pnl_pct": 0.54,
+        "profit_factor": 1.126,
+        "max_dd_pct": 15.26,
+        "avg_exit_r": 0.165,
+        "avg_mfe": 1.788,
+        "avg_mae": 1.04,
+        "mfe_cap": 27.9,
+        "giveback": 63.1,
+        "avg_bars": 41.8,
+        "exit_reasons": {
+          "tp_partial": 24,
+          "sl_hit": 107
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 80,
+            "wr": 37.5,
+            "pf": 1.28
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 25.0,
+            "pf": 0.64
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 25.0,
+            "pf": 0.85
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 46.7,
+            "pf": 1.26
+          }
+        },
+        "final_bal": 1005.39,
+        "config_id": "atr2.0_partial",
+        "score": 0.3786699999999999
+      },
+      {
+        "trades": 122,
+        "wins": 28,
+        "losses": 94,
+        "wr_pct": 23.0,
+        "pnl_pct": -1.32,
+        "profit_factor": 1.044,
+        "max_dd_pct": 19.76,
+        "avg_exit_r": 0.113,
+        "avg_mfe": 1.678,
+        "avg_mae": 1.063,
+        "mfe_cap": 35.2,
+        "giveback": 54.8,
+        "avg_bars": 79.7,
+        "exit_reasons": {
+          "sl_hit": 94,
+          "tp_fixed": 28
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 74,
+            "wr": 23.0,
+            "pf": 1.08
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.51
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 25.0,
+            "pf": 1.12
+          },
+          "TRANSITION": {
+            "n": 12,
+            "wr": 25.0,
+            "pf": 1.08
+          }
+        },
+        "final_bal": 986.79,
+        "config_id": "atr3.0_3.5r",
+        "score": 0.36698000000000003
+      },
+      {
+        "trades": 137,
+        "wins": 37,
+        "losses": 100,
+        "wr_pct": 27.0,
+        "pnl_pct": -9.03,
+        "profit_factor": 0.989,
+        "max_dd_pct": 16.7,
+        "avg_exit_r": 0.117,
+        "avg_mfe": 1.444,
+        "avg_mae": 1.096,
+        "mfe_cap": 37.8,
+        "giveback": 35.1,
+        "avg_bars": 10.5,
+        "exit_reasons": {
+          "sl_hit": 100,
+          "tp_fixed": 37
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 84,
+            "wr": 28.6,
+            "pf": 1.06
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 25.0,
+            "pf": 0.81
+          },
+          "SQUEEZE": {
+            "n": 29,
+            "wr": 17.2,
+            "pf": 0.65
+          },
+          "TRANSITION": {
+            "n": 16,
+            "wr": 37.5,
+            "pf": 1.5
+          }
+        },
+        "final_bal": 909.72,
+        "config_id": "atr1.5_2.5r",
+        "score": 0.3669549999999999
+      },
+      {
+        "trades": 125,
+        "wins": 26,
+        "losses": 99,
+        "wr_pct": 20.8,
+        "pnl_pct": -1.97,
+        "profit_factor": 1.043,
+        "max_dd_pct": 21.42,
+        "avg_exit_r": 0.128,
+        "avg_mfe": 1.826,
+        "avg_mae": 1.135,
+        "mfe_cap": 31.5,
+        "giveback": 60.0,
+        "avg_bars": 69.8,
+        "exit_reasons": {
+          "sl_hit": 99,
+          "tp_fixed": 26
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 76,
+            "wr": 21.1,
+            "pf": 1.09
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.61
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 25.0,
+            "pf": 1.26
+          },
+          "TRANSITION": {
+            "n": 13,
+            "wr": 15.4,
+            "pf": 0.64
+          }
+        },
+        "final_bal": 980.29,
+        "config_id": "atr2.5_4.0r",
+        "score": 0.34871499999999994
+      },
+      {
+        "trades": 135,
+        "wins": 36,
+        "losses": 99,
+        "wr_pct": 26.7,
+        "pnl_pct": -11.3,
+        "profit_factor": 0.913,
+        "max_dd_pct": 18.75,
+        "avg_exit_r": 0.029,
+        "avg_mfe": 1.475,
+        "avg_mae": 1.08,
+        "mfe_cap": 38.4,
+        "giveback": 45.5,
+        "avg_bars": 26.7,
+        "exit_reasons": {
+          "tp_fixed": 36,
+          "sl_hit": 99
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 83,
+            "wr": 27.7,
+            "pf": 0.97
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 25.0,
+            "pf": 0.77
+          },
+          "SQUEEZE": {
+            "n": 29,
+            "wr": 24.1,
+            "pf": 0.83
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 26.7,
+            "pf": 0.82
+          }
+        },
+        "final_bal": 886.98,
+        "config_id": "default_2.5r",
+        "score": 0.32497499999999996
+      },
+      {
+        "trades": 130,
+        "wins": 28,
+        "losses": 102,
+        "wr_pct": 21.5,
+        "pnl_pct": -9.57,
+        "profit_factor": 0.934,
+        "max_dd_pct": 23.07,
+        "avg_exit_r": 0.051,
+        "avg_mfe": 1.729,
+        "avg_mae": 1.137,
+        "mfe_cap": 31.6,
+        "giveback": 56.9,
+        "avg_bars": 41.8,
+        "exit_reasons": {
+          "tp_fixed": 28,
+          "sl_hit": 102
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 22.8,
+            "pf": 1.0
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.55
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 21.4,
+            "pf": 0.96
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 20.0,
+            "pf": 0.78
+          }
+        },
+        "final_bal": 904.34,
+        "config_id": "atr2.0_3.5r",
+        "score": 0.30004000000000003
+      },
+      {
+        "trades": 130,
+        "wins": 28,
+        "losses": 102,
+        "wr_pct": 21.5,
+        "pnl_pct": -9.57,
+        "profit_factor": 0.934,
+        "max_dd_pct": 23.07,
+        "avg_exit_r": 0.051,
+        "avg_mfe": 1.729,
+        "avg_mae": 1.137,
+        "mfe_cap": 31.6,
+        "giveback": 56.9,
+        "avg_bars": 41.8,
+        "exit_reasons": {
+          "tp_fixed": 28,
+          "sl_hit": 102
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 79,
+            "wr": 22.8,
+            "pf": 1.0
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.55
+          },
+          "SQUEEZE": {
+            "n": 28,
+            "wr": 21.4,
+            "pf": 0.96
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 20.0,
+            "pf": 0.78
+          }
+        },
+        "final_bal": 904.34,
+        "config_id": "default_3.5r",
+        "score": 0.30004000000000003
+      },
+      {
+        "trades": 133,
+        "wins": 30,
+        "losses": 103,
+        "wr_pct": 22.6,
+        "pnl_pct": -14.34,
+        "profit_factor": 0.854,
+        "max_dd_pct": 23.86,
+        "avg_exit_r": -0.016,
+        "avg_mfe": 1.608,
+        "avg_mae": 1.126,
+        "mfe_cap": 32.5,
+        "giveback": 54.5,
+        "avg_bars": 36.0,
+        "exit_reasons": {
+          "tp_fixed": 30,
+          "sl_hit": 103
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 81,
+            "wr": 24.7,
+            "pf": 0.94
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.42
+          },
+          "SQUEEZE": {
+            "n": 29,
+            "wr": 20.7,
+            "pf": 0.8
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 20.0,
+            "pf": 0.75
+          }
+        },
+        "final_bal": 856.58,
+        "config_id": "atr2.0_3.0r",
+        "score": 0.26835000000000003
+      },
+      {
+        "trades": 133,
+        "wins": 30,
+        "losses": 103,
+        "wr_pct": 22.6,
+        "pnl_pct": -14.34,
+        "profit_factor": 0.854,
+        "max_dd_pct": 23.86,
+        "avg_exit_r": -0.016,
+        "avg_mfe": 1.608,
+        "avg_mae": 1.126,
+        "mfe_cap": 32.5,
+        "giveback": 54.5,
+        "avg_bars": 36.0,
+        "exit_reasons": {
+          "tp_fixed": 30,
+          "sl_hit": 103
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 81,
+            "wr": 24.7,
+            "pf": 0.94
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 12.5,
+            "pf": 0.42
+          },
+          "SQUEEZE": {
+            "n": 29,
+            "wr": 20.7,
+            "pf": 0.8
+          },
+          "TRANSITION": {
+            "n": 15,
+            "wr": 20.0,
+            "pf": 0.75
+          }
+        },
+        "final_bal": 856.58,
+        "config_id": "default_3.0r",
+        "score": 0.26835000000000003
+      },
+      {
+        "trades": 131,
+        "wins": 42,
+        "losses": 89,
+        "wr_pct": 32.1,
+        "pnl_pct": -17.42,
+        "profit_factor": 0.75,
+        "max_dd_pct": 19.18,
+        "avg_exit_r": -0.102,
+        "avg_mfe": 1.451,
+        "avg_mae": 1.031,
+        "mfe_cap": 29.3,
+        "giveback": 37.3,
+        "avg_bars": 36.0,
+        "exit_reasons": {
+          "trail_atr": 42,
+          "sl_hit": 89
+        },
+        "per_regime": {
+          "TREND": {
+            "n": 80,
+            "wr": 31.2,
+            "pf": 0.82
+          },
+          "RANGE": {
+            "n": 8,
+            "wr": 25.0,
+            "pf": 0.47
+          },
+          "SQUEEZE": {
+            "n": 29,
+            "wr": 34.5,
+            "pf": 0.67
+          },
+          "TRANSITION": {
+            "n": 14,
+            "wr": 35.7,
+            "pf": 0.66
+          }
+        },
+        "final_bal": 825.79,
+        "config_id": "atr2.5_trail",
+        "score": 0.2435499999999999
+      }
+    ]
+  },
+  "combined": {
+    "trades": 97,
+    "wins": 32,
+    "losses": 65,
+    "wr_pct": 33.0,
+    "pnl_pct": 25.81,
+    "profit_factor": 1.79,
+    "max_dd_pct": 8.92,
+    "avg_exit_r": 0.635,
+    "avg_mfe": 2.1,
+    "avg_mae": 1.082,
+    "mfe_cap": 40.2,
+    "giveback": 41.8,
+    "avg_bars": 71.4,
+    "exit_reasons": {
+      "sl_hit": 65,
+      "tp_fixed": 32
+    },
+    "per_regime": {
+      "TREND": {
+        "n": 81,
+        "wr": 35.8,
+        "pf": 2.02
+      },
+      "TRANSITION": {
+        "n": 16,
+        "wr": 18.8,
+        "pf": 0.75
+      }
+    },
+    "final_bal": 1258.14
+  },
+  "walk_forward": [
+    {
+      "name": "BBS",
+      "id": "bbs_mid_atr25",
+      "train_pnl": 22.82,
+      "test_pnl": 7.41,
+      "train_pf": 1.9,
+      "test_pf": 1.405,
+      "train_n": 54,
+      "test_n": 39,
+      "delta": -15.41,
+      "passed": "True",
+      "tag": "PASS"
+    },
+    {
+      "name": "BBS",
+      "id": "bbs_allreg_atr25",
+      "train_pnl": 26.09,
+      "test_pnl": -0.59,
+      "train_pf": 2.008,
+      "test_pf": 1.054,
+      "train_n": 65,
+      "test_n": 34,
+      "delta": -26.68,
+      "passed": "True",
+      "tag": "PASS"
+    },
+    {
+      "name": "BBS",
+      "id": "bbs_mid",
+      "train_pnl": 20.86,
+      "test_pnl": -0.18,
+      "train_pf": 1.842,
+      "test_pf": 1.077,
+      "train_n": 54,
+      "test_n": 41,
+      "delta": -21.04,
+      "passed": "True",
+      "tag": "PASS"
+    },
+    {
+      "name": "KC_SQUEEZE",
+      "id": "kc_atr25",
+      "train_pnl": 1.82,
+      "test_pnl": -1.16,
+      "train_pf": 1.124,
+      "test_pf": 1.028,
+      "train_n": 88,
+      "test_n": 39,
+      "delta": -2.98,
+      "passed": "True",
+      "tag": "PASS"
+    },
+    {
+      "name": "KC_SQUEEZE",
+      "id": "kc_partial",
+      "train_pnl": -4.57,
+      "test_pnl": 5.36,
+      "train_pf": 0.988,
+      "test_pf": 1.468,
+      "train_n": 92,
+      "test_n": 39,
+      "delta": 9.93,
+      "passed": "True",
+      "tag": "PASS"
+    }
+  ],
+  "metadata": {
+    "timestamp": "20260413_185945",
+    "symbols": 20,
+    "runtime_sec": 166.1
+  }
+}

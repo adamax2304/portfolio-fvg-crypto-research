@@ -1,0 +1,54 @@
+{
+  "strategy": "MTF_BBS_1h->5m",
+  "version": "v10",
+  "date": "2026-04-13",
+  "description": "Multi-TF: BBS signal on 1h, pullback entry on 5m EMA21. Best quality strategy. 365d backtest.",
+  "backtest_result": {
+    "period": "365d",
+    "symbols": 20,
+    "profit_factor": 9.66,
+    "pnl_pct": 216.1,
+    "trades_365d": 93,
+    "win_rate_pct": 77.4,
+    "max_dd_pct": 1.9,
+    "avg_exit_r": 2.119,
+    "avg_mfe": 3.528,
+    "avg_mae": 0.578,
+    "walk_forward": {
+      "train_pf": 9.75,
+      "train_pnl_pct": 116.6,
+      "train_trades": 63,
+      "test_pf": 9.55,
+      "test_pnl_pct": 45.9,
+      "test_trades": 30,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "signal_timeframe": "1h",
+    "entry_timeframe": "5m",
+    "min_squeeze_bars": 8,
+    "adx_threshold": 15.0,
+    "vol_mult": 1.0,
+    "htf_filter": false,
+    "headfake_filter": true,
+    "entry_mode": "pullback_ema21",
+    "max_wait_bars": 20
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 1.5,
+    "tp_mode": "fixed_r",
+    "tp_r": 3.0
+  },
+  "portfolio": {
+    "capital_fraction": 0.35,
+    "risk_per_trade": 0.010,
+    "max_positions": 4
+  },
+  "vs_v9": {
+    "v9_pf": 5.32,
+    "v10_pf": 9.66,
+    "improvement": "SL tightened ATR2.5->1.5, TP 3.5R->3.0R, sq 6->8, adx 18->15"
+  }
+}

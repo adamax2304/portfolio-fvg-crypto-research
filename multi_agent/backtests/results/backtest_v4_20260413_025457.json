@@ -1,0 +1,395 @@
+{
+  "run_date": "2026-04-13",
+  "runtime_cpu_seconds": 5160,
+  "data_period": "90d",
+  "symbols": 20,
+  "start_balance": 1000.0,
+  "phase0_verify": {
+    "portfolio_pnl_usd": 175.25,
+    "agent_pnl_usd": 175.25,
+    "discrepancy": 0.0,
+    "verified": true
+  },
+  "bbs_optimal_exit": "pure_fixed_3.5R",
+  "bbs_optimal_regime": "regime_no_squeeze",
+  "bbs_optimal_risk": "risk_0.015",
+  "phase1A_exits": {
+    "pure_fixed_2.5R": {
+      "trades": 102,
+      "wr_pct": 33.3,
+      "pnl_pct": 11.75,
+      "dd_pct": 12.81,
+      "pf": 1.33,
+      "pnl_usd": 117.53
+    },
+    "pure_fixed_3.0R": {
+      "trades": 101,
+      "wr_pct": 31.7,
+      "pnl_pct": 17.52,
+      "dd_pct": 13.38,
+      "pf": 1.41,
+      "pnl_usd": 175.25
+    },
+    "pure_fixed_3.5R": {
+      "trades": 99,
+      "wr_pct": 28.3,
+      "pnl_pct": 21.32,
+      "dd_pct": 14.2,
+      "pf": 1.44,
+      "pnl_usd": 213.18
+    },
+    "pure_chandelier": {
+      "trades": 106,
+      "wr_pct": 44.3,
+      "pnl_pct": -5.14,
+      "dd_pct": 13.65,
+      "pf": 1.03,
+      "pnl_usd": -51.39
+    },
+    "partial1.5R_trail": {
+      "trades": 106,
+      "wr_pct": 44.3,
+      "pnl_pct": -2.18,
+      "dd_pct": 11.13,
+      "pf": 0.58,
+      "pnl_usd": -21.77
+    },
+    "partial2.0R_trail": {
+      "trades": 106,
+      "wr_pct": 44.3,
+      "pnl_pct": -2.38,
+      "dd_pct": 11.59,
+      "pf": 0.63,
+      "pnl_usd": -23.82
+    },
+    "partial1.5R_fixed4R": {
+      "trades": 98,
+      "wr_pct": 27.6,
+      "pnl_pct": 14.31,
+      "dd_pct": 8.92,
+      "pf": 0.85,
+      "pnl_usd": 143.11
+    },
+    "partial2.0R_fixed4R": {
+      "trades": 98,
+      "wr_pct": 27.6,
+      "pnl_pct": 15.01,
+      "dd_pct": 11.58,
+      "pf": 0.94,
+      "pnl_usd": 150.11
+    }
+  },
+  "phase1B_regimes": {
+    "regime_base": {
+      "trades": 99,
+      "wr_pct": 28.3,
+      "pnl_pct": 21.32,
+      "dd_pct": 14.2,
+      "pf": 1.44,
+      "pnl_usd": 213.18
+    },
+    "regime_no_squeeze": {
+      "trades": 86,
+      "wr_pct": 30.2,
+      "pnl_pct": 29.59,
+      "dd_pct": 12.28,
+      "pf": 1.58,
+      "pnl_usd": 295.85
+    },
+    "regime_trend_trans": {
+      "trades": 86,
+      "wr_pct": 30.2,
+      "pnl_pct": 29.75,
+      "dd_pct": 12.75,
+      "pf": 1.57,
+      "pnl_usd": 297.47
+    },
+    "regime_conservative": {
+      "trades": 86,
+      "wr_pct": 30.2,
+      "pnl_pct": 23.64,
+      "dd_pct": 10.27,
+      "pf": 1.59,
+      "pnl_usd": 236.4
+    },
+    "regime_broad": {
+      "trades": 110,
+      "wr_pct": 30.0,
+      "pnl_pct": 22.84,
+      "dd_pct": 14.05,
+      "pf": 1.46,
+      "pnl_usd": 228.37
+    }
+  },
+  "phase1C_risk": {
+    "risk_0.008": {
+      "trades": 86,
+      "wr_pct": 30.2,
+      "pnl_pct": 23.51,
+      "dd_pct": 9.89,
+      "pf": 1.6,
+      "pnl_usd": 235.05
+    },
+    "risk_0.010": {
+      "trades": 86,
+      "wr_pct": 30.2,
+      "pnl_pct": 29.59,
+      "dd_pct": 12.28,
+      "pf": 1.58,
+      "pnl_usd": 295.85
+    },
+    "risk_0.012": {
+      "trades": 86,
+      "wr_pct": 30.2,
+      "pnl_pct": 35.72,
+      "dd_pct": 14.64,
+      "pf": 1.56,
+      "pnl_usd": 357.23
+    },
+    "risk_0.015": {
+      "trades": 86,
+      "wr_pct": 30.2,
+      "pnl_pct": 45.01,
+      "dd_pct": 18.1,
+      "pf": 1.53,
+      "pnl_usd": 450.11
+    }
+  },
+  "phase1D_blacklist": {
+    "no_blacklist": {
+      "trades": 86,
+      "pnl_pct": 45.01,
+      "dd_pct": 18.1,
+      "pf": 1.53,
+      "pnl_usd": 450.11
+    },
+    "blacklist_3": {
+      "trades": 72,
+      "pnl_pct": 71.86,
+      "dd_pct": 13.06,
+      "pf": 1.91,
+      "pnl_usd": 718.64,
+      "removed_symbols": [
+        "ARB/USDT:USDT",
+        "OP/USDT:USDT",
+        "POL/USDT:USDT"
+      ]
+    }
+  },
+  "mr_verdict": {
+    "adds_value": false,
+    "verdict": "HURTS or NEUTRAL",
+    "best_mr_config": "mr_15pct_wide",
+    "bbs_score": 38.663,
+    "best_mr_score": 38.338,
+    "configs": {
+      "mr_10pct_r0.3": {
+        "trades": 123,
+        "wr_pct": 29.3,
+        "pnl_pct": 44.45,
+        "dd_pct": 18.39,
+        "pf": 1.52,
+        "delta_score": -0.605
+      },
+      "mr_15pct_r0.4": {
+        "trades": 123,
+        "wr_pct": 29.3,
+        "pnl_pct": 43.88,
+        "dd_pct": 18.68,
+        "pf": 1.51,
+        "delta_score": -1.291
+      },
+      "mr_20pct_r0.5": {
+        "trades": 123,
+        "wr_pct": 29.3,
+        "pnl_pct": 43.13,
+        "dd_pct": 19.06,
+        "pf": 1.5,
+        "delta_score": -2.193
+      },
+      "mr_20pct_r0.6": {
+        "trades": 123,
+        "wr_pct": 29.3,
+        "pnl_pct": 42.76,
+        "dd_pct": 19.25,
+        "pf": 1.49,
+        "delta_score": -2.639
+      },
+      "mr_15pct_wide": {
+        "trades": 180,
+        "wr_pct": 31.7,
+        "pnl_pct": 44.57,
+        "dd_pct": 18.18,
+        "pf": 1.51,
+        "delta_score": -0.325
+      }
+    }
+  },
+  "fvg_v4_verdict": {
+    "viable": true,
+    "verdict": "SHOWS PROMISE",
+    "best_config": "fvg_v4_atr2_3R_sq_trans",
+    "best_pf": 1.62,
+    "best_pnl": 120.96,
+    "note": "Small sample (54 trades), walk-forward not tested standalone. Keep disabled.",
+    "configs": {
+      "fvg_v4_atr2_3R_squeeze": {
+        "trades": 36,
+        "wr_pct": 36.1,
+        "pnl_pct": 8.34,
+        "dd_pct": 3.8,
+        "pf": 1.53,
+        "pnl_usd": 83.39
+      },
+      "fvg_v4_atr2_3R_sq_trans": {
+        "trades": 54,
+        "wr_pct": 38.9,
+        "pnl_pct": 12.1,
+        "dd_pct": 4.04,
+        "pf": 1.62,
+        "pnl_usd": 120.96
+      },
+      "fvg_v4_atr1.5_2R_squeeze": {
+        "trades": 40,
+        "wr_pct": 32.5,
+        "pnl_pct": -6.11,
+        "dd_pct": 9.56,
+        "pf": 0.84,
+        "pnl_usd": -61.06
+      },
+      "fvg_v4_atr2.5_4R_broad": {
+        "trades": 35,
+        "wr_pct": 22.9,
+        "pnl_pct": 0.09,
+        "dd_pct": 6.36,
+        "pf": 1.08,
+        "pnl_usd": 0.86
+      }
+    }
+  },
+  "phase4_matrix": {
+    "01_bbs_baseline": {
+      "trades": 101,
+      "pnl_pct": 17.52,
+      "dd_pct": 13.38,
+      "pf": 1.41
+    },
+    "02_bbs_optimal": {
+      "trades": 86,
+      "pnl_pct": 45.01,
+      "dd_pct": 18.1,
+      "pf": 1.53
+    },
+    "03_mr_only": {
+      "trades": 37,
+      "pnl_pct": -1.33,
+      "dd_pct": 2.02,
+      "pf": 0.68
+    },
+    "04_bbs_mr_baseline": {
+      "trades": 138,
+      "pnl_pct": 16.6,
+      "dd_pct": 14.0,
+      "pf": 1.39
+    },
+    "05_bbs_mr_optimal": {
+      "trades": 123,
+      "pnl_pct": 43.6,
+      "dd_pct": 18.82,
+      "pf": 1.5
+    },
+    "06_bbs_v3_baseline": {
+      "trades": 101,
+      "pnl_pct": 8.35,
+      "dd_pct": 6.42,
+      "pf": 1.45
+    },
+    "07_fvg_v4_standalone": {
+      "trades": 54,
+      "pnl_pct": 12.1,
+      "dd_pct": 4.04,
+      "pf": 1.62
+    },
+    "08_bbs_fvg_v4": {
+      "trades": 139,
+      "pnl_pct": 59.01,
+      "dd_pct": 16.37,
+      "pf": 1.5
+    }
+  },
+  "phase5_walkforward": {
+    "08_bbs_fvg_v4": {
+      "train": {
+        "pnl_pct": 69.64,
+        "dd_pct": 8.07
+      },
+      "test": {
+        "pnl_pct": -6.81,
+        "dd_pct": 15.24
+      },
+      "degradation_pct": 118.0
+    },
+    "02_bbs_optimal": {
+      "train": {
+        "pnl_pct": 56.1,
+        "dd_pct": 8.87
+      },
+      "test": {
+        "pnl_pct": -5.92,
+        "dd_pct": 13.78
+      },
+      "degradation_pct": 120.1
+    },
+    "05_bbs_mr_optimal": {
+      "train": {
+        "pnl_pct": 55.79,
+        "dd_pct": 8.99
+      },
+      "test": {
+        "pnl_pct": -6.61,
+        "dd_pct": 14.28
+      },
+      "degradation_pct": 121.7
+    },
+    "interpretation": "ALL strategies NEGATIVE in last 30d (test period = Mar13-Apr13). Market regime adverse for momentum/squeeze strategies. SIMULATION_MODE=True is correct."
+  },
+  "test_180d": {
+    "bbs_only": {
+      "trades": 144,
+      "pnl_pct": 37.59,
+      "dd_pct": 18.1,
+      "pf": 1.34,
+      "pnl_usd": 375.93
+    },
+    "bbs_mr": {
+      "trades": 216,
+      "pnl_pct": 35.12,
+      "dd_pct": 18.62,
+      "pf": 1.32,
+      "pnl_usd": 351.18
+    },
+    "note": "BBS positive over full 180d (PF=1.34) but weaker than 90d (PF=1.41). Recent period is drawdown."
+  },
+  "key_findings": [
+    "BUG-1 FIXED: accounting discrepancy now $0.00 (was ~$29 in v3 due to missing entry fees in per-agent PnL)",
+    "BUG-2 FIXED: concurrent bar-by-bar processing across all symbols (was sequential per-symbol)",
+    "BEST EXIT: pure_fixed_3.5R (PF=1.44) > 3.0R (PF=1.41) >> chandelier (PF=1.03, NEGATIVE)",
+    "BEST REGIME: no_squeeze — disable BBS during SQUEEZE regime (PF 1.44->1.58, PnL 21%->29%)",
+    "BLACKLIST DISCOVERY: removing ARB+OP+POL: PF 1.53->1.91, PnL +45%->+72%, DD 18.1%->13.1%",
+    "MR HURTS: standalone PF=0.68 (negative), all overlay configs negative delta vs BBS-only",
+    "FVG v4 SHOWS PROMISE: ATR2+3R exit on SQUEEZE+TRANSITION PF=1.62 (but n=54, small sample)",
+    "WALK-FORWARD ALERT: ALL top-3 configs negative in last 30d (test period). Degradation 118-122%.",
+    "180d BBS: PF=1.34 positive long-term but weaker than 90d. Recent period is drawdown phase.",
+    "RECOMMENDATION: BBS-only, no_squeeze regime, 3.5R exit, blacklist ARB/OP/POL, risk 1.0%"
+  ],
+  "production_config_changes_applied": {
+    "BBS_exit": "FIXED_TP_R=3.5 (was 3.0)",
+    "BBS_blacklist": "ARB/OP/POL added to BBS_SYMBOL_BLACKLIST in config.py",
+    "MR_allocation": "0% (was 20%, v4 confirmed hurts)",
+    "PORTFOLIO_MR_FRACTION": "0.00 (was 0.20)",
+    "PORTFOLIO_BBS_FRACTION": "0.75 (was 0.55, sole active strategy)",
+    "PORTFOLIO_BBS_RISK": "0.010 (was 0.012, conservative)",
+    "FVG_status": "DISABLED — walk-forward degradation 118%, needs 180d validation",
+    "SIMULATION_MODE": "True — all strategies negative in last 30 days"
+  }
+}

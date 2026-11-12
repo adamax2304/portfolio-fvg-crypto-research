@@ -1,0 +1,52 @@
+{
+  "strategy": "MTF_KC_1h->15m",
+  "version": "v10",
+  "date": "2026-04-13",
+  "description": "Multi-TF: KC Squeeze signal on 1h, next-bar entry on 15m. Decorrelated from BBS. 365d backtest.",
+  "backtest_result": {
+    "period": "365d",
+    "symbols": 20,
+    "profit_factor": 5.76,
+    "pnl_pct": 93.0,
+    "trades_365d": 83,
+    "win_rate_pct": 68.7,
+    "max_dd_pct": 2.0,
+    "avg_exit_r": 1.383,
+    "avg_mfe": 3.094,
+    "avg_mae": 0.803,
+    "walk_forward": {
+      "train_pf": 4.45,
+      "train_pnl_pct": 50.0,
+      "train_trades": 62,
+      "test_pf": 9.70,
+      "test_pnl_pct": 28.6,
+      "test_trades": 21,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "signal_timeframe": "1h",
+    "entry_timeframe": "15m",
+    "min_squeeze_bars": 10,
+    "adx_min": 12.0,
+    "vol_mult": 1.0,
+    "mom_bars": 6,
+    "entry_mode": "next_bar"
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 1.5,
+    "tp_mode": "fixed_r",
+    "tp_r": 2.0
+  },
+  "portfolio": {
+    "capital_fraction": 0.20,
+    "risk_per_trade": 0.010,
+    "max_positions": 3
+  },
+  "vs_v9": {
+    "v9_pf": 3.04,
+    "v10_pf": 5.76,
+    "improvement": "SL ATR2.5->1.5, TP 3.5R->2.0R, sq 6->10, adx 15->12, mom 8->6. Near 2x PF improvement."
+  }
+}

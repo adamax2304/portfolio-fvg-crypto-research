@@ -1,0 +1,177 @@
+[
+  {
+    "profile": "gap05_balanced",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_001404",
+    "balance_end": 1921.98,
+    "return_pct": 92.2,
+    "trades": 84,
+    "winrate": 58.33,
+    "profit_factor": 1.859,
+    "max_dd_pct": 9.5,
+    "avg_rr": 1.514,
+    "fees": 94.43,
+    "funding": -4.88,
+    "maker_entries": 84,
+    "maker_tp_exits": 49,
+    "profiles": {
+      "high_vol": 27,
+      "normal": 56,
+      "low_vol": 1
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "profile": "gap06_balanced",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_002427",
+    "balance_end": 1966.6,
+    "return_pct": 96.66,
+    "trades": 83,
+    "winrate": 59.04,
+    "profit_factor": 1.922,
+    "max_dd_pct": 7.4,
+    "avg_rr": 1.506,
+    "fees": 93.01,
+    "funding": -5.96,
+    "maker_entries": 83,
+    "maker_tp_exits": 49,
+    "profiles": {
+      "high_vol": 27,
+      "normal": 55,
+      "low_vol": 1
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "profile": "gap07_balanced",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_003331",
+    "balance_end": 1754.73,
+    "return_pct": 75.47,
+    "trades": 76,
+    "winrate": 57.89,
+    "profit_factor": 1.757,
+    "max_dd_pct": 7.4,
+    "avg_rr": 1.5,
+    "fees": 83.65,
+    "funding": -6.27,
+    "maker_entries": 76,
+    "maker_tp_exits": 44,
+    "profiles": {
+      "high_vol": 29,
+      "normal": 46,
+      "low_vol": 1
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "profile": "gap08_balanced",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_004252",
+    "balance_end": 1639.69,
+    "return_pct": 63.97,
+    "trades": 67,
+    "winrate": 58.21,
+    "profit_factor": 1.761,
+    "max_dd_pct": 8.24,
+    "avg_rr": 1.465,
+    "fees": 68.75,
+    "funding": -5.97,
+    "maker_entries": 67,
+    "maker_tp_exits": 39,
+    "profiles": {
+      "high_vol": 28,
+      "normal": 38,
+      "low_vol": 1
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "profile": "gap06_quality_first",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_005214",
+    "balance_end": 1741.46,
+    "return_pct": 74.15,
+    "trades": 64,
+    "winrate": 60.94,
+    "profit_factor": 1.98,
+    "max_dd_pct": 6.42,
+    "avg_rr": 1.425,
+    "fees": 59.71,
+    "funding": -3.35,
+    "maker_entries": 64,
+    "maker_tp_exits": 39,
+    "profiles": {
+      "high_vol": 28,
+      "normal": 35,
+      "low_vol": 1
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "profile": "gap06_broader",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_010110",
+    "balance_end": 2122.19,
+    "return_pct": 112.22,
+    "trades": 103,
+    "winrate": 56.31,
+    "profit_factor": 1.712,
+    "max_dd_pct": 14.27,
+    "avg_rr": 1.579,
+    "fees": 142.01,
+    "funding": -5.59,
+    "maker_entries": 103,
+    "maker_tp_exits": 58,
+    "profiles": {
+      "high_vol": 30,
+      "normal": 72,
+      "low_vol": 1
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    }
+  },
+  {
+    "profile": "gap06_no_time_limits",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_011101",
+    "balance_end": 2163.17,
+    "return_pct": 116.32,
+    "trades": 102,
+    "winrate": 57.84,
+    "profit_factor": 1.904,
+    "max_dd_pct": 9.51,
+    "avg_rr": 1.558,
+    "fees": 118.92,
+    "funding": -12.87,
+    "maker_entries": 102,
+    "maker_tp_exits": 59,
+    "profiles": {
+      "high_vol": 33,
+      "normal": 68,
+      "low_vol": 1
+    },
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 1,
+      "same_candle": 0
+    }
+  }
+]

@@ -1,0 +1,3129 @@
+{
+  "session_stats": {
+    "BTC/USDT:USDT": {
+      "asian": {
+        "n": 365,
+        "range_mean": 1.5707013622594064,
+        "range_med": 1.331430042778862,
+        "range_p75": 2.004729718567756,
+        "range_p90": 2.8962988205486013,
+        "up_mean": 0.7561726927666332,
+        "up_p75": 1.009334889148188,
+        "dn_mean": 0.8145286694927731,
+        "dn_p75": 1.0138740661686232,
+        "net_mean": -0.01070458393936069,
+        "net_std": 1.0608325953866544,
+        "bull_pct": 53.42465753424658
+      },
+      "london": {
+        "n": 365,
+        "range_mean": 1.2955888593132951,
+        "range_med": 1.1003915906455777,
+        "range_p75": 1.6107368136583322,
+        "range_p90": 2.1747027341519467,
+        "up_mean": 0.6429920507451606,
+        "up_p75": 0.8351904076360184,
+        "dn_mean": 0.6525968085681345,
+        "dn_p75": 0.8314293289292247,
+        "net_mean": 0.006085682886708238,
+        "net_std": 0.8634561943658429,
+        "bull_pct": 51.78082191780822
+      },
+      "ny": {
+        "n": 366,
+        "range_mean": 2.369779262604437,
+        "range_med": 1.960130748973606,
+        "range_p75": 2.999037760465021,
+        "range_p90": 4.206354973192011,
+        "up_mean": 1.1104557890592428,
+        "up_p75": 1.4619644393798759,
+        "dn_mean": 1.2593234735451941,
+        "dn_p75": 1.6290904093165681,
+        "net_mean": -0.01976214594605341,
+        "net_std": 1.6455737505319799,
+        "bull_pct": 50.81967213114754
+      }
+    },
+    "ETH/USDT:USDT": {
+      "asian": {
+        "n": 365,
+        "range_mean": 2.558751697345913,
+        "range_med": 2.2307497145756594,
+        "range_p75": 3.2159544496908796,
+        "range_p90": 4.268664627579255,
+        "up_mean": 1.288344099084355,
+        "up_p75": 1.7661197617305773,
+        "dn_mean": 1.2704075982615577,
+        "dn_p75": 1.6261660456529665,
+        "net_mean": 0.08404383540520594,
+        "net_std": 1.6366636011810245,
+        "bull_pct": 55.61643835616439
+      },
+      "london": {
+        "n": 365,
+        "range_mean": 2.2005015732678035,
+        "range_med": 1.9408854497018846,
+        "range_p75": 2.7530856823254095,
+        "range_p90": 3.628503790697426,
+        "up_mean": 1.1026758785514912,
+        "up_p75": 1.4408605218483048,
+        "dn_mean": 1.097825694716312,
+        "dn_p75": 1.4712317463492748,
+        "net_mean": 0.018589140178178448,
+        "net_std": 1.3586263536423213,
+        "bull_pct": 47.397260273972606
+      },
+      "ny": {
+        "n": 366,
+        "range_mean": 3.9634949322673694,
+        "range_med": 3.3168049006883846,
+        "range_p75": 4.905674981286377,
+        "range_p90": 7.09632907518912,
+        "up_mean": 1.8594483520279006,
+        "up_p75": 2.39357337633133,
+        "dn_mean": 2.1040465802394688,
+        "dn_p75": 2.8525787818687904,
+        "net_mean": 0.016262798192331663,
+        "net_std": 2.7913744814957466,
+        "bull_pct": 50.81967213114754
+      }
+    }
+  },
+  "results": [
+    {
+      "trades": 429,
+      "wins": 249,
+      "losses": 180,
+      "wr_pct": 58.04,
+      "pnl_usd": 2295.25,
+      "pnl_pct": 229.53,
+      "profit_factor": 1.498,
+      "max_dd_pct": 10.5,
+      "avg_r": 0.522,
+      "avg_mfe": 1.915,
+      "avg_bars": 5.0,
+      "final_bal": 3295.25,
+      "exit_reasons": {
+        "SL": 172,
+        "TP": 240,
+        "EOS": 17
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 130,
+          "losses": 85,
+          "wr_pct": 60.47,
+          "pnl_usd": 645.99,
+          "pnl_pct": 64.6,
+          "profit_factor": 1.416,
+          "max_dd_pct": 10.5,
+          "avg_r": 0.537,
+          "avg_mfe": 1.925,
+          "avg_bars": 4.8,
+          "final_bal": 1645.99,
+          "exit_reasons": {
+            "SL": 80,
+            "TP": 125,
+            "EOS": 10
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 119,
+          "losses": 95,
+          "wr_pct": 55.61,
+          "pnl_usd": 1001.99,
+          "pnl_pct": 100.2,
+          "profit_factor": 1.539,
+          "max_dd_pct": 8.97,
+          "avg_r": 0.508,
+          "avg_mfe": 1.905,
+          "avg_bars": 5.3,
+          "final_bal": 2001.99,
+          "exit_reasons": {
+            "EOS": 7,
+            "SL": 92,
+            "TP": 115
+          }
+        }
+      },
+      "config_id": "SL_atr1.5",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 1.5
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 249,
+      "losses": 180,
+      "wr_pct": 58.04,
+      "pnl_usd": 3673.74,
+      "pnl_pct": 367.37,
+      "profit_factor": 1.862,
+      "max_dd_pct": 7.98,
+      "avg_r": 0.509,
+      "avg_mfe": 1.568,
+      "avg_bars": 14.6,
+      "final_bal": 4673.74,
+      "exit_reasons": {
+        "TP": 185,
+        "SL": 130,
+        "EOS": 114
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 123,
+          "losses": 92,
+          "wr_pct": 57.21,
+          "pnl_usd": 787.12,
+          "pnl_pct": 78.71,
+          "profit_factor": 1.572,
+          "max_dd_pct": 7.98,
+          "avg_r": 0.457,
+          "avg_mfe": 1.568,
+          "avg_bars": 14.3,
+          "final_bal": 1787.12,
+          "exit_reasons": {
+            "TP": 92,
+            "SL": 68,
+            "EOS": 55
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 126,
+          "losses": 88,
+          "wr_pct": 58.88,
+          "pnl_usd": 1615.24,
+          "pnl_pct": 161.52,
+          "profit_factor": 2.001,
+          "max_dd_pct": 4.55,
+          "avg_r": 0.562,
+          "avg_mfe": 1.568,
+          "avg_bars": 14.9,
+          "final_bal": 2615.24,
+          "exit_reasons": {
+            "EOS": 59,
+            "SL": 62,
+            "TP": 93
+          }
+        }
+      },
+      "config_id": "SL_atr2.5",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 232,
+      "losses": 197,
+      "wr_pct": 54.08,
+      "pnl_usd": 1437.25,
+      "pnl_pct": 143.73,
+      "profit_factor": 1.581,
+      "max_dd_pct": 10.54,
+      "avg_r": 0.315,
+      "avg_mfe": 1.273,
+      "avg_bars": 21.5,
+      "final_bal": 2437.25,
+      "exit_reasons": {
+        "EOS": 215,
+        "TP": 102,
+        "SL": 110,
+        "EOD": 2
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 110,
+          "losses": 105,
+          "wr_pct": 51.16,
+          "pnl_usd": 228.19,
+          "pnl_pct": 22.82,
+          "profit_factor": 1.204,
+          "max_dd_pct": 10.54,
+          "avg_r": 0.229,
+          "avg_mfe": 1.27,
+          "avg_bars": 21.1,
+          "final_bal": 1228.19,
+          "exit_reasons": {
+            "EOS": 104,
+            "TP": 49,
+            "SL": 61,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 122,
+          "losses": 92,
+          "wr_pct": 57.01,
+          "pnl_usd": 984.43,
+          "pnl_pct": 98.44,
+          "profit_factor": 1.893,
+          "max_dd_pct": 5.91,
+          "avg_r": 0.401,
+          "avg_mfe": 1.277,
+          "avg_bars": 21.8,
+          "final_bal": 1984.43,
+          "exit_reasons": {
+            "EOS": 111,
+            "SL": 49,
+            "TP": 53,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "SL_atr3.5",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 3.5
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 231,
+      "losses": 198,
+      "wr_pct": 53.85,
+      "pnl_usd": 2200.46,
+      "pnl_pct": 220.05,
+      "profit_factor": 1.604,
+      "max_dd_pct": 8.07,
+      "avg_r": 0.39,
+      "avg_mfe": 1.482,
+      "avg_bars": 16.0,
+      "final_bal": 3200.46,
+      "exit_reasons": {
+        "EOS": 145,
+        "TP": 149,
+        "SL": 134,
+        "EOD": 1
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 116,
+          "losses": 99,
+          "wr_pct": 53.95,
+          "pnl_usd": 567.43,
+          "pnl_pct": 56.74,
+          "profit_factor": 1.51,
+          "max_dd_pct": 8.07,
+          "avg_r": 0.326,
+          "avg_mfe": 1.278,
+          "avg_bars": 20.3,
+          "final_bal": 1567.43,
+          "exit_reasons": {
+            "EOS": 100,
+            "TP": 57,
+            "SL": 57,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 115,
+          "losses": 99,
+          "wr_pct": 53.74,
+          "pnl_usd": 1041.85,
+          "pnl_pct": 104.19,
+          "profit_factor": 1.646,
+          "max_dd_pct": 5.59,
+          "avg_r": 0.453,
+          "avg_mfe": 1.686,
+          "avg_bars": 11.7,
+          "final_bal": 2041.85,
+          "exit_reasons": {
+            "SL": 77,
+            "EOS": 45,
+            "TP": 92
+          }
+        }
+      },
+      "config_id": "SL_pct1.0",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "pct",
+        "sl_pct": 0.01
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 235,
+      "losses": 194,
+      "wr_pct": 54.78,
+      "pnl_usd": 1865.8,
+      "pnl_pct": 186.58,
+      "profit_factor": 1.76,
+      "max_dd_pct": 6.87,
+      "avg_r": 0.325,
+      "avg_mfe": 1.146,
+      "avg_bars": 22.5,
+      "final_bal": 2865.8,
+      "exit_reasons": {
+        "EOS": 232,
+        "TP": 94,
+        "SL": 101,
+        "EOD": 2
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 114,
+          "losses": 101,
+          "wr_pct": 53.02,
+          "pnl_usd": 259.0,
+          "pnl_pct": 25.9,
+          "profit_factor": 1.311,
+          "max_dd_pct": 6.87,
+          "avg_r": 0.185,
+          "avg_mfe": 0.95,
+          "avg_bars": 26.1,
+          "final_bal": 1259.0,
+          "exit_reasons": {
+            "EOS": 143,
+            "TP": 26,
+            "SL": 45,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 121,
+          "losses": 93,
+          "wr_pct": 56.54,
+          "pnl_usd": 1276.24,
+          "pnl_pct": 127.62,
+          "profit_factor": 1.991,
+          "max_dd_pct": 5.57,
+          "avg_r": 0.466,
+          "avg_mfe": 1.344,
+          "avg_bars": 18.9,
+          "final_bal": 2276.24,
+          "exit_reasons": {
+            "EOS": 89,
+            "SL": 56,
+            "TP": 68,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "SL_pct1.5",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "pct",
+        "sl_pct": 0.015
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 232,
+      "losses": 197,
+      "wr_pct": 54.08,
+      "pnl_usd": 1223.27,
+      "pnl_pct": 122.33,
+      "profit_factor": 1.697,
+      "max_dd_pct": 5.53,
+      "avg_r": 0.246,
+      "avg_mfe": 0.94,
+      "avg_bars": 26.4,
+      "final_bal": 2223.27,
+      "exit_reasons": {
+        "EOS": 296,
+        "TP": 59,
+        "SL": 72,
+        "EOD": 2
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 113,
+          "losses": 102,
+          "wr_pct": 52.56,
+          "pnl_usd": 175.03,
+          "pnl_pct": 17.5,
+          "profit_factor": 1.28,
+          "max_dd_pct": 5.53,
+          "avg_r": 0.133,
+          "avg_mfe": 0.752,
+          "avg_bars": 28.8,
+          "final_bal": 1175.03,
+          "exit_reasons": {
+            "EOS": 171,
+            "TP": 15,
+            "SL": 28,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 119,
+          "losses": 95,
+          "wr_pct": 55.61,
+          "pnl_usd": 892.09,
+          "pnl_pct": 89.21,
+          "profit_factor": 1.928,
+          "max_dd_pct": 4.6,
+          "avg_r": 0.359,
+          "avg_mfe": 1.128,
+          "avg_bars": 24.0,
+          "final_bal": 1892.09,
+          "exit_reasons": {
+            "EOS": 125,
+            "SL": 44,
+            "TP": 44,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "SL_pct2.0",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "pct",
+        "sl_pct": 0.02
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 237,
+      "losses": 192,
+      "wr_pct": 55.24,
+      "pnl_usd": 963.84,
+      "pnl_pct": 96.38,
+      "profit_factor": 1.901,
+      "max_dd_pct": 3.88,
+      "avg_r": 0.197,
+      "avg_mfe": 0.686,
+      "avg_bars": 30.3,
+      "final_bal": 1963.84,
+      "exit_reasons": {
+        "EOS": 373,
+        "SL": 31,
+        "TP": 23,
+        "EOD": 2
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 114,
+          "losses": 101,
+          "wr_pct": 53.02,
+          "pnl_usd": 148.19,
+          "pnl_pct": 14.82,
+          "profit_factor": 1.364,
+          "max_dd_pct": 3.88,
+          "avg_r": 0.103,
+          "avg_mfe": 0.522,
+          "avg_bars": 31.2,
+          "final_bal": 1148.19,
+          "exit_reasons": {
+            "EOS": 198,
+            "SL": 12,
+            "TP": 4,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 123,
+          "losses": 91,
+          "wr_pct": 57.48,
+          "pnl_usd": 710.37,
+          "pnl_pct": 71.04,
+          "profit_factor": 2.232,
+          "max_dd_pct": 2.76,
+          "avg_r": 0.291,
+          "avg_mfe": 0.851,
+          "avg_bars": 29.3,
+          "final_bal": 1710.37,
+          "exit_reasons": {
+            "EOS": 175,
+            "TP": 19,
+            "SL": 19,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "SL_pct3.0",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "pct",
+        "sl_pct": 0.03
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 251,
+      "losses": 178,
+      "wr_pct": 58.51,
+      "pnl_usd": 46.99,
+      "pnl_pct": 4.7,
+      "profit_factor": 1.023,
+      "max_dd_pct": 60.09,
+      "avg_r": 0.277,
+      "avg_mfe": 6.316,
+      "avg_bars": 10.8,
+      "final_bal": 1046.99,
+      "exit_reasons": {
+        "TP": 214,
+        "SL": 115,
+        "EOS": 99,
+        "EOD": 1
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 114,
+          "losses": 101,
+          "wr_pct": 53.02,
+          "pnl_usd": -471.25,
+          "pnl_pct": -47.13,
+          "profit_factor": 0.631,
+          "max_dd_pct": 60.09,
+          "avg_r": 0.22,
+          "avg_mfe": 4.901,
+          "avg_bars": 10.7,
+          "final_bal": 528.75,
+          "exit_reasons": {
+            "TP": 109,
+            "SL": 57,
+            "EOS": 49
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 137,
+          "losses": 77,
+          "wr_pct": 64.02,
+          "pnl_usd": 980.12,
+          "pnl_pct": 98.01,
+          "profit_factor": 1.652,
+          "max_dd_pct": 12.93,
+          "avg_r": 0.335,
+          "avg_mfe": 7.738,
+          "avg_bars": 11.0,
+          "final_bal": 1980.12,
+          "exit_reasons": {
+            "EOS": 50,
+            "SL": 58,
+            "TP": 105,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "SL_struct8",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 8,
+        "sl_buffer_atr": 0.3
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 241,
+      "losses": 188,
+      "wr_pct": 56.18,
+      "pnl_usd": 731.94,
+      "pnl_pct": 73.19,
+      "profit_factor": 1.339,
+      "max_dd_pct": 44.25,
+      "avg_r": 0.396,
+      "avg_mfe": 3.048,
+      "avg_bars": 13.8,
+      "final_bal": 1731.94,
+      "exit_reasons": {
+        "TP": 184,
+        "SL": 109,
+        "EOS": 134,
+        "EOD": 2
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 110,
+          "losses": 105,
+          "wr_pct": 51.16,
+          "pnl_usd": -281.0,
+          "pnl_pct": -28.1,
+          "profit_factor": 0.76,
+          "max_dd_pct": 44.25,
+          "avg_r": 0.227,
+          "avg_mfe": 4.024,
+          "avg_bars": 13.4,
+          "final_bal": 719.0,
+          "exit_reasons": {
+            "TP": 93,
+            "SL": 52,
+            "EOS": 69,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 131,
+          "losses": 83,
+          "wr_pct": 61.21,
+          "pnl_usd": 1408.83,
+          "pnl_pct": 140.88,
+          "profit_factor": 2.02,
+          "max_dd_pct": 4.8,
+          "avg_r": 0.566,
+          "avg_mfe": 2.068,
+          "avg_bars": 14.2,
+          "final_bal": 2408.83,
+          "exit_reasons": {
+            "EOS": 65,
+            "SL": 57,
+            "TP": 91,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "SL_struct16",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 244,
+      "losses": 185,
+      "wr_pct": 56.88,
+      "pnl_usd": 2663.47,
+      "pnl_pct": 266.35,
+      "profit_factor": 1.871,
+      "max_dd_pct": 7.65,
+      "avg_r": 0.419,
+      "avg_mfe": 1.369,
+      "avg_bars": 19.7,
+      "final_bal": 3663.47,
+      "exit_reasons": {
+        "EOS": 193,
+        "SL": 101,
+        "TP": 133,
+        "EOD": 2
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 117,
+          "losses": 98,
+          "wr_pct": 54.42,
+          "pnl_usd": 565.75,
+          "pnl_pct": 56.58,
+          "profit_factor": 1.493,
+          "max_dd_pct": 7.65,
+          "avg_r": 0.352,
+          "avg_mfe": 1.351,
+          "avg_bars": 19.6,
+          "final_bal": 1565.75,
+          "exit_reasons": {
+            "EOS": 98,
+            "SL": 52,
+            "TP": 64,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 127,
+          "losses": 87,
+          "wr_pct": 59.35,
+          "pnl_usd": 1339.75,
+          "pnl_pct": 133.97,
+          "profit_factor": 2.098,
+          "max_dd_pct": 3.82,
+          "avg_r": 0.486,
+          "avg_mfe": 1.388,
+          "avg_bars": 19.7,
+          "final_bal": 2339.75,
+          "exit_reasons": {
+            "EOS": 95,
+            "SL": 49,
+            "TP": 69,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "SL_struct32",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 32,
+        "sl_buffer_atr": 0.3
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 249,
+      "losses": 180,
+      "wr_pct": 58.04,
+      "pnl_usd": 3673.74,
+      "pnl_pct": 367.37,
+      "profit_factor": 1.862,
+      "max_dd_pct": 7.98,
+      "avg_r": 0.509,
+      "avg_mfe": 1.568,
+      "avg_bars": 14.6,
+      "final_bal": 4673.74,
+      "exit_reasons": {
+        "TP": 185,
+        "SL": 130,
+        "EOS": 114
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 123,
+          "losses": 92,
+          "wr_pct": 57.21,
+          "pnl_usd": 787.12,
+          "pnl_pct": 78.71,
+          "profit_factor": 1.572,
+          "max_dd_pct": 7.98,
+          "avg_r": 0.457,
+          "avg_mfe": 1.568,
+          "avg_bars": 14.3,
+          "final_bal": 1787.12,
+          "exit_reasons": {
+            "TP": 92,
+            "SL": 68,
+            "EOS": 55
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 126,
+          "losses": 88,
+          "wr_pct": 58.88,
+          "pnl_usd": 1615.24,
+          "pnl_pct": 161.52,
+          "profit_factor": 2.001,
+          "max_dd_pct": 4.55,
+          "avg_r": 0.562,
+          "avg_mfe": 1.568,
+          "avg_bars": 14.9,
+          "final_bal": 2615.24,
+          "exit_reasons": {
+            "EOS": 59,
+            "SL": 62,
+            "TP": 93
+          }
+        }
+      },
+      "config_id": "HTFa_none",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": null
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 189,
+      "losses": 113,
+      "wr_pct": 62.58,
+      "pnl_usd": 3527.55,
+      "pnl_pct": 352.76,
+      "profit_factor": 2.256,
+      "max_dd_pct": 7.15,
+      "avg_r": 0.643,
+      "avg_mfe": 1.659,
+      "avg_bars": 14.7,
+      "final_bal": 4527.55,
+      "exit_reasons": {
+        "TP": 141,
+        "SL": 75,
+        "EOS": 86
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 95,
+          "losses": 51,
+          "wr_pct": 65.07,
+          "pnl_usd": 1053.29,
+          "pnl_pct": 105.33,
+          "profit_factor": 2.297,
+          "max_dd_pct": 7.15,
+          "avg_r": 0.671,
+          "avg_mfe": 1.71,
+          "avg_bars": 14.3,
+          "final_bal": 2053.29,
+          "exit_reasons": {
+            "TP": 72,
+            "SL": 32,
+            "EOS": 42
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 94,
+          "losses": 62,
+          "wr_pct": 60.26,
+          "pnl_usd": 1205.02,
+          "pnl_pct": 120.5,
+          "profit_factor": 2.239,
+          "max_dd_pct": 4.83,
+          "avg_r": 0.617,
+          "avg_mfe": 1.612,
+          "avg_bars": 15.1,
+          "final_bal": 2205.02,
+          "exit_reasons": {
+            "TP": 69,
+            "EOS": 44,
+            "SL": 43
+          }
+        }
+      },
+      "config_id": "HTFa_ema50_4h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "ema50_4h"
+      }
+    },
+    {
+      "trades": 269,
+      "wins": 165,
+      "losses": 104,
+      "wr_pct": 61.34,
+      "pnl_usd": 2636.61,
+      "pnl_pct": 263.66,
+      "profit_factor": 2.187,
+      "max_dd_pct": 5.65,
+      "avg_r": 0.624,
+      "avg_mfe": 1.608,
+      "avg_bars": 14.4,
+      "final_bal": 3636.61,
+      "exit_reasons": {
+        "SL": 69,
+        "TP": 123,
+        "EOS": 77
+      },
+      "total_sigs": 269,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 132,
+          "wins": 85,
+          "losses": 47,
+          "wr_pct": 64.39,
+          "pnl_usd": 893.27,
+          "pnl_pct": 89.33,
+          "profit_factor": 2.267,
+          "max_dd_pct": 5.65,
+          "avg_r": 0.665,
+          "avg_mfe": 1.669,
+          "avg_bars": 14.4,
+          "final_bal": 1893.27,
+          "exit_reasons": {
+            "SL": 31,
+            "TP": 63,
+            "EOS": 38
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 137,
+          "wins": 80,
+          "losses": 57,
+          "wr_pct": 58.39,
+          "pnl_usd": 920.81,
+          "pnl_pct": 92.08,
+          "profit_factor": 2.149,
+          "max_dd_pct": 4.83,
+          "avg_r": 0.584,
+          "avg_mfe": 1.549,
+          "avg_bars": 14.4,
+          "final_bal": 1920.81,
+          "exit_reasons": {
+            "EOS": 39,
+            "SL": 38,
+            "TP": 60
+          }
+        }
+      },
+      "config_id": "HTFa_st_4h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "st_4h"
+      }
+    },
+    {
+      "trades": 377,
+      "wins": 237,
+      "losses": 140,
+      "wr_pct": 62.86,
+      "pnl_usd": 5798.95,
+      "pnl_pct": 579.89,
+      "profit_factor": 2.356,
+      "max_dd_pct": 8.5,
+      "avg_r": 0.653,
+      "avg_mfe": 1.662,
+      "avg_bars": 14.8,
+      "final_bal": 6798.95,
+      "exit_reasons": {
+        "TP": 177,
+        "SL": 97,
+        "EOS": 103
+      },
+      "total_sigs": 377,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 188,
+          "wins": 118,
+          "losses": 70,
+          "wr_pct": 62.77,
+          "pnl_usd": 1311.65,
+          "pnl_pct": 131.16,
+          "profit_factor": 2.095,
+          "max_dd_pct": 8.5,
+          "avg_r": 0.626,
+          "avg_mfe": 1.676,
+          "avg_bars": 14.7,
+          "final_bal": 2311.65,
+          "exit_reasons": {
+            "TP": 90,
+            "SL": 48,
+            "EOS": 50
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 189,
+          "wins": 119,
+          "losses": 70,
+          "wr_pct": 62.96,
+          "pnl_usd": 1941.17,
+          "pnl_pct": 194.12,
+          "profit_factor": 2.457,
+          "max_dd_pct": 4.59,
+          "avg_r": 0.68,
+          "avg_mfe": 1.648,
+          "avg_bars": 14.9,
+          "final_bal": 2941.17,
+          "exit_reasons": {
+            "SL": 49,
+            "EOS": 53,
+            "TP": 87
+          }
+        }
+      },
+      "config_id": "HTFa_ema50_1h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "ema50_1h"
+      }
+    },
+    {
+      "trades": 341,
+      "wins": 221,
+      "losses": 120,
+      "wr_pct": 64.81,
+      "pnl_usd": 6032.03,
+      "pnl_pct": 603.2,
+      "profit_factor": 2.649,
+      "max_dd_pct": 6.72,
+      "avg_r": 0.715,
+      "avg_mfe": 1.714,
+      "avg_bars": 14.2,
+      "final_bal": 7032.03,
+      "exit_reasons": {
+        "SL": 85,
+        "TP": 167,
+        "EOS": 88,
+        "EOD": 1
+      },
+      "total_sigs": 341,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 171,
+          "wins": 110,
+          "losses": 61,
+          "wr_pct": 64.33,
+          "pnl_usd": 1302.58,
+          "pnl_pct": 130.26,
+          "profit_factor": 2.293,
+          "max_dd_pct": 6.72,
+          "avg_r": 0.665,
+          "avg_mfe": 1.712,
+          "avg_bars": 14.3,
+          "final_bal": 2302.58,
+          "exit_reasons": {
+            "SL": 44,
+            "TP": 82,
+            "EOS": 45
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 170,
+          "wins": 111,
+          "losses": 59,
+          "wr_pct": 65.29,
+          "pnl_usd": 2053.97,
+          "pnl_pct": 205.4,
+          "profit_factor": 2.785,
+          "max_dd_pct": 4.59,
+          "avg_r": 0.765,
+          "avg_mfe": 1.716,
+          "avg_bars": 14.2,
+          "final_bal": 3053.97,
+          "exit_reasons": {
+            "EOS": 43,
+            "SL": 41,
+            "TP": 85,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "HTFa_st_1h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "st_1h"
+      }
+    },
+    {
+      "trades": 402,
+      "wins": 245,
+      "losses": 157,
+      "wr_pct": 60.95,
+      "pnl_usd": 4608.06,
+      "pnl_pct": 460.81,
+      "profit_factor": 2.117,
+      "max_dd_pct": 5.35,
+      "avg_r": 0.577,
+      "avg_mfe": 1.603,
+      "avg_bars": 14.5,
+      "final_bal": 5608.06,
+      "exit_reasons": {
+        "TP": 182,
+        "SL": 114,
+        "EOS": 106
+      },
+      "total_sigs": 402,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 203,
+          "wins": 122,
+          "losses": 81,
+          "wr_pct": 60.1,
+          "pnl_usd": 989.02,
+          "pnl_pct": 98.9,
+          "profit_factor": 1.764,
+          "max_dd_pct": 5.35,
+          "avg_r": 0.522,
+          "avg_mfe": 1.597,
+          "avg_bars": 14.3,
+          "final_bal": 1989.02,
+          "exit_reasons": {
+            "TP": 91,
+            "SL": 60,
+            "EOS": 52
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 199,
+          "wins": 123,
+          "losses": 76,
+          "wr_pct": 61.81,
+          "pnl_usd": 1819.51,
+          "pnl_pct": 181.95,
+          "profit_factor": 2.278,
+          "max_dd_pct": 4.55,
+          "avg_r": 0.634,
+          "avg_mfe": 1.609,
+          "avg_bars": 14.7,
+          "final_bal": 2819.51,
+          "exit_reasons": {
+            "EOS": 54,
+            "SL": 54,
+            "TP": 91
+          }
+        }
+      },
+      "config_id": "HTFa_macd_1h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "macd_hist_1h"
+      }
+    },
+    {
+      "trades": 281,
+      "wins": 185,
+      "losses": 96,
+      "wr_pct": 65.84,
+      "pnl_usd": 4525.68,
+      "pnl_pct": 452.57,
+      "profit_factor": 2.875,
+      "max_dd_pct": 6.98,
+      "avg_r": 0.747,
+      "avg_mfe": 1.697,
+      "avg_bars": 13.9,
+      "final_bal": 5525.68,
+      "exit_reasons": {
+        "TP": 141,
+        "SL": 65,
+        "EOS": 75
+      },
+      "total_sigs": 281,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 140,
+          "wins": 90,
+          "losses": 50,
+          "wr_pct": 64.29,
+          "pnl_usd": 1012.54,
+          "pnl_pct": 101.25,
+          "profit_factor": 2.284,
+          "max_dd_pct": 6.98,
+          "avg_r": 0.678,
+          "avg_mfe": 1.668,
+          "avg_bars": 12.9,
+          "final_bal": 2012.54,
+          "exit_reasons": {
+            "TP": 71,
+            "SL": 35,
+            "EOS": 34
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 141,
+          "wins": 95,
+          "losses": 46,
+          "wr_pct": 67.38,
+          "pnl_usd": 1745.62,
+          "pnl_pct": 174.56,
+          "profit_factor": 3.162,
+          "max_dd_pct": 2.88,
+          "avg_r": 0.815,
+          "avg_mfe": 1.726,
+          "avg_bars": 14.9,
+          "final_bal": 2745.62,
+          "exit_reasons": {
+            "TP": 70,
+            "EOS": 41,
+            "SL": 30
+          }
+        }
+      },
+      "config_id": "HTFa_adx_1h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "adx_1h"
+      }
+    },
+    {
+      "trades": 429,
+      "wins": 241,
+      "losses": 188,
+      "wr_pct": 56.18,
+      "pnl_usd": 731.94,
+      "pnl_pct": 73.19,
+      "profit_factor": 1.339,
+      "max_dd_pct": 44.25,
+      "avg_r": 0.396,
+      "avg_mfe": 3.048,
+      "avg_bars": 13.8,
+      "final_bal": 1731.94,
+      "exit_reasons": {
+        "TP": 184,
+        "SL": 109,
+        "EOS": 134,
+        "EOD": 2
+      },
+      "total_sigs": 429,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 215,
+          "wins": 110,
+          "losses": 105,
+          "wr_pct": 51.16,
+          "pnl_usd": -281.0,
+          "pnl_pct": -28.1,
+          "profit_factor": 0.76,
+          "max_dd_pct": 44.25,
+          "avg_r": 0.227,
+          "avg_mfe": 4.024,
+          "avg_bars": 13.4,
+          "final_bal": 719.0,
+          "exit_reasons": {
+            "TP": 93,
+            "SL": 52,
+            "EOS": 69,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 214,
+          "wins": 131,
+          "losses": 83,
+          "wr_pct": 61.21,
+          "pnl_usd": 1408.83,
+          "pnl_pct": 140.88,
+          "profit_factor": 2.02,
+          "max_dd_pct": 4.8,
+          "avg_r": 0.566,
+          "avg_mfe": 2.068,
+          "avg_bars": 14.2,
+          "final_bal": 2408.83,
+          "exit_reasons": {
+            "EOS": 65,
+            "SL": 57,
+            "TP": 91,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "HTFs_none",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": null
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 182,
+      "losses": 120,
+      "wr_pct": 60.26,
+      "pnl_usd": 957.07,
+      "pnl_pct": 95.71,
+      "profit_factor": 1.611,
+      "max_dd_pct": 33.55,
+      "avg_r": 0.488,
+      "avg_mfe": 3.107,
+      "avg_bars": 15.0,
+      "final_bal": 1957.07,
+      "exit_reasons": {
+        "TP": 134,
+        "SL": 58,
+        "EOS": 108,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 83,
+          "losses": 63,
+          "wr_pct": 56.85,
+          "pnl_usd": -79.85,
+          "pnl_pct": -7.98,
+          "profit_factor": 0.904,
+          "max_dd_pct": 33.55,
+          "avg_r": 0.334,
+          "avg_mfe": 4.278,
+          "avg_bars": 15.1,
+          "final_bal": 920.15,
+          "exit_reasons": {
+            "TP": 66,
+            "SL": 22,
+            "EOS": 57,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 99,
+          "losses": 57,
+          "wr_pct": 63.46,
+          "pnl_usd": 1126.89,
+          "pnl_pct": 112.69,
+          "profit_factor": 2.404,
+          "max_dd_pct": 5.45,
+          "avg_r": 0.631,
+          "avg_mfe": 2.01,
+          "avg_bars": 14.9,
+          "final_bal": 2126.89,
+          "exit_reasons": {
+            "TP": 68,
+            "EOS": 51,
+            "SL": 36,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "HTFs_ema50_4h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      }
+    },
+    {
+      "trades": 269,
+      "wins": 160,
+      "losses": 109,
+      "wr_pct": 59.48,
+      "pnl_usd": 1018.83,
+      "pnl_pct": 101.88,
+      "profit_factor": 1.711,
+      "max_dd_pct": 21.89,
+      "avg_r": 0.522,
+      "avg_mfe": 3.231,
+      "avg_bars": 14.7,
+      "final_bal": 2018.83,
+      "exit_reasons": {
+        "TP": 119,
+        "SL": 53,
+        "EOS": 96,
+        "EOD": 1
+      },
+      "total_sigs": 269,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 132,
+          "wins": 76,
+          "losses": 56,
+          "wr_pct": 57.58,
+          "pnl_usd": 92.61,
+          "pnl_pct": 9.26,
+          "profit_factor": 1.128,
+          "max_dd_pct": 21.89,
+          "avg_r": 0.451,
+          "avg_mfe": 4.329,
+          "avg_bars": 14.0,
+          "final_bal": 1092.61,
+          "exit_reasons": {
+            "TP": 63,
+            "SL": 22,
+            "EOS": 47
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 137,
+          "wins": 84,
+          "losses": 53,
+          "wr_pct": 61.31,
+          "pnl_usd": 847.71,
+          "pnl_pct": 84.77,
+          "profit_factor": 2.303,
+          "max_dd_pct": 4.4,
+          "avg_r": 0.591,
+          "avg_mfe": 2.172,
+          "avg_bars": 15.4,
+          "final_bal": 1847.71,
+          "exit_reasons": {
+            "EOS": 49,
+            "SL": 31,
+            "TP": 56,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "HTFs_st_4h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "st_4h"
+      }
+    },
+    {
+      "trades": 377,
+      "wins": 229,
+      "losses": 148,
+      "wr_pct": 60.74,
+      "pnl_usd": 1922.69,
+      "pnl_pct": 192.27,
+      "profit_factor": 1.876,
+      "max_dd_pct": 35.81,
+      "avg_r": 0.557,
+      "avg_mfe": 3.194,
+      "avg_bars": 13.9,
+      "final_bal": 2922.69,
+      "exit_reasons": {
+        "TP": 178,
+        "SL": 76,
+        "EOS": 121,
+        "EOD": 2
+      },
+      "total_sigs": 377,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 188,
+          "wins": 105,
+          "losses": 83,
+          "wr_pct": 55.85,
+          "pnl_usd": 36.09,
+          "pnl_pct": 3.61,
+          "profit_factor": 1.034,
+          "max_dd_pct": 35.81,
+          "avg_r": 0.41,
+          "avg_mfe": 4.182,
+          "avg_bars": 13.8,
+          "final_bal": 1036.09,
+          "exit_reasons": {
+            "TP": 90,
+            "SL": 35,
+            "EOS": 62,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 189,
+          "wins": 124,
+          "losses": 65,
+          "wr_pct": 65.61,
+          "pnl_usd": 1820.9,
+          "pnl_pct": 182.09,
+          "profit_factor": 2.666,
+          "max_dd_pct": 5.7,
+          "avg_r": 0.704,
+          "avg_mfe": 2.212,
+          "avg_bars": 14.1,
+          "final_bal": 2820.9,
+          "exit_reasons": {
+            "SL": 41,
+            "TP": 88,
+            "EOS": 59,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "HTFs_ema50_1h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_1h"
+      }
+    },
+    {
+      "trades": 341,
+      "wins": 214,
+      "losses": 127,
+      "wr_pct": 62.76,
+      "pnl_usd": 2098.43,
+      "pnl_pct": 209.84,
+      "profit_factor": 2.04,
+      "max_dd_pct": 33.03,
+      "avg_r": 0.616,
+      "avg_mfe": 3.498,
+      "avg_bars": 13.5,
+      "final_bal": 3098.43,
+      "exit_reasons": {
+        "TP": 168,
+        "SL": 63,
+        "EOS": 108,
+        "EOD": 2
+      },
+      "total_sigs": 341,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 171,
+          "wins": 99,
+          "losses": 72,
+          "wr_pct": 57.89,
+          "pnl_usd": 108.62,
+          "pnl_pct": 10.86,
+          "profit_factor": 1.114,
+          "max_dd_pct": 33.03,
+          "avg_r": 0.459,
+          "avg_mfe": 4.506,
+          "avg_bars": 13.3,
+          "final_bal": 1108.62,
+          "exit_reasons": {
+            "TP": 84,
+            "SL": 30,
+            "EOS": 56,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 170,
+          "wins": 115,
+          "losses": 55,
+          "wr_pct": 67.65,
+          "pnl_usd": 1794.84,
+          "pnl_pct": 179.48,
+          "profit_factor": 2.871,
+          "max_dd_pct": 5.7,
+          "avg_r": 0.775,
+          "avg_mfe": 2.485,
+          "avg_bars": 13.7,
+          "final_bal": 2794.84,
+          "exit_reasons": {
+            "EOS": 52,
+            "SL": 33,
+            "TP": 84,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "HTFs_st_1h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "st_1h"
+      }
+    },
+    {
+      "trades": 402,
+      "wins": 235,
+      "losses": 167,
+      "wr_pct": 58.46,
+      "pnl_usd": 1081.22,
+      "pnl_pct": 108.12,
+      "profit_factor": 1.51,
+      "max_dd_pct": 41.29,
+      "avg_r": 0.455,
+      "avg_mfe": 3.173,
+      "avg_bars": 13.6,
+      "final_bal": 2081.22,
+      "exit_reasons": {
+        "TP": 182,
+        "EOS": 124,
+        "SL": 94,
+        "EOD": 2
+      },
+      "total_sigs": 402,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 203,
+          "wins": 108,
+          "losses": 95,
+          "wr_pct": 53.2,
+          "pnl_usd": -188.13,
+          "pnl_pct": -18.81,
+          "profit_factor": 0.834,
+          "max_dd_pct": 41.29,
+          "avg_r": 0.287,
+          "avg_mfe": 4.201,
+          "avg_bars": 13.2,
+          "final_bal": 811.87,
+          "exit_reasons": {
+            "TP": 93,
+            "EOS": 65,
+            "SL": 44,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 199,
+          "wins": 127,
+          "losses": 72,
+          "wr_pct": 63.82,
+          "pnl_usd": 1563.48,
+          "pnl_pct": 156.35,
+          "profit_factor": 2.291,
+          "max_dd_pct": 3.62,
+          "avg_r": 0.626,
+          "avg_mfe": 2.125,
+          "avg_bars": 14.0,
+          "final_bal": 2563.48,
+          "exit_reasons": {
+            "EOS": 59,
+            "SL": 50,
+            "TP": 89,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "HTFs_macd_1h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "macd_hist_1h"
+      }
+    },
+    {
+      "trades": 281,
+      "wins": 178,
+      "losses": 103,
+      "wr_pct": 63.35,
+      "pnl_usd": 1622.92,
+      "pnl_pct": 162.29,
+      "profit_factor": 1.897,
+      "max_dd_pct": 23.47,
+      "avg_r": 0.581,
+      "avg_mfe": 5.36,
+      "avg_bars": 12.3,
+      "final_bal": 2622.92,
+      "exit_reasons": {
+        "TP": 145,
+        "SL": 54,
+        "EOS": 81,
+        "EOD": 1
+      },
+      "total_sigs": 281,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 140,
+          "wins": 80,
+          "losses": 60,
+          "wr_pct": 57.14,
+          "pnl_usd": 130.27,
+          "pnl_pct": 13.03,
+          "profit_factor": 1.168,
+          "max_dd_pct": 23.47,
+          "avg_r": 0.482,
+          "avg_mfe": 4.315,
+          "avg_bars": 11.9,
+          "final_bal": 1130.27,
+          "exit_reasons": {
+            "TP": 71,
+            "SL": 28,
+            "EOS": 40,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 141,
+          "wins": 98,
+          "losses": 43,
+          "wr_pct": 69.5,
+          "pnl_usd": 1320.61,
+          "pnl_pct": 132.06,
+          "profit_factor": 2.446,
+          "max_dd_pct": 11.55,
+          "avg_r": 0.679,
+          "avg_mfe": 6.397,
+          "avg_bars": 12.8,
+          "final_bal": 2320.61,
+          "exit_reasons": {
+            "TP": 74,
+            "EOS": 41,
+            "SL": 26
+          }
+        }
+      },
+      "config_id": "HTFs_adx_1h",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "adx_1h"
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 149,
+      "losses": 153,
+      "wr_pct": 49.34,
+      "pnl_usd": 1919.11,
+      "pnl_pct": 191.91,
+      "profit_factor": 2.101,
+      "max_dd_pct": 25.92,
+      "avg_r": 0.626,
+      "avg_mfe": 3.197,
+      "avg_bars": 14.5,
+      "final_bal": 2919.11,
+      "exit_reasons": {
+        "TP": 88,
+        "TRAIL": 71,
+        "EOS": 102,
+        "SL": 39,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 75,
+          "losses": 71,
+          "wr_pct": 51.37,
+          "pnl_usd": 297.44,
+          "pnl_pct": 29.74,
+          "profit_factor": 1.372,
+          "max_dd_pct": 25.92,
+          "avg_r": 0.58,
+          "avg_mfe": 4.384,
+          "avg_bars": 14.8,
+          "final_bal": 1297.44,
+          "exit_reasons": {
+            "TP": 49,
+            "TRAIL": 29,
+            "EOS": 54,
+            "SL": 13,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 74,
+          "losses": 82,
+          "wr_pct": 47.44,
+          "pnl_usd": 1249.9,
+          "pnl_pct": 124.99,
+          "profit_factor": 2.719,
+          "max_dd_pct": 4.91,
+          "avg_r": 0.67,
+          "avg_mfe": 2.086,
+          "avg_bars": 14.3,
+          "final_bal": 2249.9,
+          "exit_reasons": {
+            "TP": 39,
+            "EOS": 48,
+            "SL": 26,
+            "TRAIL": 42,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_BE@1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "breakeven"
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 163,
+      "losses": 139,
+      "wr_pct": 53.97,
+      "pnl_usd": 2323.06,
+      "pnl_pct": 232.31,
+      "profit_factor": 2.173,
+      "max_dd_pct": 27.83,
+      "avg_r": 0.671,
+      "avg_mfe": 3.273,
+      "avg_bars": 16.1,
+      "final_bal": 3323.06,
+      "exit_reasons": {
+        "TP": 96,
+        "SL": 51,
+        "EOS": 116,
+        "TRAIL": 37,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 81,
+          "losses": 65,
+          "wr_pct": 55.48,
+          "pnl_usd": 308.36,
+          "pnl_pct": 30.84,
+          "profit_factor": 1.363,
+          "max_dd_pct": 27.83,
+          "avg_r": 0.587,
+          "avg_mfe": 4.445,
+          "avg_bars": 16.3,
+          "final_bal": 1308.36,
+          "exit_reasons": {
+            "TP": 51,
+            "SL": 17,
+            "EOS": 62,
+            "TRAIL": 15,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 82,
+          "losses": 74,
+          "wr_pct": 52.56,
+          "pnl_usd": 1539.87,
+          "pnl_pct": 153.99,
+          "profit_factor": 2.783,
+          "max_dd_pct": 4.91,
+          "avg_r": 0.749,
+          "avg_mfe": 2.176,
+          "avg_bars": 15.9,
+          "final_bal": 2539.87,
+          "exit_reasons": {
+            "TP": 45,
+            "EOS": 54,
+            "SL": 34,
+            "TRAIL": 22,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_BE@1.5R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.5,
+        "trail_mode": "breakeven"
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 184,
+      "losses": 118,
+      "wr_pct": 60.93,
+      "pnl_usd": 1657.43,
+      "pnl_pct": 165.74,
+      "profit_factor": 1.945,
+      "max_dd_pct": 20.67,
+      "avg_r": 0.628,
+      "avg_mfe": 3.105,
+      "avg_bars": 12.1,
+      "final_bal": 2657.43,
+      "exit_reasons": {
+        "TP": 68,
+        "TRAIL": 125,
+        "EOS": 69,
+        "SL": 39,
+        "EOD": 1
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 87,
+          "losses": 59,
+          "wr_pct": 59.59,
+          "pnl_usd": 268.9,
+          "pnl_pct": 26.89,
+          "profit_factor": 1.322,
+          "max_dd_pct": 20.67,
+          "avg_r": 0.633,
+          "avg_mfe": 4.265,
+          "avg_bars": 12.5,
+          "final_bal": 1268.9,
+          "exit_reasons": {
+            "TP": 37,
+            "TRAIL": 58,
+            "EOS": 38,
+            "SL": 13
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 97,
+          "losses": 59,
+          "wr_pct": 62.18,
+          "pnl_usd": 1094.28,
+          "pnl_pct": 109.43,
+          "profit_factor": 2.51,
+          "max_dd_pct": 4.37,
+          "avg_r": 0.623,
+          "avg_mfe": 2.019,
+          "avg_bars": 11.7,
+          "final_bal": 2094.28,
+          "exit_reasons": {
+            "TRAIL": 67,
+            "EOS": 31,
+            "SL": 26,
+            "TP": 31,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_ATR2@1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "atr",
+        "atr_mult": 2.0
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 177,
+      "losses": 125,
+      "wr_pct": 58.61,
+      "pnl_usd": 2691.15,
+      "pnl_pct": 269.11,
+      "profit_factor": 2.262,
+      "max_dd_pct": 20.68,
+      "avg_r": 0.728,
+      "avg_mfe": 3.26,
+      "avg_bars": 14.9,
+      "final_bal": 3691.15,
+      "exit_reasons": {
+        "TP": 90,
+        "TRAIL": 78,
+        "EOS": 93,
+        "SL": 39,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 84,
+          "losses": 62,
+          "wr_pct": 57.53,
+          "pnl_usd": 388.03,
+          "pnl_pct": 38.8,
+          "profit_factor": 1.449,
+          "max_dd_pct": 20.68,
+          "avg_r": 0.673,
+          "avg_mfe": 4.429,
+          "avg_bars": 15.1,
+          "final_bal": 1388.03,
+          "exit_reasons": {
+            "TP": 46,
+            "TRAIL": 37,
+            "EOS": 49,
+            "SL": 13,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 93,
+          "losses": 63,
+          "wr_pct": 59.62,
+          "pnl_usd": 1659.27,
+          "pnl_pct": 165.93,
+          "profit_factor": 2.817,
+          "max_dd_pct": 5.62,
+          "avg_r": 0.779,
+          "avg_mfe": 2.166,
+          "avg_bars": 14.8,
+          "final_bal": 2659.27,
+          "exit_reasons": {
+            "TP": 44,
+            "EOS": 44,
+            "SL": 26,
+            "TRAIL": 41,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_ATR3@1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "atr",
+        "atr_mult": 3.0
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 191,
+      "losses": 111,
+      "wr_pct": 63.25,
+      "pnl_usd": 2952.71,
+      "pnl_pct": 295.27,
+      "profit_factor": 2.581,
+      "max_dd_pct": 26.7,
+      "avg_r": 0.728,
+      "avg_mfe": 3.241,
+      "avg_bars": 12.6,
+      "final_bal": 3952.71,
+      "exit_reasons": {
+        "TP": 96,
+        "TRAIL": 105,
+        "EOS": 60,
+        "SL": 39,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 89,
+          "losses": 57,
+          "wr_pct": 60.96,
+          "pnl_usd": 342.27,
+          "pnl_pct": 34.23,
+          "profit_factor": 1.428,
+          "max_dd_pct": 26.7,
+          "avg_r": 0.604,
+          "avg_mfe": 4.408,
+          "avg_bars": 13.0,
+          "final_bal": 1342.27,
+          "exit_reasons": {
+            "TP": 49,
+            "TRAIL": 49,
+            "EOS": 34,
+            "SL": 13,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 102,
+          "losses": 54,
+          "wr_pct": 65.38,
+          "pnl_usd": 1944.78,
+          "pnl_pct": 194.48,
+          "profit_factor": 3.447,
+          "max_dd_pct": 4.29,
+          "avg_r": 0.844,
+          "avg_mfe": 2.149,
+          "avg_bars": 12.2,
+          "final_bal": 2944.78,
+          "exit_reasons": {
+            "TP": 47,
+            "EOS": 26,
+            "SL": 26,
+            "TRAIL": 56,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_sw3@1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 3,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 186,
+      "losses": 116,
+      "wr_pct": 61.59,
+      "pnl_usd": 2842.38,
+      "pnl_pct": 284.24,
+      "profit_factor": 2.528,
+      "max_dd_pct": 27.56,
+      "avg_r": 0.718,
+      "avg_mfe": 3.254,
+      "avg_bars": 13.4,
+      "final_bal": 3842.38,
+      "exit_reasons": {
+        "TP": 98,
+        "TRAIL": 95,
+        "EOS": 68,
+        "SL": 39,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 85,
+          "losses": 61,
+          "wr_pct": 58.22,
+          "pnl_usd": 324.08,
+          "pnl_pct": 32.41,
+          "profit_factor": 1.399,
+          "max_dd_pct": 27.56,
+          "avg_r": 0.595,
+          "avg_mfe": 4.428,
+          "avg_bars": 13.8,
+          "final_bal": 1324.08,
+          "exit_reasons": {
+            "TP": 51,
+            "TRAIL": 43,
+            "EOS": 38,
+            "SL": 13,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 101,
+          "losses": 55,
+          "wr_pct": 64.74,
+          "pnl_usd": 1901.93,
+          "pnl_pct": 190.19,
+          "profit_factor": 3.403,
+          "max_dd_pct": 4.38,
+          "avg_r": 0.834,
+          "avg_mfe": 2.156,
+          "avg_bars": 12.9,
+          "final_bal": 2901.93,
+          "exit_reasons": {
+            "TP": 47,
+            "EOS": 30,
+            "SL": 26,
+            "TRAIL": 52,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_sw5@1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 180,
+      "losses": 122,
+      "wr_pct": 59.6,
+      "pnl_usd": 2633.23,
+      "pnl_pct": 263.32,
+      "profit_factor": 2.395,
+      "max_dd_pct": 27.89,
+      "avg_r": 0.7,
+      "avg_mfe": 3.258,
+      "avg_bars": 14.3,
+      "final_bal": 3633.23,
+      "exit_reasons": {
+        "TP": 98,
+        "TRAIL": 87,
+        "EOS": 76,
+        "SL": 39,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 83,
+          "losses": 63,
+          "wr_pct": 56.85,
+          "pnl_usd": 291.04,
+          "pnl_pct": 29.1,
+          "profit_factor": 1.356,
+          "max_dd_pct": 27.89,
+          "avg_r": 0.577,
+          "avg_mfe": 4.432,
+          "avg_bars": 14.9,
+          "final_bal": 1291.04,
+          "exit_reasons": {
+            "TP": 51,
+            "TRAIL": 40,
+            "EOS": 41,
+            "SL": 13,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 97,
+          "losses": 59,
+          "wr_pct": 62.18,
+          "pnl_usd": 1814.19,
+          "pnl_pct": 181.42,
+          "profit_factor": 3.188,
+          "max_dd_pct": 4.55,
+          "avg_r": 0.815,
+          "avg_mfe": 2.16,
+          "avg_bars": 13.8,
+          "final_bal": 2814.19,
+          "exit_reasons": {
+            "TP": 47,
+            "EOS": 35,
+            "SL": 26,
+            "TRAIL": 47,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_sw8@1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 8,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 186,
+      "losses": 116,
+      "wr_pct": 61.59,
+      "pnl_usd": 2985.92,
+      "pnl_pct": 298.59,
+      "profit_factor": 2.441,
+      "max_dd_pct": 29.29,
+      "avg_r": 0.732,
+      "avg_mfe": 3.291,
+      "avg_bars": 15.4,
+      "final_bal": 3985.92,
+      "exit_reasons": {
+        "TP": 101,
+        "SL": 51,
+        "EOS": 95,
+        "TRAIL": 53,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 87,
+          "losses": 59,
+          "wr_pct": 59.59,
+          "pnl_usd": 316.0,
+          "pnl_pct": 31.6,
+          "profit_factor": 1.376,
+          "max_dd_pct": 29.29,
+          "avg_r": 0.591,
+          "avg_mfe": 4.456,
+          "avg_bars": 15.7,
+          "final_bal": 1316.0,
+          "exit_reasons": {
+            "TP": 52,
+            "SL": 17,
+            "EOS": 53,
+            "TRAIL": 23,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 99,
+          "losses": 57,
+          "wr_pct": 63.46,
+          "pnl_usd": 2028.82,
+          "pnl_pct": 202.88,
+          "profit_factor": 3.169,
+          "max_dd_pct": 3.89,
+          "avg_r": 0.863,
+          "avg_mfe": 2.2,
+          "avg_bars": 15.1,
+          "final_bal": 3028.82,
+          "exit_reasons": {
+            "TP": 49,
+            "EOS": 42,
+            "SL": 34,
+            "TRAIL": 30,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_sw5@1.5R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.5,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 183,
+      "losses": 119,
+      "wr_pct": 60.6,
+      "pnl_usd": 2800.73,
+      "pnl_pct": 280.07,
+      "profit_factor": 2.35,
+      "max_dd_pct": 29.47,
+      "avg_r": 0.716,
+      "avg_mfe": 3.292,
+      "avg_bars": 15.8,
+      "final_bal": 3800.73,
+      "exit_reasons": {
+        "TP": 101,
+        "SL": 51,
+        "EOS": 99,
+        "TRAIL": 49,
+        "EOD": 2
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 86,
+          "losses": 60,
+          "wr_pct": 58.9,
+          "pnl_usd": 281.73,
+          "pnl_pct": 28.17,
+          "profit_factor": 1.332,
+          "max_dd_pct": 29.47,
+          "avg_r": 0.573,
+          "avg_mfe": 4.458,
+          "avg_bars": 16.2,
+          "final_bal": 1281.73,
+          "exit_reasons": {
+            "TP": 52,
+            "SL": 17,
+            "EOS": 54,
+            "TRAIL": 22,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 97,
+          "losses": 59,
+          "wr_pct": 62.18,
+          "pnl_usd": 1965.31,
+          "pnl_pct": 196.53,
+          "profit_factor": 3.054,
+          "max_dd_pct": 4.39,
+          "avg_r": 0.85,
+          "avg_mfe": 2.2,
+          "avg_bars": 15.5,
+          "final_bal": 2965.31,
+          "exit_reasons": {
+            "TP": 49,
+            "EOS": 45,
+            "SL": 34,
+            "TRAIL": 27,
+            "EOD": 1
+          }
+        }
+      },
+      "config_id": "Trail_sw8@1.5R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "fixed_r",
+        "tp_r": 3.0,
+        "max_entry_hr": 3,
+        "sl_mode": "structural",
+        "sl_swing_bars": 16,
+        "sl_buffer_atr": 0.3,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.5,
+        "trail_mode": "swing",
+        "swing_bars": 8,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 209,
+      "losses": 93,
+      "wr_pct": 69.21,
+      "pnl_usd": 2946.38,
+      "pnl_pct": 294.64,
+      "profit_factor": 2.4,
+      "max_dd_pct": 5.75,
+      "avg_r": 0.595,
+      "avg_mfe": 1.482,
+      "avg_bars": 10.3,
+      "final_bal": 3946.38,
+      "exit_reasons": {
+        "TP": 186,
+        "SL": 66,
+        "EOS": 50
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 106,
+          "losses": 40,
+          "wr_pct": 72.6,
+          "pnl_usd": 922.76,
+          "pnl_pct": 92.28,
+          "profit_factor": 2.451,
+          "max_dd_pct": 5.75,
+          "avg_r": 0.623,
+          "avg_mfe": 1.552,
+          "avg_bars": 9.7,
+          "final_bal": 1922.76,
+          "exit_reasons": {
+            "TP": 95,
+            "SL": 30,
+            "EOS": 21
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 103,
+          "losses": 53,
+          "wr_pct": 66.03,
+          "pnl_usd": 1052.45,
+          "pnl_pct": 105.25,
+          "profit_factor": 2.378,
+          "max_dd_pct": 5.45,
+          "avg_r": 0.568,
+          "avg_mfe": 1.417,
+          "avg_bars": 10.8,
+          "final_bal": 2052.45,
+          "exit_reasons": {
+            "TP": 91,
+            "EOS": 29,
+            "SL": 36
+          }
+        }
+      },
+      "config_id": "LvlTP_noTrail",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "nearest_level",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 302,
+      "wins": 168,
+      "losses": 134,
+      "wr_pct": 55.63,
+      "pnl_usd": 1696.4,
+      "pnl_pct": 169.64,
+      "profit_factor": 2.06,
+      "max_dd_pct": 6.37,
+      "avg_r": 0.467,
+      "avg_mfe": 1.402,
+      "avg_bars": 8.3,
+      "final_bal": 2696.4,
+      "exit_reasons": {
+        "TP": 152,
+        "TRAIL": 64,
+        "SL": 54,
+        "EOS": 32
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 83,
+          "losses": 63,
+          "wr_pct": 56.85,
+          "pnl_usd": 621.72,
+          "pnl_pct": 62.17,
+          "profit_factor": 2.202,
+          "max_dd_pct": 5.77,
+          "avg_r": 0.505,
+          "avg_mfe": 1.435,
+          "avg_bars": 7.6,
+          "final_bal": 1621.72,
+          "exit_reasons": {
+            "TP": 76,
+            "TRAIL": 35,
+            "SL": 21,
+            "EOS": 14
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 85,
+          "losses": 71,
+          "wr_pct": 54.49,
+          "pnl_usd": 662.68,
+          "pnl_pct": 66.27,
+          "profit_factor": 1.992,
+          "max_dd_pct": 6.37,
+          "avg_r": 0.432,
+          "avg_mfe": 1.371,
+          "avg_bars": 9.0,
+          "final_bal": 1662.68,
+          "exit_reasons": {
+            "TP": 76,
+            "TRAIL": 29,
+            "SL": 33,
+            "EOS": 18
+          }
+        }
+      },
+      "config_id": "LvlTP_BE1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "nearest_level",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "breakeven"
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 211,
+      "losses": 91,
+      "wr_pct": 69.87,
+      "pnl_usd": 2703.86,
+      "pnl_pct": 270.39,
+      "profit_factor": 2.466,
+      "max_dd_pct": 4.5,
+      "avg_r": 0.573,
+      "avg_mfe": 1.421,
+      "avg_bars": 8.1,
+      "final_bal": 3703.86,
+      "exit_reasons": {
+        "TP": 170,
+        "TRAIL": 53,
+        "SL": 54,
+        "EOS": 25
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 103,
+          "losses": 43,
+          "wr_pct": 70.55,
+          "pnl_usd": 856.16,
+          "pnl_pct": 85.62,
+          "profit_factor": 2.577,
+          "max_dd_pct": 4.11,
+          "avg_r": 0.598,
+          "avg_mfe": 1.441,
+          "avg_bars": 7.4,
+          "final_bal": 1856.16,
+          "exit_reasons": {
+            "TP": 86,
+            "TRAIL": 28,
+            "SL": 21,
+            "EOS": 11
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 108,
+          "losses": 48,
+          "wr_pct": 69.23,
+          "pnl_usd": 995.45,
+          "pnl_pct": 99.54,
+          "profit_factor": 2.42,
+          "max_dd_pct": 4.5,
+          "avg_r": 0.549,
+          "avg_mfe": 1.401,
+          "avg_bars": 8.9,
+          "final_bal": 1995.45,
+          "exit_reasons": {
+            "TP": 84,
+            "TRAIL": 25,
+            "SL": 33,
+            "EOS": 14
+          }
+        }
+      },
+      "config_id": "LvlTP_sw5@1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "nearest_level",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "ema50_4h"
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    },
+    {
+      "trades": 302,
+      "wins": 181,
+      "losses": 121,
+      "wr_pct": 59.93,
+      "pnl_usd": 3275.13,
+      "pnl_pct": 327.51,
+      "profit_factor": 2.167,
+      "max_dd_pct": 6.71,
+      "avg_r": 0.626,
+      "avg_mfe": 1.774,
+      "avg_bars": 17.3,
+      "final_bal": 4275.13,
+      "exit_reasons": {
+        "TP": 115,
+        "SL": 81,
+        "EOS": 106
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 90,
+          "losses": 56,
+          "wr_pct": 61.64,
+          "pnl_usd": 916.46,
+          "pnl_pct": 91.65,
+          "profit_factor": 2.011,
+          "max_dd_pct": 6.71,
+          "avg_r": 0.626,
+          "avg_mfe": 1.836,
+          "avg_bars": 17.2,
+          "final_bal": 1916.46,
+          "exit_reasons": {
+            "TP": 58,
+            "SL": 37,
+            "EOS": 51
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 91,
+          "losses": 65,
+          "wr_pct": 58.33,
+          "pnl_usd": 1230.74,
+          "pnl_pct": 123.07,
+          "profit_factor": 2.241,
+          "max_dd_pct": 6.03,
+          "avg_r": 0.626,
+          "avg_mfe": 1.716,
+          "avg_bars": 17.4,
+          "final_bal": 2230.74,
+          "exit_reasons": {
+            "TP": 57,
+            "EOS": 55,
+            "SL": 44
+          }
+        }
+      },
+      "config_id": "RngM1.5_noTrail",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "range_mult",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "ema50_4h",
+        "tp_range_mult": 1.5
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 302,
+      "wins": 175,
+      "losses": 127,
+      "wr_pct": 57.95,
+      "pnl_usd": 4300.79,
+      "pnl_pct": 430.08,
+      "profit_factor": 2.261,
+      "max_dd_pct": 8.23,
+      "avg_r": 0.7,
+      "avg_mfe": 1.945,
+      "avg_bars": 20.8,
+      "final_bal": 5300.79,
+      "exit_reasons": {
+        "TP": 74,
+        "SL": 84,
+        "EOS": 143,
+        "EOD": 1
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 88,
+          "losses": 58,
+          "wr_pct": 60.27,
+          "pnl_usd": 1311.38,
+          "pnl_pct": 131.14,
+          "profit_factor": 2.3,
+          "max_dd_pct": 5.95,
+          "avg_r": 0.758,
+          "avg_mfe": 2.044,
+          "avg_bars": 20.6,
+          "final_bal": 2311.38,
+          "exit_reasons": {
+            "TP": 40,
+            "SL": 37,
+            "EOS": 68,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 87,
+          "losses": 69,
+          "wr_pct": 55.77,
+          "pnl_usd": 1293.35,
+          "pnl_pct": 129.33,
+          "profit_factor": 2.244,
+          "max_dd_pct": 8.23,
+          "avg_r": 0.646,
+          "avg_mfe": 1.853,
+          "avg_bars": 20.9,
+          "final_bal": 2293.35,
+          "exit_reasons": {
+            "TP": 34,
+            "EOS": 75,
+            "SL": 47
+          }
+        }
+      },
+      "config_id": "RngM2.0_noTrail",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "range_mult",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "ema50_4h",
+        "tp_range_mult": 2.0
+      },
+      "trail_cfg": null
+    },
+    {
+      "trades": 302,
+      "wins": 187,
+      "losses": 115,
+      "wr_pct": 61.92,
+      "pnl_usd": 4019.26,
+      "pnl_pct": 401.93,
+      "profit_factor": 2.633,
+      "max_dd_pct": 5.52,
+      "avg_r": 0.679,
+      "avg_mfe": 1.795,
+      "avg_bars": 12.9,
+      "final_bal": 5019.26,
+      "exit_reasons": {
+        "TRAIL": 151,
+        "SL": 54,
+        "TP": 63,
+        "EOS": 33,
+        "EOD": 1
+      },
+      "total_sigs": 302,
+      "per_sym": {
+        "BTC/USDT:USDT": {
+          "trades": 146,
+          "wins": 89,
+          "losses": 57,
+          "wr_pct": 60.96,
+          "pnl_usd": 1160.66,
+          "pnl_pct": 116.07,
+          "profit_factor": 2.725,
+          "max_dd_pct": 5.52,
+          "avg_r": 0.708,
+          "avg_mfe": 1.841,
+          "avg_bars": 12.5,
+          "final_bal": 2160.66,
+          "exit_reasons": {
+            "TRAIL": 77,
+            "SL": 21,
+            "TP": 33,
+            "EOS": 14,
+            "EOD": 1
+          }
+        },
+        "ETH/USDT:USDT": {
+          "trades": 156,
+          "wins": 98,
+          "losses": 58,
+          "wr_pct": 62.82,
+          "pnl_usd": 1323.02,
+          "pnl_pct": 132.3,
+          "profit_factor": 2.599,
+          "max_dd_pct": 4.5,
+          "avg_r": 0.652,
+          "avg_mfe": 1.751,
+          "avg_bars": 13.2,
+          "final_bal": 2323.02,
+          "exit_reasons": {
+            "TP": 30,
+            "TRAIL": 74,
+            "SL": 33,
+            "EOS": 19
+          }
+        }
+      },
+      "config_id": "RngM2.0_sw5@1R",
+      "params": {
+        "open_hr": 13,
+        "close_hr": 22,
+        "min_range_atr": 0.3,
+        "max_range_atr": 5.0,
+        "tp_mode": "range_mult",
+        "tp_r": 2.0,
+        "max_entry_hr": 3,
+        "sl_mode": "atr",
+        "sl_atr_mult": 2.5,
+        "htf_filter": "ema50_4h",
+        "tp_range_mult": 2.0
+      },
+      "trail_cfg": {
+        "activate_at_r": 1.0,
+        "trail_mode": "swing",
+        "swing_bars": 5,
+        "buffer_atr": 0.2
+      }
+    }
+  ]
+}

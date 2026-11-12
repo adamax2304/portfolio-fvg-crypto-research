@@ -1,0 +1,43 @@
+{
+  "strategy": "MTF_BBS_1h->5m",
+  "version": "v9",
+  "date": "2026-04-13",
+  "description": "Multi-TF: BBS signal on 1h, pullback entry on 5m EMA21. Best strategy found in v9.",
+  "backtest_result": {
+    "profit_factor": 5.32,
+    "pnl_pct": 129.9,
+    "trades_180d": 80,
+    "max_dd_pct": 3.4,
+    "walk_forward": {
+      "train_pf": 6.45,
+      "train_pnl_pct": 95.2,
+      "train_trades": 59,
+      "test_pf": 3.80,
+      "test_pnl_pct": 17.8,
+      "test_trades": 21,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "signal_timeframe": "1h",
+    "entry_timeframe": "5m",
+    "min_squeeze_bars": 6,
+    "adx_threshold": 18.0,
+    "vol_mult": 1.0,
+    "htf_filter": false,
+    "headfake_filter": true,
+    "entry_mode": "pullback_ema21",
+    "max_wait_bars": 20
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 2.5,
+    "tp_mode": "fixed_r",
+    "tp_r": 3.5
+  },
+  "portfolio": {
+    "capital_fraction": 0.40,
+    "risk_per_trade": 0.010,
+    "max_positions": 4
+  }
+}

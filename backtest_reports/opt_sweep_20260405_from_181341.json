@@ -1,0 +1,184 @@
+[
+  {
+    "variant": "base_ref",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_193651",
+    "return_pct": 43.68,
+    "balance_end": 1436.81,
+    "trades": 61,
+    "winrate": 54.1,
+    "pf": 1.666,
+    "avg_rr": 1.549,
+    "maxdd": 8.48,
+    "fees": 56.29,
+    "funding": -1.82,
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    },
+    "stats": {
+      "fvgs_detected": 4140,
+      "midzone_touched": 456,
+      "rr_skips": 267,
+      "entries": 61,
+      "margin_cap_skips": 0,
+      "sl_too_tight": 62
+    }
+  },
+  {
+    "variant": "wld_excluded",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_194514",
+    "return_pct": 50.55,
+    "balance_end": 1505.52,
+    "trades": 61,
+    "winrate": 55.74,
+    "pf": 1.76,
+    "avg_rr": 1.563,
+    "maxdd": 8.48,
+    "fees": 59.42,
+    "funding": -0.87,
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    },
+    "stats": {
+      "fvgs_detected": 4132,
+      "midzone_touched": 448,
+      "rr_skips": 260,
+      "entries": 61,
+      "margin_cap_skips": 0,
+      "sl_too_tight": 62
+    }
+  },
+  {
+    "variant": "rr_2_3",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_195337",
+    "return_pct": 41.37,
+    "balance_end": 1413.69,
+    "trades": 61,
+    "winrate": 54.1,
+    "pf": 1.637,
+    "avg_rr": 1.525,
+    "maxdd": 8.48,
+    "fees": 55.87,
+    "funding": -1.81,
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    },
+    "stats": {
+      "fvgs_detected": 4140,
+      "midzone_touched": 456,
+      "rr_skips": 267,
+      "entries": 61,
+      "margin_cap_skips": 0,
+      "sl_too_tight": 62
+    }
+  },
+  {
+    "variant": "minscore_82",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_200153",
+    "return_pct": 28.65,
+    "balance_end": 1286.46,
+    "trades": 53,
+    "winrate": 52.83,
+    "pf": 1.499,
+    "avg_rr": 1.508,
+    "maxdd": 8.32,
+    "fees": 46.96,
+    "funding": -1.36,
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    },
+    "stats": {
+      "fvgs_detected": 3884,
+      "midzone_touched": 441,
+      "rr_skips": 249,
+      "entries": 53,
+      "margin_cap_skips": 0,
+      "sl_too_tight": 60
+    }
+  },
+  {
+    "variant": "corr_078",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_201053",
+    "return_pct": 44.04,
+    "balance_end": 1440.45,
+    "trades": 63,
+    "winrate": 53.97,
+    "pf": 1.654,
+    "avg_rr": 1.559,
+    "maxdd": 8.48,
+    "fees": 59.35,
+    "funding": -0.89,
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    },
+    "stats": {
+      "fvgs_detected": 4139,
+      "midzone_touched": 527,
+      "rr_skips": 273,
+      "entries": 63,
+      "margin_cap_skips": 0,
+      "sl_too_tight": 57
+    }
+  },
+  {
+    "variant": "wld_rr23",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_201955",
+    "return_pct": 48.13,
+    "balance_end": 1481.3,
+    "trades": 61,
+    "winrate": 55.74,
+    "pf": 1.73,
+    "avg_rr": 1.538,
+    "maxdd": 8.48,
+    "fees": 58.97,
+    "funding": -0.86,
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    },
+    "stats": {
+      "fvgs_detected": 4132,
+      "midzone_touched": 448,
+      "rr_skips": 260,
+      "entries": 61,
+      "margin_cap_skips": 0,
+      "sl_too_tight": 62
+    }
+  },
+  {
+    "variant": "wld_corr078",
+    "report": "C:\\Users\\adama\\OneDrive\\fvgbot\\backtest_reports\\backtest_20260405_202756",
+    "return_pct": 50.93,
+    "balance_end": 1509.33,
+    "trades": 63,
+    "winrate": 55.56,
+    "pf": 1.744,
+    "avg_rr": 1.573,
+    "maxdd": 8.48,
+    "fees": 62.6,
+    "funding": 0.06,
+    "candle_check": {
+      "entry_range_miss": 0,
+      "exit_range_miss": 0,
+      "same_candle": 0
+    },
+    "stats": {
+      "fvgs_detected": 4132,
+      "midzone_touched": 521,
+      "rr_skips": 268,
+      "entries": 63,
+      "margin_cap_skips": 0,
+      "sl_too_tight": 57
+    }
+  }
+]

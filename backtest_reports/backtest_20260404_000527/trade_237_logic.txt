@@ -1,0 +1,1 @@
+FVG bearish gap=1.618% score=44.7 mid=44.9% sl=0.43520 tp=0.42908 rr=2.40 structure=0.43450 target=0.41130 | qty=14924.803871 lev=50.00x margin=129.22 risk_usd=34.45 risk_div=1 htf=bear entry_ref=0.433000 entry_exec=0.432892 quality=70.4 reaction=33.3 composite=52.0

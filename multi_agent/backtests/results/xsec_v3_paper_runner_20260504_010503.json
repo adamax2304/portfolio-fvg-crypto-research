@@ -1,0 +1,278 @@
+{
+  "created_at_utc": "2026-05-03T22:05:03.694913+00:00",
+  "config": {
+    "lookback_h": 24,
+    "hold_h": 24,
+    "top_n": 2,
+    "min_abs_ret": 0.02,
+    "liquid_n": 15,
+    "funding_tilt": 0.0,
+    "vol_lookback_h": 24,
+    "corr_lookback_h": 168,
+    "corr_cap": 0.55,
+    "retain_extra": 1
+  },
+  "assumptions": {
+    "start_balance": 1000.0,
+    "fee_per_side": 0.00055,
+    "weighting": "inverse vol within each side",
+    "gross_long": 0.5,
+    "gross_short": 0.5,
+    "universe_size": 27,
+    "universe": [
+      "ADA_USDT_USDT",
+      "ALGO_USDT_USDT",
+      "APT_USDT_USDT",
+      "ARB_USDT_USDT",
+      "ATOM_USDT_USDT",
+      "AVAX_USDT_USDT",
+      "BCH_USDT_USDT",
+      "BNB_USDT_USDT",
+      "BTC_USDT_USDT",
+      "DOGE_USDT_USDT",
+      "DOT_USDT_USDT",
+      "ETH_USDT_USDT",
+      "FIL_USDT_USDT",
+      "HBAR_USDT_USDT",
+      "ICP_USDT_USDT",
+      "INJ_USDT_USDT",
+      "LINK_USDT_USDT",
+      "LTC_USDT_USDT",
+      "NEAR_USDT_USDT",
+      "OP_USDT_USDT",
+      "SOL_USDT_USDT",
+      "SUI_USDT_USDT",
+      "TON_USDT_USDT",
+      "TRX_USDT_USDT",
+      "UNI_USDT_USDT",
+      "XLM_USDT_USDT",
+      "XRP_USDT_USDT"
+    ]
+  },
+  "historical_validation": {
+    "metrics": {
+      "rebalances": 72,
+      "wr_pct": 54.17,
+      "profit_factor": 1.616,
+      "return_pct": 29.12,
+      "max_dd_pct": 12.66,
+      "final_balance": 1291.15,
+      "avg_turnover": 1.0851,
+      "profitable_months": 11,
+      "months": 26
+    },
+    "monthly_returns": [
+      {
+        "month": "2024-04",
+        "start": 1000.0,
+        "end": 977.91,
+        "ret_pct": -2.21
+      },
+      {
+        "month": "2024-05",
+        "start": 977.91,
+        "end": 1022.02,
+        "ret_pct": 4.51
+      },
+      {
+        "month": "2024-06",
+        "start": 1022.02,
+        "end": 1033.7,
+        "ret_pct": 1.14
+      },
+      {
+        "month": "2024-07",
+        "start": 1033.7,
+        "end": 1002.45,
+        "ret_pct": -3.02
+      },
+      {
+        "month": "2024-08",
+        "start": 1002.45,
+        "end": 1024.57,
+        "ret_pct": 2.21
+      },
+      {
+        "month": "2024-09",
+        "start": 1024.57,
+        "end": 1045.2,
+        "ret_pct": 2.01
+      },
+      {
+        "month": "2024-10",
+        "start": 1045.2,
+        "end": 1108.47,
+        "ret_pct": 6.05
+      },
+      {
+        "month": "2024-11",
+        "start": 1108.47,
+        "end": 1346.97,
+        "ret_pct": 21.52
+      },
+      {
+        "month": "2024-12",
+        "start": 1346.97,
+        "end": 1240.72,
+        "ret_pct": -7.89
+      },
+      {
+        "month": "2025-01",
+        "start": 1240.72,
+        "end": 1218.13,
+        "ret_pct": -1.82
+      },
+      {
+        "month": "2025-02",
+        "start": 1218.13,
+        "end": 1258.72,
+        "ret_pct": 3.33
+      },
+      {
+        "month": "2025-03",
+        "start": 1258.72,
+        "end": 1233.39,
+        "ret_pct": -2.01
+      },
+      {
+        "month": "2025-04",
+        "start": 1233.39,
+        "end": 1220.3,
+        "ret_pct": -1.06
+      },
+      {
+        "month": "2025-05",
+        "start": 1220.3,
+        "end": 1229.04,
+        "ret_pct": 0.72
+      },
+      {
+        "month": "2025-06",
+        "start": 1229.04,
+        "end": 1229.04,
+        "ret_pct": 0.0
+      },
+      {
+        "month": "2025-07",
+        "start": 1229.04,
+        "end": 1229.04,
+        "ret_pct": 0.0
+      },
+      {
+        "month": "2025-08",
+        "start": 1229.04,
+        "end": 1213.3,
+        "ret_pct": -1.28
+      },
+      {
+        "month": "2025-09",
+        "start": 1213.3,
+        "end": 1213.3,
+        "ret_pct": 0.0
+      },
+      {
+        "month": "2025-10",
+        "start": 1213.3,
+        "end": 1221.3,
+        "ret_pct": 0.66
+      },
+      {
+        "month": "2025-11",
+        "start": 1221.3,
+        "end": 1265.21,
+        "ret_pct": 3.6
+      },
+      {
+        "month": "2025-12",
+        "start": 1265.21,
+        "end": 1265.21,
+        "ret_pct": 0.0
+      },
+      {
+        "month": "2026-01",
+        "start": 1265.21,
+        "end": 1265.21,
+        "ret_pct": 0.0
+      },
+      {
+        "month": "2026-02",
+        "start": 1265.21,
+        "end": 1291.15,
+        "ret_pct": 2.05
+      },
+      {
+        "month": "2026-03",
+        "start": 1291.15,
+        "end": 1291.15,
+        "ret_pct": 0.0
+      },
+      {
+        "month": "2026-04",
+        "start": 1291.15,
+        "end": 1291.15,
+        "ret_pct": 0.0
+      },
+      {
+        "month": "2026-05",
+        "start": 1291.15,
+        "end": 1291.15,
+        "ret_pct": 0.0
+      }
+    ],
+    "rebalance_csv": "C:\\Users\\adama\\Documents\\zeph ai projects\\fvgbot\\multi_agent\\backtests\\results\\xsec_v3_paper_rebalances_20260504_010503.csv"
+  },
+  "latest_signal": {
+    "timestamp_ms": 1777759200000,
+    "timestamp_utc": "2026-05-02T22:00:00+00:00",
+    "basket": [],
+    "target_weights": {},
+    "turnover": 0,
+    "liquid_universe": [],
+    "status": "flat_no_signal",
+    "hours_since_rebalance": 23,
+    "hours_to_next_rebalance": 1,
+    "latest_cache_bar_utc": "2026-05-03T21:00:00+00:00",
+    "previous_basket": [
+      {
+        "symbol": "ARB_USDT_USDT",
+        "side": "SHORT",
+        "weight": 0.30435669597612186,
+        "ret_lookback_pct": -9.387489543637894,
+        "recent_funding_pct": -0.0003490000000000009,
+        "realized_vol_pct": 0.8754074897413107,
+        "score": 0.09387489543637895,
+        "retained": false
+      },
+      {
+        "symbol": "OP_USDT_USDT",
+        "side": "SHORT",
+        "weight": 0.1956433040238781,
+        "ret_lookback_pct": -17.449865309787494,
+        "recent_funding_pct": -0.205681,
+        "realized_vol_pct": 1.3618464099231211,
+        "score": 0.17449865309787493,
+        "retained": false
+      },
+      {
+        "symbol": "TRX_USDT_USDT",
+        "side": "LONG",
+        "weight": 0.4630424719467969,
+        "ret_lookback_pct": 2.1417808710626485,
+        "recent_funding_pct": -0.016048,
+        "realized_vol_pct": 0.221883843663584,
+        "score": 0.021417808710626485,
+        "retained": false
+      },
+      {
+        "symbol": "INJ_USDT_USDT",
+        "side": "LONG",
+        "weight": 0.03695752805320311,
+        "ret_lookback_pct": 11.133535149680451,
+        "recent_funding_pct": -3.809867,
+        "realized_vol_pct": 2.779992301085135,
+        "score": 0.11133535149680451,
+        "retained": false
+      }
+    ]
+  }
+}

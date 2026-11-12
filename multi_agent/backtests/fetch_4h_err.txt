@@ -1,0 +1,211 @@
+2026-04-25 11:13:27,949 | INFO     | === fetch_data_2y.py  |  50 symbols x 5 TFs x 730d ===
+2026-04-25 11:13:27,949 | INFO     | Cache: C:\Users\adama\Documents\zeph ai projects\fvgbot\multi_agent\backtests\data_cache
+2026-04-25 11:13:27,949 | INFO     | [1/250] SKIP (fresh)  BTC/USDT:USDT 1h
+2026-04-25 11:13:27,949 | INFO     | [2/250] SKIP (fresh)  BTC/USDT:USDT 5m
+2026-04-25 11:13:27,949 | INFO     | [3/250] SKIP (fresh)  BTC/USDT:USDT 15m
+2026-04-25 11:13:27,949 | INFO     | [4/250] SKIP (fresh)  BTC/USDT:USDT 4h
+2026-04-25 11:13:27,949 | INFO     | [5/250] SKIP (fresh)  BTC/USDT:USDT 1d
+2026-04-25 11:13:27,949 | INFO     | [6/250] SKIP (fresh)  ETH/USDT:USDT 1h
+2026-04-25 11:13:27,955 | INFO     | [7/250] SKIP (fresh)  ETH/USDT:USDT 5m
+2026-04-25 11:13:27,956 | INFO     | [8/250] SKIP (fresh)  ETH/USDT:USDT 15m
+2026-04-25 11:13:27,956 | INFO     | [9/250] SKIP (fresh)  ETH/USDT:USDT 4h
+2026-04-25 11:13:27,956 | INFO     | [10/250] SKIP (fresh)  ETH/USDT:USDT 1d
+2026-04-25 11:13:27,956 | INFO     | [11/250] SKIP (fresh)  BNB/USDT:USDT 1h
+2026-04-25 11:13:27,956 | INFO     | [12/250] SKIP (fresh)  BNB/USDT:USDT 5m
+2026-04-25 11:13:27,956 | INFO     | [13/250] SKIP (fresh)  BNB/USDT:USDT 15m
+2026-04-25 11:13:27,956 | INFO     | [14/250] SKIP (fresh)  BNB/USDT:USDT 4h
+2026-04-25 11:13:27,956 | INFO     | [15/250] SKIP (fresh)  BNB/USDT:USDT 1d
+2026-04-25 11:13:27,956 | INFO     | [16/250] SKIP (fresh)  SOL/USDT:USDT 1h
+2026-04-25 11:13:27,956 | INFO     | [17/250] SKIP (fresh)  SOL/USDT:USDT 5m
+2026-04-25 11:13:27,956 | INFO     | [18/250] SKIP (fresh)  SOL/USDT:USDT 15m
+2026-04-25 11:13:27,956 | INFO     | [19/250] SKIP (fresh)  SOL/USDT:USDT 4h
+2026-04-25 11:13:27,956 | INFO     | [20/250] SKIP (fresh)  SOL/USDT:USDT 1d
+2026-04-25 11:13:27,956 | INFO     | [21/250] SKIP (fresh)  XRP/USDT:USDT 1h
+2026-04-25 11:13:27,956 | INFO     | [22/250] SKIP (fresh)  XRP/USDT:USDT 5m
+2026-04-25 11:13:27,956 | INFO     | [23/250] SKIP (fresh)  XRP/USDT:USDT 15m
+2026-04-25 11:13:27,962 | INFO     | [24/250] SKIP (fresh)  XRP/USDT:USDT 4h
+2026-04-25 11:13:27,962 | INFO     | [25/250] SKIP (fresh)  XRP/USDT:USDT 1d
+2026-04-25 11:13:27,963 | INFO     | [26/250] SKIP (fresh)  DOGE/USDT:USDT 1h
+2026-04-25 11:13:27,963 | INFO     | [27/250] SKIP (fresh)  DOGE/USDT:USDT 5m
+2026-04-25 11:13:27,963 | INFO     | [28/250] SKIP (fresh)  DOGE/USDT:USDT 15m
+2026-04-25 11:13:27,963 | INFO     | [29/250] SKIP (fresh)  DOGE/USDT:USDT 4h
+2026-04-25 11:13:27,963 | INFO     | [30/250] SKIP (fresh)  DOGE/USDT:USDT 1d
+2026-04-25 11:13:27,963 | INFO     | [31/250] SKIP (fresh)  ADA/USDT:USDT 1h
+2026-04-25 11:13:27,963 | INFO     | [32/250] SKIP (fresh)  ADA/USDT:USDT 5m
+2026-04-25 11:13:27,963 | INFO     | [33/250] SKIP (fresh)  ADA/USDT:USDT 15m
+2026-04-25 11:13:27,963 | INFO     | [34/250] SKIP (fresh)  ADA/USDT:USDT 4h
+2026-04-25 11:13:27,963 | INFO     | [35/250] SKIP (fresh)  ADA/USDT:USDT 1d
+2026-04-25 11:13:27,963 | INFO     | [36/250] SKIP (fresh)  TRX/USDT:USDT 1h
+2026-04-25 11:13:27,963 | INFO     | [37/250] SKIP (fresh)  TRX/USDT:USDT 5m
+2026-04-25 11:13:27,963 | INFO     | [38/250] SKIP (fresh)  TRX/USDT:USDT 15m
+2026-04-25 11:13:27,963 | INFO     | [39/250] SKIP (fresh)  TRX/USDT:USDT 4h
+2026-04-25 11:13:27,963 | INFO     | [40/250] SKIP (fresh)  TRX/USDT:USDT 1d
+2026-04-25 11:13:27,963 | INFO     | [41/250] SKIP (fresh)  AVAX/USDT:USDT 1h
+2026-04-25 11:13:27,968 | INFO     | [42/250] SKIP (fresh)  AVAX/USDT:USDT 5m
+2026-04-25 11:13:27,968 | INFO     | [43/250] SKIP (fresh)  AVAX/USDT:USDT 15m
+2026-04-25 11:13:27,969 | INFO     | [44/250] SKIP (fresh)  AVAX/USDT:USDT 4h
+2026-04-25 11:13:27,970 | INFO     | [45/250] SKIP (fresh)  AVAX/USDT:USDT 1d
+2026-04-25 11:13:27,970 | INFO     | [46/250] SKIP (fresh)  TON/USDT:USDT 1h
+2026-04-25 11:13:27,970 | INFO     | [47/250] SKIP (fresh)  TON/USDT:USDT 5m
+2026-04-25 11:13:27,972 | INFO     | [48/250] SKIP (fresh)  TON/USDT:USDT 15m
+2026-04-25 11:13:27,972 | INFO     | [49/250] SKIP (fresh)  TON/USDT:USDT 4h
+2026-04-25 11:13:27,972 | INFO     | [50/250] SKIP (fresh)  TON/USDT:USDT 1d
+2026-04-25 11:13:27,972 | INFO     | [51/250] SKIP (fresh)  LINK/USDT:USDT 1h
+2026-04-25 11:13:27,972 | INFO     | [52/250] SKIP (fresh)  LINK/USDT:USDT 5m
+2026-04-25 11:13:27,972 | INFO     | [53/250] SKIP (fresh)  LINK/USDT:USDT 15m
+2026-04-25 11:13:27,972 | INFO     | [54/250] SKIP (fresh)  LINK/USDT:USDT 4h
+2026-04-25 11:13:27,975 | INFO     | [55/250] SKIP (fresh)  LINK/USDT:USDT 1d
+2026-04-25 11:13:27,976 | INFO     | [56/250] SKIP (fresh)  DOT/USDT:USDT 1h
+2026-04-25 11:13:27,976 | INFO     | [57/250] SKIP (fresh)  DOT/USDT:USDT 5m
+2026-04-25 11:13:27,976 | INFO     | [58/250] SKIP (fresh)  DOT/USDT:USDT 15m
+2026-04-25 11:13:27,976 | INFO     | [59/250] SKIP (fresh)  DOT/USDT:USDT 4h
+2026-04-25 11:13:27,976 | INFO     | [60/250] SKIP (fresh)  DOT/USDT:USDT 1d
+2026-04-25 11:13:27,979 | INFO     | [61/250] SKIP (fresh)  NEAR/USDT:USDT 1h
+2026-04-25 11:13:27,979 | INFO     | [62/250] SKIP (fresh)  NEAR/USDT:USDT 5m
+2026-04-25 11:13:27,979 | INFO     | [63/250] SKIP (fresh)  NEAR/USDT:USDT 15m
+2026-04-25 11:13:27,979 | INFO     | [64/250] SKIP (fresh)  NEAR/USDT:USDT 4h
+2026-04-25 11:13:27,979 | INFO     | [65/250] SKIP (fresh)  NEAR/USDT:USDT 1d
+2026-04-25 11:13:27,979 | INFO     | [66/250] SKIP (fresh)  ATOM/USDT:USDT 1h
+2026-04-25 11:13:27,979 | INFO     | [67/250] SKIP (fresh)  ATOM/USDT:USDT 5m
+2026-04-25 11:13:27,979 | INFO     | [68/250] SKIP (fresh)  ATOM/USDT:USDT 15m
+2026-04-25 11:13:27,979 | INFO     | [69/250] SKIP (fresh)  ATOM/USDT:USDT 4h
+2026-04-25 11:13:27,979 | INFO     | [70/250] SKIP (fresh)  ATOM/USDT:USDT 1d
+2026-04-25 11:13:27,979 | INFO     | [71/250] SKIP (fresh)  UNI/USDT:USDT 1h
+2026-04-25 11:13:27,979 | INFO     | [72/250] SKIP (fresh)  UNI/USDT:USDT 5m
+2026-04-25 11:13:27,982 | INFO     | [73/250] SKIP (fresh)  UNI/USDT:USDT 15m
+2026-04-25 11:13:27,983 | INFO     | [74/250] SKIP (fresh)  UNI/USDT:USDT 4h
+2026-04-25 11:13:27,983 | INFO     | [75/250] SKIP (fresh)  UNI/USDT:USDT 1d
+2026-04-25 11:13:27,983 | INFO     | [76/250] SKIP (fresh)  APT/USDT:USDT 1h
+2026-04-25 11:13:27,983 | INFO     | [77/250] SKIP (fresh)  APT/USDT:USDT 5m
+2026-04-25 11:13:27,983 | INFO     | [78/250] Downloading  APT/USDT:USDT 15m ...
+2026-04-25 11:14:07,685 | INFO     |   -> OK  70680 rows -> APT_USDT_USDT_15m_730d.parquet
+2026-04-25 11:14:07,685 | INFO     | [79/250] SKIP (fresh)  APT/USDT:USDT 4h
+2026-04-25 11:14:07,685 | INFO     | [80/250] SKIP (fresh)  APT/USDT:USDT 1d
+2026-04-25 11:14:07,685 | INFO     | [81/250] Downloading  SUI/USDT:USDT 1h ...
+2026-04-25 11:14:20,620 | INFO     |   -> OK  18120 rows -> SUI_USDT_USDT_1h_730d.parquet
+2026-04-25 11:14:20,621 | INFO     | [82/250] Downloading  SUI/USDT:USDT 5m ...
+2026-04-25 11:15:08,043 | WARNING  |   FAILED SUI/USDT:USDT 5m: bybit {"retCode":10006,"retMsg":"Too many visits. Exceeded the API Rate Limit.","result":{},"retExtInfo":{},"time":1777104907762}
+2026-04-25 11:15:08,084 | WARNING  |   -> FAILED/short (0 rows)
+2026-04-25 11:15:08,087 | INFO     | [83/250] Downloading  SUI/USDT:USDT 15m ...
+2026-04-25 11:15:42,767 | INFO     |   -> OK  70680 rows -> SUI_USDT_USDT_15m_730d.parquet
+2026-04-25 11:15:42,768 | INFO     | [84/250] Downloading  SUI/USDT:USDT 4h ...
+2026-04-25 11:15:50,584 | INFO     |   -> OK  4980 rows -> SUI_USDT_USDT_4h_730d.parquet
+2026-04-25 11:15:50,584 | INFO     | [85/250] Downloading  SUI/USDT:USDT 1d ...
+2026-04-25 11:15:55,375 | INFO     |   -> OK  1089 rows -> SUI_USDT_USDT_1d_730d.parquet
+2026-04-25 11:15:55,375 | INFO     | [86/250] Downloading  ARB/USDT:USDT 1h ...
+2026-04-25 11:16:07,244 | INFO     |   -> OK  18120 rows -> ARB_USDT_USDT_1h_730d.parquet
+2026-04-25 11:16:07,244 | INFO     | [87/250] Downloading  ARB/USDT:USDT 5m ...
+2026-04-25 11:16:56,013 | INFO     |   -> OK  99901 rows -> ARB_USDT_USDT_5m_730d.parquet
+2026-04-25 11:16:56,013 | INFO     | [88/250] Downloading  ARB/USDT:USDT 15m ...
+2026-04-25 11:17:29,686 | INFO     |   -> OK  70680 rows -> ARB_USDT_USDT_15m_730d.parquet
+2026-04-25 11:17:29,686 | INFO     | [89/250] Downloading  ARB/USDT:USDT 4h ...
+2026-04-25 11:17:37,434 | INFO     |   -> OK  4980 rows -> ARB_USDT_USDT_4h_730d.parquet
+2026-04-25 11:17:37,436 | INFO     | [90/250] Downloading  ARB/USDT:USDT 1d ...
+2026-04-25 11:17:43,214 | INFO     |   -> OK  1130 rows -> ARB_USDT_USDT_1d_730d.parquet
+2026-04-25 11:17:43,214 | INFO     | [91/250] Downloading  OP/USDT:USDT 1h ...
+2026-04-25 11:17:55,832 | INFO     |   -> OK  18120 rows -> OP_USDT_USDT_1h_730d.parquet
+2026-04-25 11:17:55,832 | INFO     | [92/250] Downloading  OP/USDT:USDT 5m ...
+2026-04-25 11:18:55,239 | INFO     |   -> OK  99901 rows -> OP_USDT_USDT_5m_730d.parquet
+2026-04-25 11:18:55,239 | INFO     | [93/250] Downloading  OP/USDT:USDT 15m ...
+2026-04-25 11:19:32,607 | INFO     |   -> OK  70680 rows -> OP_USDT_USDT_15m_730d.parquet
+2026-04-25 11:19:32,607 | INFO     | [94/250] Downloading  OP/USDT:USDT 4h ...
+2026-04-25 11:19:39,093 | INFO     |   -> OK  4980 rows -> OP_USDT_USDT_4h_730d.parquet
+2026-04-25 11:19:39,094 | INFO     | [95/250] Downloading  OP/USDT:USDT 1d ...
+2026-04-25 11:19:44,601 | INFO     |   -> OK  1330 rows -> OP_USDT_USDT_1d_730d.parquet
+2026-04-25 11:19:44,601 | INFO     | [96/250] Downloading  INJ/USDT:USDT 1h ...
+2026-04-25 11:19:55,627 | INFO     |   -> OK  18120 rows -> INJ_USDT_USDT_1h_730d.parquet
+2026-04-25 11:19:55,627 | INFO     | [97/250] Downloading  INJ/USDT:USDT 5m ...
+2026-04-25 11:20:39,287 | INFO     |   -> OK  99901 rows -> INJ_USDT_USDT_5m_730d.parquet
+2026-04-25 11:20:39,287 | INFO     | [98/250] Downloading  INJ/USDT:USDT 15m ...
+2026-04-25 11:21:18,737 | INFO     |   -> OK  70680 rows -> INJ_USDT_USDT_15m_730d.parquet
+2026-04-25 11:21:18,737 | INFO     | [99/250] SKIP (fresh)  INJ/USDT:USDT 4h
+2026-04-25 11:21:18,737 | INFO     | [100/250] Downloading  INJ/USDT:USDT 1d ...
+2026-04-25 11:21:23,957 | INFO     |   -> OK  1330 rows -> INJ_USDT_USDT_1d_730d.parquet
+2026-04-25 11:21:23,957 | INFO     | [101/250] Downloading  BCH/USDT:USDT 1h ...
+2026-04-25 11:21:41,071 | INFO     |   -> OK  18120 rows -> BCH_USDT_USDT_1h_730d.parquet
+2026-04-25 11:21:41,071 | INFO     | [102/250] Downloading  BCH/USDT:USDT 5m ...
+2026-04-25 11:22:34,422 | INFO     |   -> OK  99901 rows -> BCH_USDT_USDT_5m_730d.parquet
+2026-04-25 11:22:34,424 | INFO     | [103/250] Downloading  BCH/USDT:USDT 15m ...
+2026-04-25 11:23:11,688 | INFO     |   -> OK  70680 rows -> BCH_USDT_USDT_15m_730d.parquet
+2026-04-25 11:23:11,688 | INFO     | [104/250] Downloading  BCH/USDT:USDT 4h ...
+2026-04-25 11:23:18,566 | INFO     |   -> OK  4980 rows -> BCH_USDT_USDT_4h_730d.parquet
+2026-04-25 11:23:18,566 | INFO     | [105/250] Downloading  BCH/USDT:USDT 1d ...
+2026-04-25 11:23:23,242 | INFO     |   -> OK  1330 rows -> BCH_USDT_USDT_1d_730d.parquet
+2026-04-25 11:23:23,243 | INFO     | [106/250] Downloading  LTC/USDT:USDT 1h ...
+2026-04-25 11:23:35,391 | INFO     |   -> OK  18120 rows -> LTC_USDT_USDT_1h_730d.parquet
+2026-04-25 11:23:35,391 | INFO     | [107/250] Downloading  LTC/USDT:USDT 5m ...
+2026-04-25 11:24:21,112 | INFO     |   -> OK  99901 rows -> LTC_USDT_USDT_5m_730d.parquet
+2026-04-25 11:24:21,112 | INFO     | [108/250] Downloading  LTC/USDT:USDT 15m ...
+2026-04-25 11:24:49,222 | INFO     |   -> OK  70680 rows -> LTC_USDT_USDT_15m_730d.parquet
+2026-04-25 11:24:49,229 | INFO     | [109/250] Downloading  LTC/USDT:USDT 4h ...
+2026-04-25 11:24:56,725 | INFO     |   -> OK  4980 rows -> LTC_USDT_USDT_4h_730d.parquet
+2026-04-25 11:24:56,725 | INFO     | [110/250] Downloading  LTC/USDT:USDT 1d ...
+2026-04-25 11:25:01,847 | INFO     |   -> OK  1330 rows -> LTC_USDT_USDT_1d_730d.parquet
+2026-04-25 11:25:01,847 | INFO     | [111/250] Downloading  ICP/USDT:USDT 1h ...
+2026-04-25 11:25:14,965 | INFO     |   -> OK  18120 rows -> ICP_USDT_USDT_1h_730d.parquet
+2026-04-25 11:25:14,965 | INFO     | [112/250] Downloading  ICP/USDT:USDT 5m ...
+2026-04-25 11:26:15,710 | INFO     |   -> OK  99901 rows -> ICP_USDT_USDT_5m_730d.parquet
+2026-04-25 11:26:15,711 | INFO     | [113/250] Downloading  ICP/USDT:USDT 15m ...
+2026-04-25 11:26:47,316 | INFO     |   -> OK  70680 rows -> ICP_USDT_USDT_15m_730d.parquet
+2026-04-25 11:26:47,316 | INFO     | [114/250] Downloading  ICP/USDT:USDT 4h ...
+2026-04-25 11:26:52,816 | INFO     |   -> OK  4980 rows -> ICP_USDT_USDT_4h_730d.parquet
+2026-04-25 11:26:52,816 | INFO     | [115/250] Downloading  ICP/USDT:USDT 1d ...
+2026-04-25 11:26:58,925 | INFO     |   -> OK  1330 rows -> ICP_USDT_USDT_1d_730d.parquet
+2026-04-25 11:26:58,941 | INFO     | [116/250] Downloading  HBAR/USDT:USDT 1h ...
+2026-04-25 11:27:10,829 | INFO     |   -> OK  18120 rows -> HBAR_USDT_USDT_1h_730d.parquet
+2026-04-25 11:27:10,829 | INFO     | [117/250] Downloading  HBAR/USDT:USDT 5m ...
+2026-04-25 11:28:07,444 | INFO     |   -> OK  99901 rows -> HBAR_USDT_USDT_5m_730d.parquet
+2026-04-25 11:28:07,444 | INFO     | [118/250] Downloading  HBAR/USDT:USDT 15m ...
+2026-04-25 11:28:50,804 | INFO     |   -> OK  70680 rows -> HBAR_USDT_USDT_15m_730d.parquet
+2026-04-25 11:28:50,806 | INFO     | [119/250] Downloading  HBAR/USDT:USDT 4h ...
+2026-04-25 11:28:57,716 | INFO     |   -> OK  4980 rows -> HBAR_USDT_USDT_4h_730d.parquet
+2026-04-25 11:28:57,717 | INFO     | [120/250] SKIP (fresh)  HBAR/USDT:USDT 1d
+2026-04-25 11:28:57,718 | INFO     | [121/250] Downloading  XLM/USDT:USDT 1h ...
+2026-04-25 11:29:10,523 | INFO     |   -> OK  18120 rows -> XLM_USDT_USDT_1h_730d.parquet
+2026-04-25 11:29:10,523 | INFO     | [122/250] Downloading  XLM/USDT:USDT 5m ...
+2026-04-25 11:29:57,487 | INFO     |   -> OK  99901 rows -> XLM_USDT_USDT_5m_730d.parquet
+2026-04-25 11:29:57,488 | INFO     | [123/250] Downloading  XLM/USDT:USDT 15m ...
+2026-04-25 11:30:31,667 | INFO     |   -> OK  70680 rows -> XLM_USDT_USDT_15m_730d.parquet
+2026-04-25 11:30:31,674 | INFO     | [124/250] SKIP (fresh)  XLM/USDT:USDT 4h
+2026-04-25 11:30:31,675 | INFO     | [125/250] SKIP (fresh)  XLM/USDT:USDT 1d
+2026-04-25 11:30:31,675 | INFO     | [126/250] Downloading  FIL/USDT:USDT 1h ...
+2026-04-25 11:30:42,560 | INFO     |   -> OK  18120 rows -> FIL_USDT_USDT_1h_730d.parquet
+2026-04-25 11:30:42,560 | INFO     | [127/250] Downloading  FIL/USDT:USDT 5m ...
+2026-04-25 11:31:26,661 | INFO     |   -> OK  99901 rows -> FIL_USDT_USDT_5m_730d.parquet
+2026-04-25 11:31:26,663 | INFO     | [128/250] Downloading  FIL/USDT:USDT 15m ...
+2026-04-25 11:32:04,352 | INFO     |   -> OK  70680 rows -> FIL_USDT_USDT_15m_730d.parquet
+2026-04-25 11:32:04,352 | INFO     | [129/250] Downloading  FIL/USDT:USDT 4h ...
+2026-04-25 11:32:13,357 | INFO     |   -> OK  4980 rows -> FIL_USDT_USDT_4h_730d.parquet
+2026-04-25 11:32:13,358 | INFO     | [130/250] Downloading  FIL/USDT:USDT 1d ...
+2026-04-25 11:32:18,403 | INFO     |   -> OK  1330 rows -> FIL_USDT_USDT_1d_730d.parquet
+2026-04-25 11:32:18,403 | INFO     | [131/250] Downloading  ALGO/USDT:USDT 1h ...
+2026-04-25 11:32:34,235 | INFO     |   -> OK  18120 rows -> ALGO_USDT_USDT_1h_730d.parquet
+2026-04-25 11:32:34,237 | INFO     | [132/250] Downloading  ALGO/USDT:USDT 5m ...
+2026-04-25 11:28:45,233 | INFO     | [119/250] Downloading  HBAR/USDT:USDT 4h ...
+2026-04-25 11:28:51,442 | INFO     |   -> OK  4980 rows -> HBAR_USDT_USDT_4h_730d.parquet
+2026-04-25 11:28:51,442 | INFO     | [120/250] Downloading  HBAR/USDT:USDT 1d ...
+2026-04-25 11:28:56,543 | INFO     |   -> OK  1330 rows -> HBAR_USDT_USDT_1d_730d.parquet
+2026-04-25 11:28:56,543 | INFO     | [121/250] Downloading  XLM/USDT:USDT 1h ...
+2026-04-25 11:29:09,388 | INFO     |   -> OK  18120 rows -> XLM_USDT_USDT_1h_730d.parquet
+2026-04-25 11:29:09,389 | INFO     | [122/250] Downloading  XLM/USDT:USDT 5m ...
+2026-04-25 11:29:55,655 | INFO     |   -> OK  99901 rows -> XLM_USDT_USDT_5m_730d.parquet
+2026-04-25 11:29:55,656 | INFO     | [123/250] Downloading  XLM/USDT:USDT 15m ...
+2026-04-25 11:30:06,640 | WARNING  |   FAILED XLM/USDT:USDT 15m: bybit {"retCode":10006,"retMsg":"Too many visits. Exceeded the API Rate Limit.","result":{},"retExtInfo":{},"time":1777105806441}
+2026-04-25 11:30:06,669 | WARNING  |   -> FAILED/short (0 rows)
+2026-04-25 11:30:06,670 | INFO     | [124/250] Downloading  XLM/USDT:USDT 4h ...
+2026-04-25 11:30:11,931 | INFO     |   -> OK  4980 rows -> XLM_USDT_USDT_4h_730d.parquet
+2026-04-25 11:30:11,933 | INFO     | [125/250] Downloading  XLM/USDT:USDT 1d ...
+2026-04-25 11:30:18,660 | INFO     |   -> OK  1330 rows -> XLM_USDT_USDT_1d_730d.parquet
+2026-04-25 11:30:18,661 | INFO     | [126/250] Downloading  FIL/USDT:USDT 1h ...
+2026-04-25 11:30:34,428 | INFO     |   -> OK  18120 rows -> FIL_USDT_USDT_1h_730d.parquet
+2026-04-25 11:30:34,430 | INFO     | [127/250] Downloading  FIL/USDT:USDT 5m ...
+2026-04-25 11:31:26,217 | INFO     |   -> OK  99901 rows -> FIL_USDT_USDT_5m_730d.parquet
+2026-04-25 11:31:26,218 | INFO     | [128/250] Downloading  FIL/USDT:USDT 15m ...
+2026-04-25 11:32:07,997 | INFO     |   -> OK  70680 rows -> FIL_USDT_USDT_15m_730d.parquet
+2026-04-25 11:32:07,998 | INFO     | [129/250] Downloading  FIL/USDT:USDT 4h ...
+2026-04-25 11:32:16,480 | INFO     |   -> OK  4980 rows -> FIL_USDT_USDT_4h_730d.parquet
+2026-04-25 11:32:16,482 | INFO     | [130/250] Downloading  FIL/USDT:USDT 1d ...
+2026-04-25 11:32:23,742 | INFO     |   -> OK  1330 rows -> FIL_USDT_USDT_1d_730d.parquet
+2026-04-25 11:32:23,743 | INFO     | [131/250] Downloading  ALGO/USDT:USDT 1h ...
+2026-04-25 11:32:35,139 | INFO     |   -> OK  18120 rows -> ALGO_USDT_USDT_1h_730d.parquet
+2026-04-25 11:32:35,149 | INFO     | [132/250] Downloading  ALGO/USDT:USDT 5m ...

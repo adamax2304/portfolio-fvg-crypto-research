@@ -1,0 +1,49 @@
+{
+  "strategy": "Swing_KC_4h->15m",
+  "version": "v10",
+  "date": "2026-04-13",
+  "description": "NEW Swing strategy: KC Squeeze signal on 4h, next-bar entry on 15m. Medium-term holds. 365d backtest.",
+  "backtest_result": {
+    "period": "365d",
+    "symbols": 20,
+    "profit_factor": 5.68,
+    "pnl_pct": 28.3,
+    "trades_365d": 28,
+    "win_rate_pct": 67.9,
+    "max_dd_pct": 2.5,
+    "avg_exit_r": 1.673,
+    "avg_mfe": 3.298,
+    "avg_mae": 0.759,
+    "avg_bars": 98,
+    "walk_forward": {
+      "train_pf": 4.67,
+      "train_pnl_pct": 9.5,
+      "train_trades": 11,
+      "test_pf": 6.44,
+      "test_pnl_pct": 17.2,
+      "test_trades": 17,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "signal_timeframe": "4h",
+    "entry_timeframe": "15m",
+    "min_squeeze_bars": 8,
+    "adx_min": 15.0,
+    "vol_mult": 1.0,
+    "mom_bars": 6,
+    "entry_mode": "next_bar"
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 2.0,
+    "tp_mode": "fixed_r",
+    "tp_r": 2.5
+  },
+  "portfolio": {
+    "capital_fraction": 0.15,
+    "risk_per_trade": 0.010,
+    "max_positions": 3
+  },
+  "notes": "Low trade count (28/year) but high quality. WF passed with test PF=6.44. Decorrelated from intraday strats due to 4h signal timeframe."
+}

@@ -1,0 +1,1 @@
+FVG bullish gap=1.114% score=48.6 mid=60.0% sl=244.95000 tp=255.18000 rr=1.36 structure=245.32000 target=255.49000 | qty=7.274128 lev=50.00x margin=36.32 risk_usd=33.99 risk_div=1 htf=bull entry_ref=249.560000 entry_exec=249.622390 quality=62.0 reaction=33.3 composite=51.0

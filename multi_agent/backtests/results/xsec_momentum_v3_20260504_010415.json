@@ -1,0 +1,1507 @@
+{
+  "created_at_utc": "2026-05-03T22:04:15.448586+00:00",
+  "assumptions": {
+    "start_balance": 1000.0,
+    "fee_per_side": 0.00055,
+    "weighting": "inverse vol within each side",
+    "rebalancing": "stateful basket with turnover-based fees instead of full round-trip each rebalance",
+    "correlation_cap": "absolute hourly return correlation within same side over trailing corr_lookback_h",
+    "retention": "previous holdings may stay if still within top_n + retain_extra candidates",
+    "universe_size": 27,
+    "universe": [
+      "ADA_USDT_USDT",
+      "ALGO_USDT_USDT",
+      "APT_USDT_USDT",
+      "ARB_USDT_USDT",
+      "ATOM_USDT_USDT",
+      "AVAX_USDT_USDT",
+      "BCH_USDT_USDT",
+      "BNB_USDT_USDT",
+      "BTC_USDT_USDT",
+      "DOGE_USDT_USDT",
+      "DOT_USDT_USDT",
+      "ETH_USDT_USDT",
+      "FIL_USDT_USDT",
+      "HBAR_USDT_USDT",
+      "ICP_USDT_USDT",
+      "INJ_USDT_USDT",
+      "LINK_USDT_USDT",
+      "LTC_USDT_USDT",
+      "NEAR_USDT_USDT",
+      "OP_USDT_USDT",
+      "SOL_USDT_USDT",
+      "SUI_USDT_USDT",
+      "TON_USDT_USDT",
+      "TRX_USDT_USDT",
+      "UNI_USDT_USDT",
+      "XLM_USDT_USDT",
+      "XRP_USDT_USDT"
+    ]
+  },
+  "results": [
+    {
+      "params": {
+        "lookback_h": 24,
+        "hold_h": 24,
+        "top_n": 2,
+        "min_abs_ret": 0.02,
+        "liquid_n": 15,
+        "funding_tilt": 0.0,
+        "vol_lookback_h": 24,
+        "corr_lookback_h": 168,
+        "corr_cap": 0.55,
+        "retain_extra": 1
+      },
+      "metrics": {
+        "rebalances": 72,
+        "wr_pct": 54.17,
+        "profit_factor": 1.616,
+        "return_pct": 29.12,
+        "max_dd_pct": 12.66,
+        "final_balance": 1291.15,
+        "avg_turnover": 1.0851,
+        "profitable_months": 11,
+        "months": 26
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 977.91,
+          "ret_pct": -2.21
+        },
+        {
+          "month": "2024-05",
+          "start": 977.91,
+          "end": 1022.02,
+          "ret_pct": 4.51
+        },
+        {
+          "month": "2024-06",
+          "start": 1022.02,
+          "end": 1033.7,
+          "ret_pct": 1.14
+        },
+        {
+          "month": "2024-07",
+          "start": 1033.7,
+          "end": 1002.45,
+          "ret_pct": -3.02
+        },
+        {
+          "month": "2024-08",
+          "start": 1002.45,
+          "end": 1024.57,
+          "ret_pct": 2.21
+        },
+        {
+          "month": "2024-09",
+          "start": 1024.57,
+          "end": 1045.2,
+          "ret_pct": 2.01
+        },
+        {
+          "month": "2024-10",
+          "start": 1045.2,
+          "end": 1108.47,
+          "ret_pct": 6.05
+        },
+        {
+          "month": "2024-11",
+          "start": 1108.47,
+          "end": 1346.97,
+          "ret_pct": 21.52
+        },
+        {
+          "month": "2024-12",
+          "start": 1346.97,
+          "end": 1240.72,
+          "ret_pct": -7.89
+        },
+        {
+          "month": "2025-01",
+          "start": 1240.72,
+          "end": 1218.13,
+          "ret_pct": -1.82
+        },
+        {
+          "month": "2025-02",
+          "start": 1218.13,
+          "end": 1258.72,
+          "ret_pct": 3.33
+        },
+        {
+          "month": "2025-03",
+          "start": 1258.72,
+          "end": 1233.39,
+          "ret_pct": -2.01
+        },
+        {
+          "month": "2025-04",
+          "start": 1233.39,
+          "end": 1220.3,
+          "ret_pct": -1.06
+        },
+        {
+          "month": "2025-05",
+          "start": 1220.3,
+          "end": 1229.04,
+          "ret_pct": 0.72
+        },
+        {
+          "month": "2025-06",
+          "start": 1229.04,
+          "end": 1229.04,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 1229.04,
+          "end": 1229.04,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 1229.04,
+          "end": 1213.3,
+          "ret_pct": -1.28
+        },
+        {
+          "month": "2025-09",
+          "start": 1213.3,
+          "end": 1213.3,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 1213.3,
+          "end": 1221.3,
+          "ret_pct": 0.66
+        },
+        {
+          "month": "2025-11",
+          "start": 1221.3,
+          "end": 1265.21,
+          "ret_pct": 3.6
+        },
+        {
+          "month": "2025-12",
+          "start": 1265.21,
+          "end": 1265.21,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 1265.21,
+          "end": 1265.21,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 1265.21,
+          "end": 1291.15,
+          "ret_pct": 2.05
+        },
+        {
+          "month": "2026-03",
+          "start": 1291.15,
+          "end": 1291.15,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 1291.15,
+          "end": 1291.15,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-05",
+          "start": 1291.15,
+          "end": 1291.15,
+          "ret_pct": 0.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "lookback_h": 24,
+        "hold_h": 24,
+        "top_n": 2,
+        "min_abs_ret": 0.02,
+        "liquid_n": 15,
+        "funding_tilt": 0.0,
+        "vol_lookback_h": 24,
+        "corr_lookback_h": 168,
+        "corr_cap": 0.55,
+        "retain_extra": 3
+      },
+      "metrics": {
+        "rebalances": 72,
+        "wr_pct": 52.78,
+        "profit_factor": 1.466,
+        "return_pct": 21.14,
+        "max_dd_pct": 18.05,
+        "final_balance": 1211.38,
+        "avg_turnover": 1.0676,
+        "profitable_months": 11,
+        "months": 26
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 977.91,
+          "ret_pct": -2.21
+        },
+        {
+          "month": "2024-05",
+          "start": 977.91,
+          "end": 1022.02,
+          "ret_pct": 4.51
+        },
+        {
+          "month": "2024-06",
+          "start": 1022.02,
+          "end": 1033.7,
+          "ret_pct": 1.14
+        },
+        {
+          "month": "2024-07",
+          "start": 1033.7,
+          "end": 1002.45,
+          "ret_pct": -3.02
+        },
+        {
+          "month": "2024-08",
+          "start": 1002.45,
+          "end": 1024.57,
+          "ret_pct": 2.21
+        },
+        {
+          "month": "2024-09",
+          "start": 1024.57,
+          "end": 1045.2,
+          "ret_pct": 2.01
+        },
+        {
+          "month": "2024-10",
+          "start": 1045.2,
+          "end": 1108.47,
+          "ret_pct": 6.05
+        },
+        {
+          "month": "2024-11",
+          "start": 1108.47,
+          "end": 1343.81,
+          "ret_pct": 21.23
+        },
+        {
+          "month": "2024-12",
+          "start": 1343.81,
+          "end": 1164.06,
+          "ret_pct": -13.38
+        },
+        {
+          "month": "2025-01",
+          "start": 1164.06,
+          "end": 1142.87,
+          "ret_pct": -1.82
+        },
+        {
+          "month": "2025-02",
+          "start": 1142.87,
+          "end": 1180.95,
+          "ret_pct": 3.33
+        },
+        {
+          "month": "2025-03",
+          "start": 1180.95,
+          "end": 1157.19,
+          "ret_pct": -2.01
+        },
+        {
+          "month": "2025-04",
+          "start": 1157.19,
+          "end": 1144.91,
+          "ret_pct": -1.06
+        },
+        {
+          "month": "2025-05",
+          "start": 1144.91,
+          "end": 1153.1,
+          "ret_pct": 0.72
+        },
+        {
+          "month": "2025-06",
+          "start": 1153.1,
+          "end": 1153.1,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 1153.1,
+          "end": 1153.1,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 1153.1,
+          "end": 1138.34,
+          "ret_pct": -1.28
+        },
+        {
+          "month": "2025-09",
+          "start": 1138.34,
+          "end": 1138.34,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 1138.34,
+          "end": 1145.84,
+          "ret_pct": 0.66
+        },
+        {
+          "month": "2025-11",
+          "start": 1145.84,
+          "end": 1187.04,
+          "ret_pct": 3.6
+        },
+        {
+          "month": "2025-12",
+          "start": 1187.04,
+          "end": 1187.04,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 1187.04,
+          "end": 1187.04,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 1187.04,
+          "end": 1211.38,
+          "ret_pct": 2.05
+        },
+        {
+          "month": "2026-03",
+          "start": 1211.38,
+          "end": 1211.38,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 1211.38,
+          "end": 1211.38,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-05",
+          "start": 1211.38,
+          "end": 1211.38,
+          "ret_pct": 0.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "lookback_h": 24,
+        "hold_h": 24,
+        "top_n": 2,
+        "min_abs_ret": 0.02,
+        "liquid_n": 15,
+        "funding_tilt": 0.0,
+        "vol_lookback_h": 24,
+        "corr_lookback_h": 168,
+        "corr_cap": 0.7,
+        "retain_extra": 1
+      },
+      "metrics": {
+        "rebalances": 86,
+        "wr_pct": 48.84,
+        "profit_factor": 1.232,
+        "return_pct": 10.1,
+        "max_dd_pct": 17.07,
+        "final_balance": 1101.01,
+        "avg_turnover": 1.0916,
+        "profitable_months": 10,
+        "months": 26
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 977.91,
+          "ret_pct": -2.21
+        },
+        {
+          "month": "2024-05",
+          "start": 977.91,
+          "end": 956.54,
+          "ret_pct": -2.19
+        },
+        {
+          "month": "2024-06",
+          "start": 956.54,
+          "end": 974.85,
+          "ret_pct": 1.91
+        },
+        {
+          "month": "2024-07",
+          "start": 974.85,
+          "end": 932.27,
+          "ret_pct": -4.37
+        },
+        {
+          "month": "2024-08",
+          "start": 932.27,
+          "end": 932.39,
+          "ret_pct": 0.01
+        },
+        {
+          "month": "2024-09",
+          "start": 932.39,
+          "end": 950.12,
+          "ret_pct": 1.9
+        },
+        {
+          "month": "2024-10",
+          "start": 950.12,
+          "end": 1019.23,
+          "ret_pct": 7.27
+        },
+        {
+          "month": "2024-11",
+          "start": 1019.23,
+          "end": 1204.99,
+          "ret_pct": 18.22
+        },
+        {
+          "month": "2024-12",
+          "start": 1204.99,
+          "end": 1105.79,
+          "ret_pct": -8.23
+        },
+        {
+          "month": "2025-01",
+          "start": 1105.79,
+          "end": 1044.53,
+          "ret_pct": -5.54
+        },
+        {
+          "month": "2025-02",
+          "start": 1044.53,
+          "end": 1095.06,
+          "ret_pct": 4.84
+        },
+        {
+          "month": "2025-03",
+          "start": 1095.06,
+          "end": 1054.15,
+          "ret_pct": -3.74
+        },
+        {
+          "month": "2025-04",
+          "start": 1054.15,
+          "end": 1050.88,
+          "ret_pct": -0.31
+        },
+        {
+          "month": "2025-05",
+          "start": 1050.88,
+          "end": 1058.4,
+          "ret_pct": 0.72
+        },
+        {
+          "month": "2025-06",
+          "start": 1058.4,
+          "end": 1058.4,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 1058.4,
+          "end": 1058.4,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 1058.4,
+          "end": 1044.85,
+          "ret_pct": -1.28
+        },
+        {
+          "month": "2025-09",
+          "start": 1044.85,
+          "end": 1044.85,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 1044.85,
+          "end": 1051.73,
+          "ret_pct": 0.66
+        },
+        {
+          "month": "2025-11",
+          "start": 1051.73,
+          "end": 1078.9,
+          "ret_pct": 2.58
+        },
+        {
+          "month": "2025-12",
+          "start": 1078.9,
+          "end": 1078.9,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 1078.9,
+          "end": 1078.9,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 1078.9,
+          "end": 1101.01,
+          "ret_pct": 2.05
+        },
+        {
+          "month": "2026-03",
+          "start": 1101.01,
+          "end": 1101.01,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 1101.01,
+          "end": 1101.01,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-05",
+          "start": 1101.01,
+          "end": 1101.01,
+          "ret_pct": 0.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "lookback_h": 24,
+        "hold_h": 24,
+        "top_n": 2,
+        "min_abs_ret": 0.02,
+        "liquid_n": 15,
+        "funding_tilt": 0.0,
+        "vol_lookback_h": 24,
+        "corr_lookback_h": 168,
+        "corr_cap": 0.7,
+        "retain_extra": 3
+      },
+      "metrics": {
+        "rebalances": 86,
+        "wr_pct": 47.67,
+        "profit_factor": 1.127,
+        "return_pct": 3.3,
+        "max_dd_pct": 22.19,
+        "final_balance": 1032.99,
+        "avg_turnover": 1.077,
+        "profitable_months": 10,
+        "months": 26
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 977.91,
+          "ret_pct": -2.21
+        },
+        {
+          "month": "2024-05",
+          "start": 977.91,
+          "end": 956.54,
+          "ret_pct": -2.19
+        },
+        {
+          "month": "2024-06",
+          "start": 956.54,
+          "end": 974.85,
+          "ret_pct": 1.91
+        },
+        {
+          "month": "2024-07",
+          "start": 974.85,
+          "end": 932.27,
+          "ret_pct": -4.37
+        },
+        {
+          "month": "2024-08",
+          "start": 932.27,
+          "end": 932.39,
+          "ret_pct": 0.01
+        },
+        {
+          "month": "2024-09",
+          "start": 932.39,
+          "end": 950.12,
+          "ret_pct": 1.9
+        },
+        {
+          "month": "2024-10",
+          "start": 950.12,
+          "end": 1019.23,
+          "ret_pct": 7.27
+        },
+        {
+          "month": "2024-11",
+          "start": 1019.23,
+          "end": 1202.17,
+          "ret_pct": 17.95
+        },
+        {
+          "month": "2024-12",
+          "start": 1202.17,
+          "end": 1037.47,
+          "ret_pct": -13.7
+        },
+        {
+          "month": "2025-01",
+          "start": 1037.47,
+          "end": 980.0,
+          "ret_pct": -5.54
+        },
+        {
+          "month": "2025-02",
+          "start": 980.0,
+          "end": 1027.4,
+          "ret_pct": 4.84
+        },
+        {
+          "month": "2025-03",
+          "start": 1027.4,
+          "end": 989.02,
+          "ret_pct": -3.74
+        },
+        {
+          "month": "2025-04",
+          "start": 989.02,
+          "end": 985.95,
+          "ret_pct": -0.31
+        },
+        {
+          "month": "2025-05",
+          "start": 985.95,
+          "end": 993.01,
+          "ret_pct": 0.72
+        },
+        {
+          "month": "2025-06",
+          "start": 993.01,
+          "end": 993.01,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 993.01,
+          "end": 993.01,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 993.01,
+          "end": 980.3,
+          "ret_pct": -1.28
+        },
+        {
+          "month": "2025-09",
+          "start": 980.3,
+          "end": 980.3,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 980.3,
+          "end": 986.75,
+          "ret_pct": 0.66
+        },
+        {
+          "month": "2025-11",
+          "start": 986.75,
+          "end": 1012.24,
+          "ret_pct": 2.58
+        },
+        {
+          "month": "2025-12",
+          "start": 1012.24,
+          "end": 1012.24,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 1012.24,
+          "end": 1012.24,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 1012.24,
+          "end": 1032.99,
+          "ret_pct": 2.05
+        },
+        {
+          "month": "2026-03",
+          "start": 1032.99,
+          "end": 1032.99,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 1032.99,
+          "end": 1032.99,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-05",
+          "start": 1032.99,
+          "end": 1032.99,
+          "ret_pct": 0.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "lookback_h": 24,
+        "hold_h": 8,
+        "top_n": 4,
+        "min_abs_ret": 0.02,
+        "liquid_n": 15,
+        "funding_tilt": 150.0,
+        "vol_lookback_h": 24,
+        "corr_lookback_h": 168,
+        "corr_cap": 0.7,
+        "retain_extra": 1
+      },
+      "metrics": {
+        "rebalances": 15,
+        "wr_pct": 26.67,
+        "profit_factor": 0.882,
+        "return_pct": -1.41,
+        "max_dd_pct": 2.84,
+        "final_balance": 985.87,
+        "avg_turnover": 1.0353,
+        "profitable_months": 3,
+        "months": 26
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-05",
+          "start": 1000.0,
+          "end": 991.32,
+          "ret_pct": -0.87
+        },
+        {
+          "month": "2024-06",
+          "start": 991.32,
+          "end": 991.32,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-07",
+          "start": 991.32,
+          "end": 986.43,
+          "ret_pct": -0.49
+        },
+        {
+          "month": "2024-08",
+          "start": 986.43,
+          "end": 986.43,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-09",
+          "start": 986.43,
+          "end": 986.43,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-10",
+          "start": 986.43,
+          "end": 982.7,
+          "ret_pct": -0.38
+        },
+        {
+          "month": "2024-11",
+          "start": 982.7,
+          "end": 988.07,
+          "ret_pct": 0.55
+        },
+        {
+          "month": "2024-12",
+          "start": 988.07,
+          "end": 976.45,
+          "ret_pct": -1.18
+        },
+        {
+          "month": "2025-01",
+          "start": 976.45,
+          "end": 985.65,
+          "ret_pct": 0.94
+        },
+        {
+          "month": "2025-02",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-03",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-04",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-05",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-06",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-09",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 985.65,
+          "end": 985.65,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-11",
+          "start": 985.65,
+          "end": 985.87,
+          "ret_pct": 0.02
+        },
+        {
+          "month": "2025-12",
+          "start": 985.87,
+          "end": 985.87,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 985.87,
+          "end": 985.87,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 985.87,
+          "end": 985.87,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-03",
+          "start": 985.87,
+          "end": 985.87,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 985.87,
+          "end": 985.87,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-05",
+          "start": 985.87,
+          "end": 985.87,
+          "ret_pct": 0.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "lookback_h": 24,
+        "hold_h": 8,
+        "top_n": 4,
+        "min_abs_ret": 0.02,
+        "liquid_n": 15,
+        "funding_tilt": 150.0,
+        "vol_lookback_h": 24,
+        "corr_lookback_h": 168,
+        "corr_cap": 0.7,
+        "retain_extra": 3
+      },
+      "metrics": {
+        "rebalances": 15,
+        "wr_pct": 26.67,
+        "profit_factor": 0.834,
+        "return_pct": -1.67,
+        "max_dd_pct": 3.1,
+        "final_balance": 983.26,
+        "avg_turnover": 1.0202,
+        "profitable_months": 3,
+        "months": 26
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-05",
+          "start": 1000.0,
+          "end": 991.32,
+          "ret_pct": -0.87
+        },
+        {
+          "month": "2024-06",
+          "start": 991.32,
+          "end": 991.32,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-07",
+          "start": 991.32,
+          "end": 986.43,
+          "ret_pct": -0.49
+        },
+        {
+          "month": "2024-08",
+          "start": 986.43,
+          "end": 986.43,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-09",
+          "start": 986.43,
+          "end": 986.43,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-10",
+          "start": 986.43,
+          "end": 982.7,
+          "ret_pct": -0.38
+        },
+        {
+          "month": "2024-11",
+          "start": 982.7,
+          "end": 986.02,
+          "ret_pct": 0.34
+        },
+        {
+          "month": "2024-12",
+          "start": 986.02,
+          "end": 973.87,
+          "ret_pct": -1.23
+        },
+        {
+          "month": "2025-01",
+          "start": 973.87,
+          "end": 983.03,
+          "ret_pct": 0.94
+        },
+        {
+          "month": "2025-02",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-03",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-04",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-05",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-06",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-09",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 983.03,
+          "end": 983.03,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-11",
+          "start": 983.03,
+          "end": 983.26,
+          "ret_pct": 0.02
+        },
+        {
+          "month": "2025-12",
+          "start": 983.26,
+          "end": 983.26,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 983.26,
+          "end": 983.26,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 983.26,
+          "end": 983.26,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-03",
+          "start": 983.26,
+          "end": 983.26,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 983.26,
+          "end": 983.26,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-05",
+          "start": 983.26,
+          "end": 983.26,
+          "ret_pct": 0.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "lookback_h": 24,
+        "hold_h": 8,
+        "top_n": 4,
+        "min_abs_ret": 0.02,
+        "liquid_n": 15,
+        "funding_tilt": 150.0,
+        "vol_lookback_h": 24,
+        "corr_lookback_h": 168,
+        "corr_cap": 0.55,
+        "retain_extra": 1
+      },
+      "metrics": {
+        "rebalances": 4,
+        "wr_pct": 50.0,
+        "profit_factor": 0.209,
+        "return_pct": -4.02,
+        "max_dd_pct": 4.9,
+        "final_balance": 959.82,
+        "avg_turnover": 1.0,
+        "profitable_months": 2,
+        "months": 26
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-05",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-06",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-07",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-08",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-09",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-10",
+          "start": 1000.0,
+          "end": 1002.68,
+          "ret_pct": 0.27
+        },
+        {
+          "month": "2024-11",
+          "start": 1002.68,
+          "end": 953.51,
+          "ret_pct": -4.9
+        },
+        {
+          "month": "2024-12",
+          "start": 953.51,
+          "end": 959.82,
+          "ret_pct": 0.66
+        },
+        {
+          "month": "2025-01",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-02",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-03",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-04",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-05",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-06",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-09",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-11",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-12",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-03",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-05",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "lookback_h": 24,
+        "hold_h": 8,
+        "top_n": 4,
+        "min_abs_ret": 0.02,
+        "liquid_n": 15,
+        "funding_tilt": 150.0,
+        "vol_lookback_h": 24,
+        "corr_lookback_h": 168,
+        "corr_cap": 0.55,
+        "retain_extra": 3
+      },
+      "metrics": {
+        "rebalances": 4,
+        "wr_pct": 50.0,
+        "profit_factor": 0.209,
+        "return_pct": -4.02,
+        "max_dd_pct": 4.9,
+        "final_balance": 959.82,
+        "avg_turnover": 1.0,
+        "profitable_months": 2,
+        "months": 26
+      },
+      "monthly_returns": [
+        {
+          "month": "2024-04",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-05",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-06",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-07",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-08",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-09",
+          "start": 1000.0,
+          "end": 1000.0,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2024-10",
+          "start": 1000.0,
+          "end": 1002.68,
+          "ret_pct": 0.27
+        },
+        {
+          "month": "2024-11",
+          "start": 1002.68,
+          "end": 953.51,
+          "ret_pct": -4.9
+        },
+        {
+          "month": "2024-12",
+          "start": 953.51,
+          "end": 959.82,
+          "ret_pct": 0.66
+        },
+        {
+          "month": "2025-01",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-02",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-03",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-04",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-05",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-06",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-07",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-08",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-09",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-10",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-11",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2025-12",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-01",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-02",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-03",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-04",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        },
+        {
+          "month": "2026-05",
+          "start": 959.82,
+          "end": 959.82,
+          "ret_pct": 0.0
+        }
+      ]
+    }
+  ]
+}

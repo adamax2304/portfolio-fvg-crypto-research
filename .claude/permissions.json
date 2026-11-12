@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "permissions": [
+    {
+      "tool": "Bash",
+      "prompt": "run bash commands",
+      "allowed": true
+    },
+    {
+      "tool": "Bash",
+      "prompt": "run tests",
+      "allowed": true
+    },
+    {
+      "tool": "Bash",
+      "prompt": "start services",
+      "allowed": true
+    },
+    {
+      "tool": "Bash",
+      "prompt": "kill processes",
+      "allowed": true
+    },
+    {
+      "tool": "Edit",
+      "prompt": "edit files",
+      "allowed": true
+    },
+    {
+      "tool": "Write",
+      "prompt": "write files",
+      "allowed": true
+    },
+    {
+      "tool": "Read",
+      "prompt": "read files",
+      "allowed": true
+    },
+    {
+      "tool": "Glob",
+      "prompt": "search for files",
+      "allowed": true
+    },
+    {
+      "tool": "Grep",
+      "prompt": "search file contents",
+      "allowed": true
+    },
+    {
+      "tool": "Agent",
+      "prompt": "use agents for complex tasks",
+      "allowed": true
+    }
+  ]
+}

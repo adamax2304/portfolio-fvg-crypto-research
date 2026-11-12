@@ -1,0 +1,42 @@
+{
+  "strategy": "MTF_BBS_1h->15m",
+  "version": "v9",
+  "date": "2026-04-13",
+  "description": "Multi-TF: BBS signal on 1h, next-bar entry on 15m. High trade count.",
+  "backtest_result": {
+    "profit_factor": 3.76,
+    "pnl_pct": 112.1,
+    "trades_180d": 89,
+    "max_dd_pct": 6.8,
+    "walk_forward": {
+      "train_pf": 4.82,
+      "train_pnl_pct": 86.9,
+      "train_trades": 62,
+      "test_pf": 2.45,
+      "test_pnl_pct": 13.5,
+      "test_trades": 27,
+      "passed": true
+    }
+  },
+  "signal_params": {
+    "signal_timeframe": "1h",
+    "entry_timeframe": "15m",
+    "min_squeeze_bars": 6,
+    "adx_threshold": 18.0,
+    "vol_mult": 1.0,
+    "htf_filter": false,
+    "headfake_filter": true,
+    "entry_mode": "next_bar"
+  },
+  "sl_tp": {
+    "sl_mode": "atr",
+    "sl_atr_mult": 2.5,
+    "tp_mode": "fixed_r",
+    "tp_r": 3.5
+  },
+  "portfolio": {
+    "capital_fraction": 0.35,
+    "risk_per_trade": 0.010,
+    "max_positions": 4
+  }
+}

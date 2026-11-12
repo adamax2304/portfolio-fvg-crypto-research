@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite*
+*.log
+*.session*
+__pycache__/
+.venv/
+venv/
+node_modules/
+data/
+cache/
+logs/
+state/
+credentials/
+secrets/

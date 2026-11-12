@@ -1,0 +1,17 @@
+[
+  {
+    "label": "VARIANT A: Base (no OI filter)",
+    "total_trades": 0,
+    "message": "No trades generated."
+  },
+  {
+    "label": "VARIANT B: Base + OI Delta filter",
+    "total_trades": 0,
+    "message": "No trades generated."
+  },
+  {
+    "label": "VARIANT C: ATR mult +0.1 (looser entry)",
+    "total_trades": 0,
+    "message": "No trades generated."
+  }
+]

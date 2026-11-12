@@ -1,0 +1,1079 @@
+{
+  "results": {
+    "old_regime_bbs_only": {
+      "trades": 117,
+      "wins": 50,
+      "losses": 67,
+      "wr_pct": 42.7,
+      "pnl_pct": -12.44,
+      "pnl_usd": -124.41,
+      "max_dd_pct": 16.12,
+      "profit_factor": 0.74,
+      "final_balance": 875.59,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": -76.01,
+          "pf": 0.74
+        }
+      }
+    },
+    "old_regime_bbs_mr": {
+      "trades": 154,
+      "wins": 60,
+      "losses": 94,
+      "wr_pct": 39.0,
+      "pnl_pct": -10.21,
+      "pnl_usd": -102.1,
+      "max_dd_pct": 12.88,
+      "profit_factor": 0.72,
+      "final_balance": 897.9,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": -53.27,
+          "pf": 0.74
+        },
+        "mr": {
+          "trades": 37,
+          "wins": 10,
+          "losses": 27,
+          "wr_pct": 27.0,
+          "pnl_usd": -11.02,
+          "pf": 0.53
+        }
+      }
+    },
+    "flipped_bbs_chandelier": {
+      "trades": 117,
+      "wins": 50,
+      "losses": 67,
+      "wr_pct": 42.7,
+      "pnl_pct": -2.08,
+      "pnl_usd": -20.82,
+      "max_dd_pct": 19.89,
+      "profit_factor": 1.11,
+      "final_balance": 979.18,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": 56.75,
+          "pf": 1.11
+        }
+      }
+    },
+    "flipped_bbs_fixed3R": {
+      "trades": 117,
+      "wins": 42,
+      "losses": 75,
+      "wr_pct": 35.9,
+      "pnl_pct": 31.35,
+      "pnl_usd": 313.49,
+      "max_dd_pct": 13.1,
+      "profit_factor": 1.54,
+      "final_balance": 1313.49,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 42,
+          "losses": 75,
+          "wr_pct": 35.9,
+          "pnl_usd": 404.0,
+          "pf": 1.54
+        }
+      }
+    },
+    "flipped_bbs_fixed2R": {
+      "trades": 117,
+      "wins": 46,
+      "losses": 71,
+      "wr_pct": 39.3,
+      "pnl_pct": 6.61,
+      "pnl_usd": 66.08,
+      "max_dd_pct": 14.66,
+      "profit_factor": 1.23,
+      "final_balance": 1066.08,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 46,
+          "losses": 71,
+          "wr_pct": 39.3,
+          "pnl_usd": 147.93,
+          "pf": 1.23
+        }
+      }
+    },
+    "flipped_bbs_partial1.5R": {
+      "trades": 117,
+      "wins": 50,
+      "losses": 67,
+      "wr_pct": 42.7,
+      "pnl_pct": -0.39,
+      "pnl_usd": -3.89,
+      "max_dd_pct": 16.18,
+      "profit_factor": 0.61,
+      "final_balance": 996.11,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": -203.29,
+          "pf": 0.61
+        }
+      }
+    },
+    "flipped_bbs_partial1R": {
+      "trades": 117,
+      "wins": 50,
+      "losses": 67,
+      "wr_pct": 42.7,
+      "pnl_pct": 0.64,
+      "pnl_usd": 6.42,
+      "max_dd_pct": 16.05,
+      "profit_factor": 0.56,
+      "final_balance": 1006.42,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": -231.5,
+          "pf": 0.56
+        }
+      }
+    },
+    "no_regime_bbs_fixed3R": {
+      "trades": 129,
+      "wins": 48,
+      "losses": 81,
+      "wr_pct": 37.2,
+      "pnl_pct": 41.22,
+      "pnl_usd": 412.17,
+      "max_dd_pct": 14.75,
+      "profit_factor": 1.54,
+      "final_balance": 1412.17,
+      "per_agent": {
+        "bbs": {
+          "trades": 129,
+          "wins": 48,
+          "losses": 81,
+          "wr_pct": 37.2,
+          "pnl_usd": 533.53,
+          "pf": 1.54
+        }
+      }
+    },
+    "no_regime_bbs_chandelier": {
+      "trades": 129,
+      "wins": 57,
+      "losses": 72,
+      "wr_pct": 44.2,
+      "pnl_pct": -1.33,
+      "pnl_usd": -13.25,
+      "max_dd_pct": 20.6,
+      "profit_factor": 1.13,
+      "final_balance": 986.75,
+      "per_agent": {
+        "bbs": {
+          "trades": 129,
+          "wins": 57,
+          "losses": 72,
+          "wr_pct": 44.2,
+          "pnl_usd": 85.96,
+          "pf": 1.13
+        }
+      }
+    },
+    "widened_mr_only": {
+      "trades": 100,
+      "wins": 33,
+      "losses": 67,
+      "wr_pct": 33.0,
+      "pnl_pct": -5.16,
+      "pnl_usd": -51.6,
+      "max_dd_pct": 5.88,
+      "profit_factor": 0.86,
+      "final_balance": 948.4,
+      "per_agent": {
+        "mr": {
+          "trades": 100,
+          "wins": 33,
+          "losses": 67,
+          "wr_pct": 33.0,
+          "pnl_usd": -25.25,
+          "pf": 0.86
+        }
+      }
+    },
+    "old_mr_only": {
+      "trades": 37,
+      "wins": 10,
+      "losses": 27,
+      "wr_pct": 27.0,
+      "pnl_pct": -4.96,
+      "pnl_usd": -49.57,
+      "max_dd_pct": 5.61,
+      "profit_factor": 0.53,
+      "final_balance": 950.43,
+      "per_agent": {
+        "mr": {
+          "trades": 37,
+          "wins": 10,
+          "losses": 27,
+          "wr_pct": 27.0,
+          "pnl_usd": -37.37,
+          "pf": 0.53
+        }
+      }
+    },
+    "no_regime_mr_only": {
+      "trades": 100,
+      "wins": 33,
+      "losses": 67,
+      "wr_pct": 33.0,
+      "pnl_pct": -10.14,
+      "pnl_usd": -101.43,
+      "max_dd_pct": 11.97,
+      "profit_factor": 0.85,
+      "final_balance": 898.57,
+      "per_agent": {
+        "mr": {
+          "trades": 100,
+          "wins": 33,
+          "losses": 67,
+          "wr_pct": 33.0,
+          "pnl_usd": -52.67,
+          "pf": 0.85
+        }
+      }
+    },
+    "v3_flipped_bbs_p1.5_mr_wide": {
+      "trades": 216,
+      "wins": 83,
+      "losses": 133,
+      "wr_pct": 38.4,
+      "pnl_pct": -1.62,
+      "pnl_usd": -16.23,
+      "max_dd_pct": 12.18,
+      "profit_factor": 0.65,
+      "final_balance": 983.77,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": -139.23,
+          "pf": 0.61
+        },
+        "mr": {
+          "trades": 99,
+          "wins": 33,
+          "losses": 66,
+          "wr_pct": 33.3,
+          "pnl_usd": -7.01,
+          "pf": 0.87
+        }
+      }
+    },
+    "v3_flipped_bbs_f3r_mr_wide": {
+      "trades": 215,
+      "wins": 74,
+      "losses": 141,
+      "wr_pct": 34.4,
+      "pnl_pct": 19.5,
+      "pnl_usd": 194.96,
+      "max_dd_pct": 10.06,
+      "profit_factor": 1.47,
+      "final_balance": 1194.96,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 42,
+          "losses": 75,
+          "wr_pct": 35.9,
+          "pnl_usd": 272.64,
+          "pf": 1.55
+        },
+        "mr": {
+          "trades": 98,
+          "wins": 32,
+          "losses": 66,
+          "wr_pct": 32.7,
+          "pnl_usd": -9.02,
+          "pf": 0.85
+        }
+      }
+    },
+    "v3_flipped_bbs_chand_mr_wide": {
+      "trades": 216,
+      "wins": 83,
+      "losses": 133,
+      "wr_pct": 38.4,
+      "pnl_pct": -2.76,
+      "pnl_usd": -27.62,
+      "max_dd_pct": 14.93,
+      "profit_factor": 1.08,
+      "final_balance": 972.38,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": 41.2,
+          "pf": 1.11
+        },
+        "mr": {
+          "trades": 99,
+          "wins": 33,
+          "losses": 66,
+          "wr_pct": 33.3,
+          "pnl_usd": -6.99,
+          "pf": 0.87
+        }
+      }
+    },
+    "v3_aggressive_p1.5": {
+      "trades": 216,
+      "wins": 83,
+      "losses": 133,
+      "wr_pct": 38.4,
+      "pnl_pct": -1.47,
+      "pnl_usd": -14.67,
+      "max_dd_pct": 15.5,
+      "profit_factor": 0.64,
+      "final_balance": 985.33,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": -182.6,
+          "pf": 0.61
+        },
+        "mr": {
+          "trades": 99,
+          "wins": 33,
+          "losses": 66,
+          "wr_pct": 33.3,
+          "pnl_usd": -7.0,
+          "pf": 0.87
+        }
+      }
+    },
+    "v3_aggressive_f3r": {
+      "trades": 215,
+      "wins": 74,
+      "losses": 141,
+      "wr_pct": 34.4,
+      "pnl_pct": 26.88,
+      "pnl_usd": 268.77,
+      "max_dd_pct": 12.81,
+      "profit_factor": 1.48,
+      "final_balance": 1268.77,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 42,
+          "losses": 75,
+          "wr_pct": 35.9,
+          "pnl_usd": 366.1,
+          "pf": 1.54
+        },
+        "mr": {
+          "trades": 98,
+          "wins": 32,
+          "losses": 66,
+          "wr_pct": 32.7,
+          "pnl_usd": -9.42,
+          "pf": 0.85
+        }
+      }
+    },
+    "v3_squeeze_penalized": {
+      "trades": 216,
+      "wins": 83,
+      "losses": 133,
+      "wr_pct": 38.4,
+      "pnl_pct": 1.71,
+      "pnl_usd": 17.08,
+      "max_dd_pct": 12.28,
+      "profit_factor": 0.68,
+      "final_balance": 1017.08,
+      "per_agent": {
+        "bbs": {
+          "trades": 117,
+          "wins": 50,
+          "losses": 67,
+          "wr_pct": 42.7,
+          "pnl_usd": -137.3,
+          "pf": 0.66
+        },
+        "mr": {
+          "trades": 99,
+          "wins": 33,
+          "losses": 66,
+          "wr_pct": 33.3,
+          "pnl_usd": -5.9,
+          "pf": 0.87
+        }
+      }
+    }
+  },
+  "walk_forward": {
+    "no_regime_bbs_fixed3R": {
+      "train": {
+        "trades": 80,
+        "wins": 35,
+        "losses": 45,
+        "wr_pct": 43.8,
+        "pnl_pct": 48.79,
+        "pnl_usd": 487.9,
+        "max_dd_pct": 9.42,
+        "profit_factor": 1.98,
+        "final_balance": 1487.9,
+        "per_agent": {
+          "bbs": {
+            "trades": 80,
+            "wins": 35,
+            "losses": 45,
+            "wr_pct": 43.8,
+            "pnl_usd": 566.86,
+            "pf": 1.98
+          }
+        }
+      },
+      "test": {
+        "trades": 48,
+        "wins": 12,
+        "losses": 36,
+        "wr_pct": 25.0,
+        "pnl_pct": -7.51,
+        "pnl_usd": -75.13,
+        "max_dd_pct": 14.07,
+        "profit_factor": 0.87,
+        "final_balance": 924.87,
+        "per_agent": {
+          "bbs": {
+            "trades": 48,
+            "wins": 12,
+            "losses": 36,
+            "wr_pct": 25.0,
+            "pnl_usd": -41.15,
+            "pf": 0.87
+          }
+        }
+      }
+    },
+    "flipped_bbs_fixed3R": {
+      "train": {
+        "trades": 75,
+        "wins": 31,
+        "losses": 44,
+        "wr_pct": 41.3,
+        "pnl_pct": 37.23,
+        "pnl_usd": 372.34,
+        "max_dd_pct": 8.49,
+        "profit_factor": 1.97,
+        "final_balance": 1372.34,
+        "per_agent": {
+          "bbs": {
+            "trades": 75,
+            "wins": 31,
+            "losses": 44,
+            "wr_pct": 41.3,
+            "pnl_usd": 433.29,
+            "pf": 1.97
+          }
+        }
+      },
+      "test": {
+        "trades": 41,
+        "wins": 10,
+        "losses": 31,
+        "wr_pct": 24.4,
+        "pnl_pct": -6.73,
+        "pnl_usd": -67.32,
+        "max_dd_pct": 13.62,
+        "profit_factor": 0.84,
+        "final_balance": 932.68,
+        "per_agent": {
+          "bbs": {
+            "trades": 41,
+            "wins": 10,
+            "losses": 31,
+            "wr_pct": 24.4,
+            "pnl_usd": -41.51,
+            "pf": 0.84
+          }
+        }
+      }
+    },
+    "v3_aggressive_f3r": {
+      "train": {
+        "trades": 152,
+        "wins": 56,
+        "losses": 96,
+        "wr_pct": 36.8,
+        "pnl_pct": 32.84,
+        "pnl_usd": 328.36,
+        "max_dd_pct": 8.23,
+        "profit_factor": 1.87,
+        "final_balance": 1328.36,
+        "per_agent": {
+          "bbs": {
+            "trades": 75,
+            "wins": 31,
+            "losses": 44,
+            "wr_pct": 41.3,
+            "pnl_usd": 391.36,
+            "pf": 1.99
+          },
+          "mr": {
+            "trades": 77,
+            "wins": 25,
+            "losses": 52,
+            "wr_pct": 32.5,
+            "pnl_usd": -3.95,
+            "pf": 0.92
+          }
+        }
+      },
+      "test": {
+        "trades": 83,
+        "wins": 20,
+        "losses": 63,
+        "wr_pct": 24.1,
+        "pnl_pct": -8.17,
+        "pnl_usd": -81.67,
+        "max_dd_pct": 13.97,
+        "profit_factor": 0.8,
+        "final_balance": 918.33,
+        "per_agent": {
+          "bbs": {
+            "trades": 41,
+            "wins": 10,
+            "losses": 31,
+            "wr_pct": 24.4,
+            "pnl_usd": -37.92,
+            "pf": 0.84
+          },
+          "mr": {
+            "trades": 42,
+            "wins": 10,
+            "losses": 32,
+            "wr_pct": 23.8,
+            "pnl_usd": -16.48,
+            "pf": 0.43
+          }
+        }
+      }
+    }
+  },
+  "leaderboard": [
+    [
+      "no_regime_bbs_fixed3R",
+      {
+        "trades": 129,
+        "wins": 48,
+        "losses": 81,
+        "wr_pct": 37.2,
+        "pnl_pct": 41.22,
+        "pnl_usd": 412.17,
+        "max_dd_pct": 14.75,
+        "profit_factor": 1.54,
+        "final_balance": 1412.17,
+        "per_agent": {
+          "bbs": {
+            "trades": 129,
+            "wins": 48,
+            "losses": 81,
+            "wr_pct": 37.2,
+            "pnl_usd": 533.53,
+            "pf": 1.54
+          }
+        }
+      }
+    ],
+    [
+      "flipped_bbs_fixed3R",
+      {
+        "trades": 117,
+        "wins": 42,
+        "losses": 75,
+        "wr_pct": 35.9,
+        "pnl_pct": 31.35,
+        "pnl_usd": 313.49,
+        "max_dd_pct": 13.1,
+        "profit_factor": 1.54,
+        "final_balance": 1313.49,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 42,
+            "losses": 75,
+            "wr_pct": 35.9,
+            "pnl_usd": 404.0,
+            "pf": 1.54
+          }
+        }
+      }
+    ],
+    [
+      "v3_aggressive_f3r",
+      {
+        "trades": 215,
+        "wins": 74,
+        "losses": 141,
+        "wr_pct": 34.4,
+        "pnl_pct": 26.88,
+        "pnl_usd": 268.77,
+        "max_dd_pct": 12.81,
+        "profit_factor": 1.48,
+        "final_balance": 1268.77,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 42,
+            "losses": 75,
+            "wr_pct": 35.9,
+            "pnl_usd": 366.1,
+            "pf": 1.54
+          },
+          "mr": {
+            "trades": 98,
+            "wins": 32,
+            "losses": 66,
+            "wr_pct": 32.7,
+            "pnl_usd": -9.42,
+            "pf": 0.85
+          }
+        }
+      }
+    ],
+    [
+      "v3_flipped_bbs_f3r_mr_wide",
+      {
+        "trades": 215,
+        "wins": 74,
+        "losses": 141,
+        "wr_pct": 34.4,
+        "pnl_pct": 19.5,
+        "pnl_usd": 194.96,
+        "max_dd_pct": 10.06,
+        "profit_factor": 1.47,
+        "final_balance": 1194.96,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 42,
+            "losses": 75,
+            "wr_pct": 35.9,
+            "pnl_usd": 272.64,
+            "pf": 1.55
+          },
+          "mr": {
+            "trades": 98,
+            "wins": 32,
+            "losses": 66,
+            "wr_pct": 32.7,
+            "pnl_usd": -9.02,
+            "pf": 0.85
+          }
+        }
+      }
+    ],
+    [
+      "flipped_bbs_fixed2R",
+      {
+        "trades": 117,
+        "wins": 46,
+        "losses": 71,
+        "wr_pct": 39.3,
+        "pnl_pct": 6.61,
+        "pnl_usd": 66.08,
+        "max_dd_pct": 14.66,
+        "profit_factor": 1.23,
+        "final_balance": 1066.08,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 46,
+            "losses": 71,
+            "wr_pct": 39.3,
+            "pnl_usd": 147.93,
+            "pf": 1.23
+          }
+        }
+      }
+    ],
+    [
+      "v3_squeeze_penalized",
+      {
+        "trades": 216,
+        "wins": 83,
+        "losses": 133,
+        "wr_pct": 38.4,
+        "pnl_pct": 1.71,
+        "pnl_usd": 17.08,
+        "max_dd_pct": 12.28,
+        "profit_factor": 0.68,
+        "final_balance": 1017.08,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": -137.3,
+            "pf": 0.66
+          },
+          "mr": {
+            "trades": 99,
+            "wins": 33,
+            "losses": 66,
+            "wr_pct": 33.3,
+            "pnl_usd": -5.9,
+            "pf": 0.87
+          }
+        }
+      }
+    ],
+    [
+      "flipped_bbs_partial1R",
+      {
+        "trades": 117,
+        "wins": 50,
+        "losses": 67,
+        "wr_pct": 42.7,
+        "pnl_pct": 0.64,
+        "pnl_usd": 6.42,
+        "max_dd_pct": 16.05,
+        "profit_factor": 0.56,
+        "final_balance": 1006.42,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": -231.5,
+            "pf": 0.56
+          }
+        }
+      }
+    ],
+    [
+      "v3_flipped_bbs_p1.5_mr_wide",
+      {
+        "trades": 216,
+        "wins": 83,
+        "losses": 133,
+        "wr_pct": 38.4,
+        "pnl_pct": -1.62,
+        "pnl_usd": -16.23,
+        "max_dd_pct": 12.18,
+        "profit_factor": 0.65,
+        "final_balance": 983.77,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": -139.23,
+            "pf": 0.61
+          },
+          "mr": {
+            "trades": 99,
+            "wins": 33,
+            "losses": 66,
+            "wr_pct": 33.3,
+            "pnl_usd": -7.01,
+            "pf": 0.87
+          }
+        }
+      }
+    ],
+    [
+      "old_mr_only",
+      {
+        "trades": 37,
+        "wins": 10,
+        "losses": 27,
+        "wr_pct": 27.0,
+        "pnl_pct": -4.96,
+        "pnl_usd": -49.57,
+        "max_dd_pct": 5.61,
+        "profit_factor": 0.53,
+        "final_balance": 950.43,
+        "per_agent": {
+          "mr": {
+            "trades": 37,
+            "wins": 10,
+            "losses": 27,
+            "wr_pct": 27.0,
+            "pnl_usd": -37.37,
+            "pf": 0.53
+          }
+        }
+      }
+    ],
+    [
+      "widened_mr_only",
+      {
+        "trades": 100,
+        "wins": 33,
+        "losses": 67,
+        "wr_pct": 33.0,
+        "pnl_pct": -5.16,
+        "pnl_usd": -51.6,
+        "max_dd_pct": 5.88,
+        "profit_factor": 0.86,
+        "final_balance": 948.4,
+        "per_agent": {
+          "mr": {
+            "trades": 100,
+            "wins": 33,
+            "losses": 67,
+            "wr_pct": 33.0,
+            "pnl_usd": -25.25,
+            "pf": 0.86
+          }
+        }
+      }
+    ],
+    [
+      "flipped_bbs_partial1.5R",
+      {
+        "trades": 117,
+        "wins": 50,
+        "losses": 67,
+        "wr_pct": 42.7,
+        "pnl_pct": -0.39,
+        "pnl_usd": -3.89,
+        "max_dd_pct": 16.18,
+        "profit_factor": 0.61,
+        "final_balance": 996.11,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": -203.29,
+            "pf": 0.61
+          }
+        }
+      }
+    ],
+    [
+      "v3_aggressive_p1.5",
+      {
+        "trades": 216,
+        "wins": 83,
+        "losses": 133,
+        "wr_pct": 38.4,
+        "pnl_pct": -1.47,
+        "pnl_usd": -14.67,
+        "max_dd_pct": 15.5,
+        "profit_factor": 0.64,
+        "final_balance": 985.33,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": -182.6,
+            "pf": 0.61
+          },
+          "mr": {
+            "trades": 99,
+            "wins": 33,
+            "losses": 66,
+            "wr_pct": 33.3,
+            "pnl_usd": -7.0,
+            "pf": 0.87
+          }
+        }
+      }
+    ],
+    [
+      "v3_flipped_bbs_chand_mr_wide",
+      {
+        "trades": 216,
+        "wins": 83,
+        "losses": 133,
+        "wr_pct": 38.4,
+        "pnl_pct": -2.76,
+        "pnl_usd": -27.62,
+        "max_dd_pct": 14.93,
+        "profit_factor": 1.08,
+        "final_balance": 972.38,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": 41.2,
+            "pf": 1.11
+          },
+          "mr": {
+            "trades": 99,
+            "wins": 33,
+            "losses": 66,
+            "wr_pct": 33.3,
+            "pnl_usd": -6.99,
+            "pf": 0.87
+          }
+        }
+      }
+    ],
+    [
+      "no_regime_bbs_chandelier",
+      {
+        "trades": 129,
+        "wins": 57,
+        "losses": 72,
+        "wr_pct": 44.2,
+        "pnl_pct": -1.33,
+        "pnl_usd": -13.25,
+        "max_dd_pct": 20.6,
+        "profit_factor": 1.13,
+        "final_balance": 986.75,
+        "per_agent": {
+          "bbs": {
+            "trades": 129,
+            "wins": 57,
+            "losses": 72,
+            "wr_pct": 44.2,
+            "pnl_usd": 85.96,
+            "pf": 1.13
+          }
+        }
+      }
+    ],
+    [
+      "flipped_bbs_chandelier",
+      {
+        "trades": 117,
+        "wins": 50,
+        "losses": 67,
+        "wr_pct": 42.7,
+        "pnl_pct": -2.08,
+        "pnl_usd": -20.82,
+        "max_dd_pct": 19.89,
+        "profit_factor": 1.11,
+        "final_balance": 979.18,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": 56.75,
+            "pf": 1.11
+          }
+        }
+      }
+    ],
+    [
+      "no_regime_mr_only",
+      {
+        "trades": 100,
+        "wins": 33,
+        "losses": 67,
+        "wr_pct": 33.0,
+        "pnl_pct": -10.14,
+        "pnl_usd": -101.43,
+        "max_dd_pct": 11.97,
+        "profit_factor": 0.85,
+        "final_balance": 898.57,
+        "per_agent": {
+          "mr": {
+            "trades": 100,
+            "wins": 33,
+            "losses": 67,
+            "wr_pct": 33.0,
+            "pnl_usd": -52.67,
+            "pf": 0.85
+          }
+        }
+      }
+    ],
+    [
+      "old_regime_bbs_mr",
+      {
+        "trades": 154,
+        "wins": 60,
+        "losses": 94,
+        "wr_pct": 39.0,
+        "pnl_pct": -10.21,
+        "pnl_usd": -102.1,
+        "max_dd_pct": 12.88,
+        "profit_factor": 0.72,
+        "final_balance": 897.9,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": -53.27,
+            "pf": 0.74
+          },
+          "mr": {
+            "trades": 37,
+            "wins": 10,
+            "losses": 27,
+            "wr_pct": 27.0,
+            "pnl_usd": -11.02,
+            "pf": 0.53
+          }
+        }
+      }
+    ],
+    [
+      "old_regime_bbs_only",
+      {
+        "trades": 117,
+        "wins": 50,
+        "losses": 67,
+        "wr_pct": 42.7,
+        "pnl_pct": -12.44,
+        "pnl_usd": -124.41,
+        "max_dd_pct": 16.12,
+        "profit_factor": 0.74,
+        "final_balance": 875.59,
+        "per_agent": {
+          "bbs": {
+            "trades": 117,
+            "wins": 50,
+            "losses": 67,
+            "wr_pct": 42.7,
+            "pnl_usd": -76.01,
+            "pf": 0.74
+          }
+        }
+      }
+    ]
+  ],
+  "best": "no_regime_bbs_fixed3R"
+}

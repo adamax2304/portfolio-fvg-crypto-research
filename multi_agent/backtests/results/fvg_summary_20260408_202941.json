@@ -1,0 +1,58 @@
+[
+  {
+    "label": "A: Original (percentile=17.2, quality=50, composite=55, mid=40-60%)",
+    "total_pnl_pct": 0.7,
+    "win_rate_pct": 44.4,
+    "max_drawdown_pct": 4.04,
+    "profit_factor": 1.07,
+    "total_trades": 9,
+    "avg_win_usd": 28.01,
+    "avg_loss_usd": -21.01,
+    "best_month": "2026-02 +0.7%",
+    "worst_month": "2026-02 +0.7%",
+    "start_balance": 1000.0,
+    "end_balance": 966.45
+  },
+  {
+    "label": "B: Relaxed mid zone (mid=35-65%)",
+    "total_pnl_pct": 0.7,
+    "win_rate_pct": 44.4,
+    "max_drawdown_pct": 4.04,
+    "profit_factor": 1.07,
+    "total_trades": 9,
+    "avg_win_usd": 28.01,
+    "avg_loss_usd": -21.01,
+    "best_month": "2026-02 +0.7%",
+    "worst_month": "2026-02 +0.7%",
+    "start_balance": 1000.0,
+    "end_balance": 966.45
+  },
+  {
+    "label": "C: Relaxed quality (quality=45, composite=50)",
+    "total_pnl_pct": 8.76,
+    "win_rate_pct": 53.8,
+    "max_drawdown_pct": 5.51,
+    "profit_factor": 1.69,
+    "total_trades": 13,
+    "avg_win_usd": 30.55,
+    "avg_loss_usd": -21.05,
+    "best_month": "2026-02 +8.8%",
+    "worst_month": "2026-02 +8.8%",
+    "start_balance": 1000.0,
+    "end_balance": 946.89
+  },
+  {
+    "label": "D: Wide mid + relaxed quality (mid=30-70%, quality=45, composite=50)",
+    "total_pnl_pct": 8.76,
+    "win_rate_pct": 53.8,
+    "max_drawdown_pct": 5.51,
+    "profit_factor": 1.69,
+    "total_trades": 13,
+    "avg_win_usd": 30.55,
+    "avg_loss_usd": -21.05,
+    "best_month": "2026-02 +8.8%",
+    "worst_month": "2026-02 +8.8%",
+    "start_balance": 1000.0,
+    "end_balance": 946.89
+  }
+]

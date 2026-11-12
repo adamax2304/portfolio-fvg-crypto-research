@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root { color-scheme: dark; }
+
+html, body, #root { height: 100%; margin: 0; }
+
+body {
+  background: #06080C;
+  color: #E2E8F0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+/* ── Scrollbar ──────────────────────────────── */
+.scroll-y {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,212,170,0.3) transparent;
+}
+.scroll-y::-webkit-scrollbar { width: 5px; }
+.scroll-y::-webkit-scrollbar-track { background: transparent; }
+.scroll-y::-webkit-scrollbar-thumb { background: rgba(0,212,170,0.25); border-radius: 99px; }
+.scroll-y::-webkit-scrollbar-thumb:hover { background: rgba(0,212,170,0.4); }
+
+/* ── Card ───────────────────────────────────── */
+.card {
+  background: #111622;
+  border: 1px solid #1E2740;
+  border-radius: 12px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  border-color: #2A3650;
+}
+.card-glow:hover {
+  box-shadow: 0 0 20px rgba(0,212,170,0.08);
+}
+
+/* ── Toggle Switch ──────────────────────────── */
+.toggle-track {
+  width: 44px;
+  height: 24px;
+  border-radius: 12px;
+  background: #2C3650;
+  transition: background 0.2s;
+  cursor: pointer;
+  position: relative;
+}
+.toggle-track.active { background: #00D4AA; }
+.toggle-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.toggle-track.active .toggle-thumb { transform: translateX(20px); }
+
+/* ── Button variants ────────────────────────── */
+.btn-primary {
+  background: #00D4AA;
+  color: #06080C;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.btn-primary:hover { background: #00E4B8; }
+.btn-primary:active { transform: scale(0.97); }
+
+.btn-secondary {
+  background: #1A2033;
+  color: #E2E8F0;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  border: 1px solid #2A3650;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.btn-secondary:hover { background: #232B3E; border-color: #3D4A64; }
+
+.btn-danger {
+  background: rgba(246,70,93,0.12);
+  color: #F6465D;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  border: 1px solid rgba(246,70,93,0.2);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-danger:hover { background: rgba(246,70,93,0.2); }
+
+/* ── Metric glow ────────────────────────────── */
+.metric-profit { color: #0ECB81; }
+.metric-loss { color: #F6465D; }
+
+/* ── Nav item ───────────────────────────────── */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  color: #8494AD;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-decoration: none;
+}
+.nav-item:hover { background: rgba(0,212,170,0.06); color: #C8D6E5; }
+.nav-item.active {
+  background: rgba(0,212,170,0.10);
+  color: #00D4AA;
+  font-weight: 600;
+}
+
+/* ── Pulse dot ──────────────────────────────── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* ── Lightweight Charts container ───────────── */
+.tv-chart-container {
+  width: 100%;
+  height: 100%;
+}
